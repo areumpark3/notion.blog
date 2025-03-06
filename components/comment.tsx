@@ -19,7 +19,7 @@ const Comment: React.FC = () => {
       loading="lazy"
     />
   );
-}
+};
 
 export default Comment;
 
