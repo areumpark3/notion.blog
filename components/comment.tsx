@@ -1,3 +1,5 @@
+"use client";
+
 import React from 'react';
 import Giscus from '@giscus/react';
 
@@ -22,6 +24,7 @@ const Comment: React.FC = () => {
 };
 
 export default Comment;
+
 
 // To enable comments:
 // 1. Uncomment this component
