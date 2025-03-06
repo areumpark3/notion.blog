@@ -1,4 +1,6 @@
-import { BlogPosts } from 'components/posts'
+import Comment from '../../../components/comment';
+
+//import { BlogPosts } from 'components/posts' 원본
 
 export const metadata = {
   title: 'Blog',
