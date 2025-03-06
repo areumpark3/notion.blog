@@ -2,6 +2,13 @@ import Image from 'next/image'
 import { BlogPosts } from 'components/posts'
 
 export default function Page() {
+  // 현재 날짜를 가져오고 포맷팅합니다.
+  const currentDate = new Date().toLocaleDateString('ko-KR', {
+    year: 'numeric',
+    month: 'long',
+    day: 'numeric'
+  });
+
   return (
     <section>
       <div className="flex items-center mb-8">
