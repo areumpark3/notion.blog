@@ -4,16 +4,16 @@ import ThemeToggle from './theme'
 
 const navItems = {
   '/': {
-    name: 'home',
+    name: '홈',
   },
   '/blog': {
-    name: 'blog',
+    name: '블로그',
   },
-  '/guide': {
-    name: 'guide',
+  'https://ngwx.ktbizoffice.com/LoginN.aspx?compid=obase': {
+    name: '그룹웨어',
   },
-  'https://github.com/notionpresso': {
-    name: 'github',
+  'https://teample.openbase.co.kr': {
+    name: '팀플',
   },
 }
 
