@@ -5,7 +5,7 @@ import NotionRenderer from 'components/notion-renderer'
 import Comment from '../../../components/comment';
 //import Comment from 'components/comment' 원본
 
-export const runtime = 'edge';
+//export const runtime = 'edge';
 
 export async function generateStaticParams() {
   return posts.map((post) => ({ slug: post.slug }))
@@ -86,3 +86,4 @@ export default async function Blog({ params }) {
     </section>
   )
 }
+
