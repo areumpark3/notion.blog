@@ -2,7 +2,8 @@ import { notFound } from 'next/navigation'
 import { baseUrl } from 'app/sitemap'
 import posts from 'content/posts'
 import NotionRenderer from 'components/notion-renderer'
-import Comment from 'components/comment'
+import Comment from '../../../components/comment';
+//import Comment from 'components/comment' 원본
 
 export const runtime = 'edge';
 
