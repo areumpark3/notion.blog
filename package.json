@@ -5,6 +5,9 @@
     "build": "next build",
     "start": "next start"
   },
+  "engines": {
+    "node": ">=18.18.0"
+  },
   "devDependencies": {
     "@notionpresso/cli": "^0.0.2",
     "autoprefixer": "^10.4.20",
