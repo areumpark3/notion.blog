@@ -1,3 +1,5 @@
+"use client";
+
 import { BlogPosts } from 'components/posts'
 
 export const metadata = {
