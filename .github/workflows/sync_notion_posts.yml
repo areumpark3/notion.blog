@@ -17,14 +17,12 @@ jobs:
     - name: Install dependencies
       run: |
         npm install @notionhq/client
-        npm install -g @notionpresso/cli
     - name: Run sync script
       env:
         NOTION_API_KEY: ${{ secrets.NOTION_API_KEY }}
         NOTION_DATABASE_ID: ${{ secrets.NOTION_DATABASE_ID }}
       run: |
         node sync_notion_posts.js
-        npresso --page ${{ secrets.NOTION_DATABASE_ID }} --auth ${{ secrets.NOTION_API_KEY }}
     - name: Commit changes
       run: |
         git config --local user.email "action@github.com"
