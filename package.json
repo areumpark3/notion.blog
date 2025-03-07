@@ -4,7 +4,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "sync": "node -r dotenv/config sync_notion_posts.js"
+    "sync": "node sync_notion_posts.js"
   },
   "engines": {
     "node": "22.14.0"
