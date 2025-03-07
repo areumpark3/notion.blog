@@ -2,14 +2,16 @@ name: Sync Notion Posts
 
 on:
   schedule:
-    - cron: '0 * * * *'  # 매시간 실행
-  workflow_dispatch:  # 수동 실행 옵션
+    - cron: '0 * * * *'
+  workflow_dispatch:
 
 jobs:
   sync:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
+      with:
+        persist-credentials: true
     - name: Set up Node.js
       uses: actions/setup-node@v3
       with:
@@ -25,6 +27,6 @@ jobs:
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
-        git add content/posts.ts
+        git add .
         git commit -m "Update posts from Notion" -a || echo "No changes to commit"
         git push
