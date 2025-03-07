@@ -9,20 +9,18 @@ jobs:
   sync:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v3
     - name: Set up Node.js
-      uses: actions/setup-node@v2
+      uses: actions/setup-node@v3
       with:
         node-version: '14'
     - name: Install dependencies
-      run: |
-        npm install @notionhq/client
+      run: npm install
     - name: Run sync script
       env:
         NOTION_API_KEY: ${{ secrets.NOTION_API_KEY }}
         NOTION_DATABASE_ID: ${{ secrets.NOTION_DATABASE_ID }}
-      run: |
-        node sync_notion_posts.js
+      run: node sync_notion_posts.js
     - name: Commit changes
       run: |
         git config --local user.email "action@github.com"
