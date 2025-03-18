@@ -1,0 +1,132 @@
+/* styles/globals.css */
+.file-attachment {
+  margin: 12px 0;
+  display: inline-block;
+  border: 1px solid #e0e0e0;
+  border-radius: 6px;
+  background-color: #f5f5f5;
+  transition: all 0.2s ease;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.file-attachment:hover {
+  background-color: #eaeaea;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+}
+
+.file-attachment button {
+  display: flex;
+  align-items: center;
+  padding: 8px 16px;
+  color: #0366d6;
+  font-weight: 500;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.file-attachment button::before {
+  content: '📎';
+  margin-right: 8px;
+  font-size: 16px;
+}
+
+.file-attachment button:hover {
+  color: #004ba0;
+  text-decoration: underline;
+}
+
+.child-pages-list {
+  margin: 20px 0;
+  padding: 15px;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.child-pages-list h3 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.child-pages-list ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.child-page-link {
+  display: inline-block;
+  padding: 6px 12px;
+  margin: 5px 0;
+  border: none;
+  background-color: transparent;
+  color: #0366d6;
+  cursor: pointer;
+  font-size: 16px;
+  text-align: left;
+}
+
+.child-page-link:hover {
+  text-decoration: underline;
+}
+
+.child-pages-list {
+  margin: 20px 0;
+  padding: 15px;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.child-pages-list h3 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #333;
+}
+
+.child-pages-list ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.child-page-link {
+  display: inline-block;
+  padding: 6px 12px;
+  margin: 5px 0;
+  border: none;
+  background-color: transparent;
+  color: #0366d6;
+  cursor: pointer;
+  font-size: 16px;
+  text-align: left;
+}
+
+.child-page-link:hover {
+  text-decoration: underline;
+}
+
+.notion-child-page {
+  margin: 10px 0;
+  padding: 5px 0;
+}
+
+.notion-page-link {
+  display: inline-flex;
+  align-items: center;
+  color: #0366d6;
+  font-size: 16px;
+  padding: 6px 12px;
+  text-decoration: none;
+}
+
+.notion-page-link:hover {
+  text-decoration: underline;
+}
