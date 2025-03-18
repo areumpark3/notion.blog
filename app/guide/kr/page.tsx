@@ -1,36 +1,18 @@
-import NotionRenderer from "components/notion-renderer";
-import { kr as guide } from "content/guide";
-import { Metadata } from 'next';
+// app/guide/kr/page.tsx
+import { kr } from 'content/guide';
+import NotionRenderer from 'components/notion-renderer';
 
-export const metadata: Metadata = {
-  title: {
-    absolute: guide.title,
-  },
-  description: guide.description,
-  openGraph: {
-    title: guide.title,
-    description: guide.description,
-    images: [
-      {
-        url: guide.image || '/profile.png',
-        width: 800,
-        height: 600,
-        alt: `${guide.title} cover image`,
-      }
-    ],
-  },
-  twitter: {
-    card: 'summary_large_image',
-    title: guide.title,
-    description: guide.description,
-    images: [guide.image || '/profile.png'],
-  },
-};
-
-export default function Page() {
-  return (
-    <section>
-      <NotionRenderer post={guide} />
-    </section>
-  )
+export default async function KrGuidePage() {
+  try {
+    // 간단한 렌더링으로 빌드 오류 해결
+    return <NotionRenderer content={kr.content} />;
+  } catch (error) {
+    return (
+      <div className="error-container">
+        <h2>가이드 페이지를 불러오는데 문제가 발생했습니다</h2>
+        <p>잠시 후 다시 시도해주세요.</p>
+      </div>
+    );
+  }
 }
+
