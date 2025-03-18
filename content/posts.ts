@@ -1,20 +1,44 @@
-import post_1aed9eed7ec680e1b3add4856e48c459 from '../notion-data/post_1aed9eed7ec680e1b3add4856e48c459.json';
-import post_1a1d9eed7ec680228a3ec54b7bd4db1a from '../notion-data/post_1a1d9eed7ec680228a3ec54b7bd4db1a.json';
+import post_1b1d9eed7ec68074b39cf659f4a10e8e from '../notion-data/post_1b1d9eed7ec68074b39cf659f4a10e8e.json';
+import post_1b1d9eed7ec6808985d4e0257ea4c2ca from '../notion-data/post_1b1d9eed7ec6808985d4e0257ea4c2ca.json';
+import post_1b1d9eed7ec68039b927c2d14c957fc9 from '../notion-data/post_1b1d9eed7ec68039b927c2d14c957fc9.json';
+import post_1afd9eed7ec68041acc7f395d78b3126 from '../notion-data/post_1afd9eed7ec68041acc7f395d78b3126.json';
 
 const posts = [
   {
-    "title": "윈도유3",
-    "slug": "post-1aed9eed-7ec6-80e1-b3ad-d4856e48c459",
-    "content": post_1aed9eed7ec680e1b3add4856e48c459,
-    "date": "2025-03-07",
-    "description": ""
+    "title": "작업 기록",
+    "slug": "post-1b1d9eed7ec68074b39cf659f4a10e8e",
+    "content": post_1b1d9eed7ec68074b39cf659f4a10e8e,
+    "date": "2025-03-09",
+    "description": "",
+    "notionPageId": "1b1d9eed7ec68074b39cf659f4a10e8e",
+    "has_children": true
   },
   {
-    "title": "윈도우",
-    "slug": "post-1a1d9eed-7ec6-8022-8a3e-c54b7bd4db1a",
-    "content": post_1a1d9eed7ec680228a3ec54b7bd4db1a,
-    "date": "2025-03-07",
-    "description": ""
+    "title": "고객사 정보",
+    "slug": "post-1b1d9eed7ec6808985d4e0257ea4c2ca",
+    "content": post_1b1d9eed7ec6808985d4e0257ea4c2ca,
+    "date": "2025-03-09",
+    "description": "",
+    "notionPageId": "1b1d9eed7ec6808985d4e0257ea4c2ca",
+    "has_children": true
+  },
+  {
+    "title": "최신 뉴스",
+    "slug": "post-1b1d9eed7ec68039b927c2d14c957fc9",
+    "content": post_1b1d9eed7ec68039b927c2d14c957fc9,
+    "date": "2025-03-09",
+    "description": "",
+    "notionPageId": "1b1d9eed7ec68039b927c2d14c957fc9",
+    "has_children": false
+  },
+  {
+    "title": "SR 내용 정리",
+    "slug": "post-1afd9eed7ec68041acc7f395d78b3126",
+    "content": post_1afd9eed7ec68041acc7f395d78b3126,
+    "date": "2025-03-09",
+    "description": "",
+    "notionPageId": "1afd9eed7ec68041acc7f395d78b3126",
+    "has_children": false
   }
 ] as Post[];
 
@@ -27,4 +51,7 @@ export type Post = {
   date: string;
   description: string;
   image?: string;
+  notionPageId: string;
+  has_children?: boolean;
+  childPages?: { id: string; title: string; slug: string; }[];
 };
