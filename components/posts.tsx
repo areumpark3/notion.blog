@@ -1,8 +1,8 @@
-import Link from 'next/link'
-import posts from '../content/posts'
+// components/posts.tsx
+import Link from 'next/link';
+import posts from '../content/posts';
 
 export function BlogPosts() {
-
   return (
     <div>
       {posts
@@ -31,5 +31,5 @@ export function BlogPosts() {
           </Link>
         ))}
     </div>
-  )
+  );
 }
