@@ -8,4 +8,7 @@ module.exports = {
     }
     return config;
   },
+  env: {
+    NOTION_TOKEN_V2: process.env.NOTION_TOKEN_V2,
+  },
 };
