@@ -1,81 +1,35 @@
-import './global.css'
-import type { Metadata } from 'next'
-import { GeistSans } from 'geist/font/sans'
-import { GeistMono } from 'geist/font/mono'
-import { Navbar } from 'components/nav'
-import Footer from 'components/footer'
-import { baseUrl } from './sitemap'
-import { ThemeProvider } from 'next-themes'
+// components/posts.tsx
+import Link from 'next/link';
+import posts from '../content/posts';
 
-export const metadata: Metadata = {
-  metadataBase: new URL(baseUrl),
-  title: {
-    default: 'Notionpresso Portfolio Starter',
-    template: '%s | Notionpresso Portfolio Starter',
-  },
-  description: 'This is my my portfloio',
-  openGraph: {
-    title: 'My Portfolio',
-    description: 'This is my portfolio.',
-    url: baseUrl,
-    siteName: 'My Portfolio',
-    locale: 'en_US',
-    type: 'website',
-    images: [
-      {
-        url: '/profile.png',
-        width: 800,
-        height: 600,
-        alt: '프로필 이미지',
-      }
-    ],
-  },
-  robots: {
-    index: true,
-    follow: true,
-    googleBot: {
-      index: true,
-      follow: true,
-      'max-video-preview': -1,
-      'max-image-preview': 'large',
-      'max-snippet': -1,
-    },
-  },
-  twitter: {
-    card: 'summary_large_image',
-    images: ['/profile.png'],
-  },
-  icons: {
-    icon: '/profile.png',
-    apple: '/profile.png',
-  },
-}
-
-const cx = (...classes) => classes.filter(Boolean).join(' ')
-
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode
-}) {
+export function BlogPosts() {
   return (
-    <html
-      lang="en"
-      suppressHydrationWarning
-      className={cx(
-        GeistSans.variable,
-        GeistMono.variable
-      )}
-    >
-      <body className="antialiased max-w-xl mx-4 mt-8 sm:mx-auto text-black bg-white dark:text-white dark:bg-black">
-        <ThemeProvider attribute='class' defaultTheme='light' >
-          <main className="flex-auto min-w-0 mt-6 flex flex-col px-2 md:px-0">
-            <Navbar />
-            {children}
-            <Footer />
-          </main>
-        </ThemeProvider>
-      </body>
-    </html>
-  )
+    <div>
+      {posts
+        .sort((a, b) => {
+          if (
+            new Date(a.date) > new Date(b.date)
+          ) {
+            return -1
+          }
+          return 1
+        })
+        .map((post) => (
+          <Link
+            key={post.slug}
+            className="flex flex-col space-y-1 mb-4"
+            href={`/blog/${post.slug}`}
+          >
+            <div className="w-full flex flex-col md:flex-row space-x-0 md:space-x-2">
+              <p className="text-neutral-600 dark:text-neutral-400 w-[100px] tabular-nums">
+                {post.date}
+              </p>
+              <p className="text-neutral-900 dark:text-neutral-100 tracking-tight">
+                {post.title}
+              </p>
+            </div>
+          </Link>
+        ))}
+    </div>
+  );
 }
