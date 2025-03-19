@@ -6,6 +6,9 @@ import { getPosts, Post } from '@/lib/notion-utils'
 export const revalidate = 120;
 
 export default async function Page() {
+  // 환경 변수 확인 로깅
+  console.log("NOTION_DATABASE_ID 존재:", !!process.env.NOTION_DATABASE_ID);
+  console.log("NOTION_API_KEY 존재:", !!process.env.NOTION_API_KEY);
   const currentDate = new Date().toLocaleDateString('ko-KR', {
     year: 'numeric',
     month: 'long',
