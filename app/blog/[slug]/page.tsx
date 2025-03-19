@@ -8,7 +8,7 @@ import fs from 'fs';
 import path from 'path';
 
 // NextJS 15.2.1에 맞게 Page 컴포넌트 정의
-export default async function Page({ params }: { params: Promise<{ slug: string }> | { slug: string } }) {
+export default async function Page({ params }: { params: { slug: string } }) {
   const resolvedParams = params instanceof Promise ? await params : params;
   const { slug } = resolvedParams;
   
