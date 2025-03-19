@@ -1,14 +1,26 @@
 import Image from 'next/image'
 import { BlogPosts } from 'components/posts'
+import { getPosts, Post } from '@/lib/notion-utils'
 
-export default function Page() {
-  // 현재 날짜를 가져오고 포맷팅합니다.
+// ISR 설정
+export const revalidate = 120;
+
+export default async function Page() {
   const currentDate = new Date().toLocaleDateString('ko-KR', {
     year: 'numeric',
     month: 'long',
     day: 'numeric'
   });
 
+  // 명시적 타입 지정
+  let posts: Post[] = [];
+  try {
+    posts = await getPosts();
+    console.log(`[Server] 노션에서 ${posts.length}개의 게시물을 가져왔습니다`);
+  } catch (error) {
+    console.error('[Server] 노션 게시물 가져오기 실패:', error);
+  }
+  
   return (
     <section>
       <div className="flex items-center mb-8">
@@ -34,7 +46,7 @@ export default function Page() {
         {`고객사 정보, 작업 내용, SR 진행 현황 등 `}
       </p>
       <div className="my-8">
-        <BlogPosts />
+        <BlogPosts initialPosts={posts} />
       </div>
     </section>
   )
