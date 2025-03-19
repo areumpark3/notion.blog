@@ -1,0 +1,3381 @@
+{
+  "blocks": [
+    {
+      "object": "block",
+      "id": "1bad9eed-7ec6-806b-be3a-e3430bc0e0fc",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1afd9eed-7ec6-8041-acc7-f395d78b3126"
+      },
+      "created_time": "2025-03-18T08:23:00.000Z",
+      "last_edited_time": "2025-03-19T03:15:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+      },
+      "has_children": true,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_2",
+      "heading_2": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Horizon",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Horizon",
+            "href": null
+          }
+        ],
+        "is_toggleable": true,
+        "color": "default"
+      },
+      "children": [
+        {
+          "object": "block",
+          "id": "1bad9eed-7ec6-80f4-8e8d-da0470cadb70",
+          "parent": {
+            "type": "block_id",
+            "block_id": "1bad9eed-7ec6-806b-be3a-e3430bc0e0fc"
+          },
+          "created_time": "2025-03-18T08:26:00.000Z",
+          "last_edited_time": "2025-03-19T03:09:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+          },
+          "has_children": true,
+          "archived": false,
+          "in_trash": false,
+          "type": "heading_3",
+          "heading_3": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "[SR 00702370_멤버스, 종료] About VM CBT config_",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "[SR 00702370_멤버스, 종료] About VM CBT config_",
+                "href": null
+              }
+            ],
+            "is_toggleable": true,
+            "color": "default"
+          },
+          "children": [
+            {
+              "object": "block",
+              "id": "1bad9eed-7ec6-80c5-b095-c3a91abdc5d3",
+              "parent": {
+                "type": "block_id",
+                "block_id": "1bad9eed-7ec6-80f4-8e8d-da0470cadb70"
+              },
+              "created_time": "2025-03-18T08:28:00.000Z",
+              "last_edited_time": "2025-03-18T08:28:00.000Z",
+              "created_by": {
+                "object": "user",
+                "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+              },
+              "last_edited_by": {
+                "object": "user",
+                "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+              },
+              "has_children": false,
+              "archived": false,
+              "in_trash": false,
+              "type": "divider",
+              "divider": {}
+            },
+            {
+              "object": "block",
+              "id": "1bad9eed-7ec6-80af-981d-dfd5ef243fa0",
+              "parent": {
+                "type": "block_id",
+                "block_id": "1bad9eed-7ec6-80f4-8e8d-da0470cadb70"
+              },
+              "created_time": "2025-03-18T08:31:00.000Z",
+              "last_edited_time": "2025-03-19T03:01:00.000Z",
+              "created_by": {
+                "object": "user",
+                "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+              },
+              "last_edited_by": {
+                "object": "user",
+                "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+              },
+              "has_children": true,
+              "archived": false,
+              "in_trash": false,
+              "type": "table",
+              "table": {
+                "table_width": 4,
+                "has_column_header": false,
+                "has_row_header": false
+              },
+              "children": [
+                {
+                  "object": "block",
+                  "id": "1bad9eed-7ec6-800e-8b61-ed4eab35d90a",
+                  "parent": {
+                    "type": "block_id",
+                    "block_id": "1bad9eed-7ec6-80af-981d-dfd5ef243fa0"
+                  },
+                  "created_time": "2025-03-18T08:31:00.000Z",
+                  "last_edited_time": "2025-03-18T08:35:00.000Z",
+                  "created_by": {
+                    "object": "user",
+                    "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+                  },
+                  "last_edited_by": {
+                    "object": "user",
+                    "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+                  },
+                  "has_children": false,
+                  "archived": false,
+                  "in_trash": false,
+                  "type": "table_row",
+                  "table_row": {
+                    "cells": [
+                      [
+                        {
+                          "type": "text",
+                          "text": {
+                            "content": "2024-07-29",
+                            "link": null
+                          },
+                          "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                          },
+                          "plain_text": "2024-07-29",
+                          "href": null
+                        }
+                      ],
+                      [
+                        {
+                          "type": "text",
+                          "text": {
+                            "content": "▶ 문제 증상 요청",
+                            "link": null
+                          },
+                          "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                          },
+                          "plain_text": "▶ 문제 증상 요청",
+                          "href": null
+                        }
+                      ],
+                      [
+                        {
+                          "type": "text",
+                          "text": {
+                            "content": "2024-07-29",
+                            "link": null
+                          },
+                          "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                          },
+                          "plain_text": "2024-07-29",
+                          "href": null
+                        }
+                      ],
+                      [
+                        {
+                          "type": "text",
+                          "text": {
+                            "content": "▶ 문제 증상 회신\n<발생 증상>\n1. VM CBT 설정 후 NetBackup 이용 > 백업 진행 시\n2. CBT는 잘 된다고 가정해서 몇 분 안에 백업이 완료되나\n3. VM 마이그레이션(호스트) 시 백업 시간 오래 걸림\n4. 이것이 정상적인 것인지?\n<버전 정보>\n1. ESXi : 7.0.3\n2. vCenter : 7.0.3\n3. Horizon : 8 (2209)",
+                            "link": null
+                          },
+                          "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                          },
+                          "plain_text": "▶ 문제 증상 회신\n<발생 증상>\n1. VM CBT 설정 후 NetBackup 이용 > 백업 진행 시\n2. CBT는 잘 된다고 가정해서 몇 분 안에 백업이 완료되나\n3. VM 마이그레이션(호스트) 시 백업 시간 오래 걸림\n4. 이것이 정상적인 것인지?\n<버전 정보>\n1. ESXi : 7.0.3\n2. vCenter : 7.0.3\n3. Horizon : 8 (2209)",
+                          "href": null
+                        }
+                      ]
+                    ]
+                  }
+                },
+                {
+                  "object": "block",
+                  "id": "1bad9eed-7ec6-80eb-b844-e4f38af2d1ef",
+                  "parent": {
+                    "type": "block_id",
+                    "block_id": "1bad9eed-7ec6-80af-981d-dfd5ef243fa0"
+                  },
+                  "created_time": "2025-03-18T08:31:00.000Z",
+                  "last_edited_time": "2025-03-18T08:34:00.000Z",
+                  "created_by": {
+                    "object": "user",
+                    "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+                  },
+                  "last_edited_by": {
+                    "object": "user",
+                    "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+                  },
+                  "has_children": false,
+                  "archived": false,
+                  "in_trash": false,
+                  "type": "table_row",
+                  "table_row": {
+                    "cells": [
+                      [
+                        {
+                          "type": "text",
+                          "text": {
+                            "content": "2024-07-29",
+                            "link": null
+                          },
+                          "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                          },
+                          "plain_text": "2024-07-29",
+                          "href": null
+                        }
+                      ],
+                      [
+                        {
+                          "type": "text",
+                          "text": {
+                            "content": "▶ 답변 회신\n1. vSphere 번들 라이센스 또는 vSphere 독립형 라이센스가 있는지?\n2. 여러 요인으로 VM 마이그레이션 중 CBT 백업 시간이 증가될 수 있음\n예1) vMotion 중에는 호스트 간에 데이터가 기록 > I/O 작업증가\n2) VM에 여러 개의 스냅샷이 있는 경우 동일한 스냅샷을 통합 팔요 > 시간 증가",
+                            "link": null
+                          },
+                          "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                          },
+                          "plain_text": "▶ 답변 회신\n1. vSphere 번들 라이센스 또는 vSphere 독립형 라이센스가 있는지?\n2. 여러 요인으로 VM 마이그레이션 중 CBT 백업 시간이 증가될 수 있음\n예1) vMotion 중에는 호스트 간에 데이터가 기록 > I/O 작업증가\n2) VM에 여러 개의 스냅샷이 있는 경우 동일한 스냅샷을 통합 팔요 > 시간 증가",
+                          "href": null
+                        }
+                      ],
+                      [
+                        {
+                          "type": "text",
+                          "text": {
+                            "content": "2024-07-29",
+                            "link": null
+                          },
+                          "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                          },
+                          "plain_text": "2024-07-29",
+                          "href": null
+                        }
+                      ],
+                      [
+                        {
+                          "type": "text",
+                          "text": {
+                            "content": "▶ 답변 회신\n1. 예\n2. CBT는 첫 백업만 전체 백업으로 수행되고, 이후 증분 백업 수행으로 인지\n3. 타 호스트에 리소스나 스토리지 vmotion 수행되도 vm의 CBT 설정은 유지로 인지\n4. 타 호스트로 리소스 마이그레이션 후 백업 시간이 왜 더 오래 걸리는지?\n5. CBT 초기화 후 전체 백업 진행이 가능한지?",
+                            "link": null
+                          },
+                          "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                          },
+                          "plain_text": "▶ 답변 회신\n1. 예\n2. CBT는 첫 백업만 전체 백업으로 수행되고, 이후 증분 백업 수행으로 인지\n3. 타 호스트에 리소스나 스토리지 vmotion 수행되도 vm의 CBT 설정은 유지로 인지\n4. 타 호스트로 리소스 마이그레이션 후 백업 시간이 왜 더 오래 걸리는지?\n5. CBT 초기화 후 전체 백업 진행이 가능한지?",
+                          "href": null
+                        }
+                      ]
+                    ]
+                  }
+                },
+                {
+                  "object": "block",
+                  "id": "1bad9eed-7ec6-80af-b716-d9488d29341d",
+                  "parent": {
+                    "type": "block_id",
+                    "block_id": "1bad9eed-7ec6-80af-981d-dfd5ef243fa0"
+                  },
+                  "created_time": "2025-03-18T08:32:00.000Z",
+                  "last_edited_time": "2025-03-18T08:34:00.000Z",
+                  "created_by": {
+                    "object": "user",
+                    "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+                  },
+                  "last_edited_by": {
+                    "object": "user",
+                    "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+                  },
+                  "has_children": false,
+                  "archived": false,
+                  "in_trash": false,
+                  "type": "table_row",
+                  "table_row": {
+                    "cells": [
+                      [
+                        {
+                          "type": "text",
+                          "text": {
+                            "content": "2024-08-01",
+                            "link": null
+                          },
+                          "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                          },
+                          "plain_text": "2024-08-01",
+                          "href": null
+                        }
+                      ],
+                      [
+                        {
+                          "type": "text",
+                          "text": {
+                            "content": "▶ 답변 회신\n1. CBT가 비활성화되어 있거나 제대로 작동하지 않는 경우,\n2. 증분 백업은 변경된 블록만 백업하거나 전체 백업으로 되돌리는 대신 전체 가상 시스템 디스크를 백업 가능함\n3, 가상 시스템의 전원이 켜져 있는 동안 정전 또는 하드 종료와 같은 일부 경우,\n4. CBT가 재설정되고 증분 변경 사항을 추적하지 못할 수 있음",
+                            "link": null
+                          },
+                          "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                          },
+                          "plain_text": "▶ 답변 회신\n1. CBT가 비활성화되어 있거나 제대로 작동하지 않는 경우,\n2. 증분 백업은 변경된 블록만 백업하거나 전체 백업으로 되돌리는 대신 전체 가상 시스템 디스크를 백업 가능함\n3, 가상 시스템의 전원이 켜져 있는 동안 정전 또는 하드 종료와 같은 일부 경우,\n4. CBT가 재설정되고 증분 변경 사항을 추적하지 못할 수 있음",
+                          "href": null
+                        }
+                      ],
+                      [
+                        {
+                          "type": "text",
+                          "text": {
+                            "content": "2024-08-01",
+                            "link": null
+                          },
+                          "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                          },
+                          "plain_text": "2024-08-01",
+                          "href": null
+                        }
+                      ],
+                      [
+                        {
+                          "type": "text",
+                          "text": {
+                            "content": "▶ 답변 회신\n1. 아래 내용이 맞는지?\n- 가상 머신의 전원이 켜져 있는 동안 절전 또는 하드 종료와 같은 경우에 VM의 cbt 설정이 재설정됨\n- 이로 인해 증분 변경 사항을 추적할 수 없게되어 전체 백업 수행이 가능\n2. 우리의 생산 환경에서 일반적으로 vmotion 중에 핫 마이그레이션 진행함\n3. 호스트 A에서 B로 리소스 마이그레이션이 완료되고 백업이 수행되면 CBT가 재설정될 가능성이 있는지?\n4. 마이그레이션 중에 CBT가 재설정되는지 확인 요청",
+                            "link": null
+                          },
+                          "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                          },
+                          "plain_text": "▶ 답변 회신\n1. 아래 내용이 맞는지?\n- 가상 머신의 전원이 켜져 있는 동안 절전 또는 하드 종료와 같은 경우에 VM의 cbt 설정이 재설정됨\n- 이로 인해 증분 변경 사항을 추적할 수 없게되어 전체 백업 수행이 가능\n2. 우리의 생산 환경에서 일반적으로 vmotion 중에 핫 마이그레이션 진행함\n3. 호스트 A에서 B로 리소스 마이그레이션이 완료되고 백업이 수행되면 CBT가 재설정될 가능성이 있는지?\n4. 마이그레이션 중에 CBT가 재설정되는지 확인 요청",
+                          "href": null
+                        }
+                      ]
+                    ]
+                  }
+                },
+                {
+                  "object": "block",
+                  "id": "1bad9eed-7ec6-80da-8584-d1be7dfc34db",
+                  "parent": {
+                    "type": "block_id",
+                    "block_id": "1bad9eed-7ec6-80af-981d-dfd5ef243fa0"
+                  },
+                  "created_time": "2025-03-18T08:32:00.000Z",
+                  "last_edited_time": "2025-03-18T08:34:00.000Z",
+                  "created_by": {
+                    "object": "user",
+                    "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+                  },
+                  "last_edited_by": {
+                    "object": "user",
+                    "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+                  },
+                  "has_children": false,
+                  "archived": false,
+                  "in_trash": false,
+                  "type": "table_row",
+                  "table_row": {
+                    "cells": [
+                      [
+                        {
+                          "type": "text",
+                          "text": {
+                            "content": "2024-08-02",
+                            "link": null
+                          },
+                          "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                          },
+                          "plain_text": "2024-08-02",
+                          "href": null
+                        }
+                      ],
+                      [
+                        {
+                          "type": "text",
+                          "text": {
+                            "content": "▶ 답변 회신\n1. 예, CBT는 일부 경우에만 재설정됩니다. 증분 백업이 실패하면 전체 백업이 수행됩니다.\n2. 아니요, CBT는 리소스 마이그레이션으로 재설정되지 않으며 충돌/실패 시나리오의 경우에만 재설정됨",
+                            "link": null
+                          },
+                          "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                          },
+                          "plain_text": "▶ 답변 회신\n1. 예, CBT는 일부 경우에만 재설정됩니다. 증분 백업이 실패하면 전체 백업이 수행됩니다.\n2. 아니요, CBT는 리소스 마이그레이션으로 재설정되지 않으며 충돌/실패 시나리오의 경우에만 재설정됨",
+                          "href": null
+                        }
+                      ],
+                      [
+                        {
+                          "type": "text",
+                          "text": {
+                            "content": "2024-08-02",
+                            "link": null
+                          },
+                          "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                          },
+                          "plain_text": "2024-08-02",
+                          "href": null
+                        }
+                      ],
+                      [
+                        {
+                          "type": "text",
+                          "text": {
+                            "content": "▶ SR 종료 요청\n1. VM의 CBT 설정은 정전 또는 VM 전원 종료로 인한 VM 하드웨어 디스크 종료에 의해 재설정된다면\n2. 프로덕션 환경은 24시간마다 백업되지만 해당 주기 동안 VM의 전원이 꺼지면 CBT가 재설정되고\n3. 다음 백업에서 전체 백업이 수행되므로 백업 시간이 더 오래 걸린다는 결과 도출 가능\n4. 궁금증이 풀렸으니 SR 종료 요청\n▶ 이세기 차장에게 해당 내용 전달\n1. 마이그레이션 후 전체 백업이 이루어진것에 대해 CBT 재설정을 의심\n2. 정상적으로 동작했을경우는 재설정되지 않으나 예외 상황은 있다라는 내용을 확답받음.\n3. 관련 로그를 확인해 본 결과 오류 사항 및 CBT 재설정의 내용은 확인되지 않음",
+                            "link": null
+                          },
+                          "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                          },
+                          "plain_text": "▶ SR 종료 요청\n1. VM의 CBT 설정은 정전 또는 VM 전원 종료로 인한 VM 하드웨어 디스크 종료에 의해 재설정된다면\n2. 프로덕션 환경은 24시간마다 백업되지만 해당 주기 동안 VM의 전원이 꺼지면 CBT가 재설정되고\n3. 다음 백업에서 전체 백업이 수행되므로 백업 시간이 더 오래 걸린다는 결과 도출 가능\n4. 궁금증이 풀렸으니 SR 종료 요청\n▶ 이세기 차장에게 해당 내용 전달\n1. 마이그레이션 후 전체 백업이 이루어진것에 대해 CBT 재설정을 의심\n2. 정상적으로 동작했을경우는 재설정되지 않으나 예외 상황은 있다라는 내용을 확답받음.\n3. 관련 로그를 확인해 본 결과 오류 사항 및 CBT 재설정의 내용은 확인되지 않음",
+                          "href": null
+                        }
+                      ]
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "object": "block",
+          "id": "1bbd9eed-7ec6-8049-b606-f1baa70baa8d",
+          "parent": {
+            "type": "block_id",
+            "block_id": "1bad9eed-7ec6-806b-be3a-e3430bc0e0fc"
+          },
+          "created_time": "2025-03-19T03:01:00.000Z",
+          "last_edited_time": "2025-03-19T03:09:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+          },
+          "has_children": true,
+          "archived": false,
+          "in_trash": false,
+          "type": "heading_3",
+          "heading_3": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "[Case 00879354_외주개발자, 종료] Horizon view admin web page is not working",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "[Case 00879354_외주개발자, 종료] Horizon view admin web page is not working",
+                "href": null
+              }
+            ],
+            "is_toggleable": true,
+            "color": "default"
+          },
+          "children": [
+            {
+              "object": "block",
+              "id": "1bbd9eed-7ec6-8056-b4cc-e7b7ff93288f",
+              "parent": {
+                "type": "block_id",
+                "block_id": "1bbd9eed-7ec6-8049-b606-f1baa70baa8d"
+              },
+              "created_time": "2025-03-19T03:01:00.000Z",
+              "last_edited_time": "2025-03-19T03:01:00.000Z",
+              "created_by": {
+                "object": "user",
+                "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+              },
+              "last_edited_by": {
+                "object": "user",
+                "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+              },
+              "has_children": false,
+              "archived": false,
+              "in_trash": false,
+              "type": "divider",
+              "divider": {}
+            },
+            {
+              "object": "block",
+              "id": "1bbd9eed-7ec6-8009-b3af-e4e5274f317c",
+              "parent": {
+                "type": "block_id",
+                "block_id": "1bbd9eed-7ec6-8049-b606-f1baa70baa8d"
+              },
+              "created_time": "2025-03-19T03:01:00.000Z",
+              "last_edited_time": "2025-03-19T03:04:00.000Z",
+              "created_by": {
+                "object": "user",
+                "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+              },
+              "last_edited_by": {
+                "object": "user",
+                "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+              },
+              "has_children": true,
+              "archived": false,
+              "in_trash": false,
+              "type": "table",
+              "table": {
+                "table_width": 4,
+                "has_column_header": false,
+                "has_row_header": false
+              },
+              "children": [
+                {
+                  "object": "block",
+                  "id": "1bbd9eed-7ec6-80e5-8f94-c42173ce6093",
+                  "parent": {
+                    "type": "block_id",
+                    "block_id": "1bbd9eed-7ec6-8009-b3af-e4e5274f317c"
+                  },
+                  "created_time": "2025-03-19T03:01:00.000Z",
+                  "last_edited_time": "2025-03-19T03:05:00.000Z",
+                  "created_by": {
+                    "object": "user",
+                    "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+                  },
+                  "last_edited_by": {
+                    "object": "user",
+                    "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+                  },
+                  "has_children": false,
+                  "archived": false,
+                  "in_trash": false,
+                  "type": "table_row",
+                  "table_row": {
+                    "cells": [
+                      [],
+                      [],
+                      [
+                        {
+                          "type": "text",
+                          "text": {
+                            "content": "2024-11-11",
+                            "link": null
+                          },
+                          "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                          },
+                          "plain_text": "2024-11-11",
+                          "href": null
+                        }
+                      ],
+                      [
+                        {
+                          "type": "text",
+                          "text": {
+                            "content": "▶ 문제 증상 전달\n<버전 정보>\n1. Horizon 8.7 2209\n2. vCenter 8.0 u2d\n<발생 증상>\n1. Horizon 8.7을 구성한 후, 뷰 관리자 페이지에 접속이 불가함\n2. Horizon Connection Server VM 콘솔에서 서비스 확인 시 정상임을 확인함\n3. 로컬 VM과 Connection Server의 IP 대역이 다르지만 방화벽 개방을 했고 로컬 VM에서도 Horizon CS Server IP의 포트 443이 열려 있음을 확인\n4. Connection Server의 locked.properties 파일에서: 아래 내용을 입력 후 재부팅해도 관리자 웹 페이지가 안 열림\n- <locked.properties>\nalloUnexpectedHos=true\ncheckOrigin=false\nenableCORS=false",
+                            "link": null
+                          },
+                          "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                          },
+                          "plain_text": "▶ 문제 증상 전달\n<버전 정보>\n1. Horizon 8.7 2209\n2. vCenter 8.0 u2d\n<발생 증상>\n1. Horizon 8.7을 구성한 후, 뷰 관리자 페이지에 접속이 불가함\n2. Horizon Connection Server VM 콘솔에서 서비스 확인 시 정상임을 확인함\n3. 로컬 VM과 Connection Server의 IP 대역이 다르지만 방화벽 개방을 했고 로컬 VM에서도 Horizon CS Server IP의 포트 443이 열려 있음을 확인\n4. Connection Server의 locked.properties 파일에서: 아래 내용을 입력 후 재부팅해도 관리자 웹 페이지가 안 열림\n- <locked.properties>\nalloUnexpectedHos=true\ncheckOrigin=false\nenableCORS=false",
+                          "href": null
+                        }
+                      ]
+                    ]
+                  }
+                },
+                {
+                  "object": "block",
+                  "id": "1bbd9eed-7ec6-8019-9caf-c84fecb8853b",
+                  "parent": {
+                    "type": "block_id",
+                    "block_id": "1bbd9eed-7ec6-8009-b3af-e4e5274f317c"
+                  },
+                  "created_time": "2025-03-19T03:01:00.000Z",
+                  "last_edited_time": "2025-03-19T03:05:00.000Z",
+                  "created_by": {
+                    "object": "user",
+                    "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+                  },
+                  "last_edited_by": {
+                    "object": "user",
+                    "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+                  },
+                  "has_children": false,
+                  "archived": false,
+                  "in_trash": false,
+                  "type": "table_row",
+                  "table_row": {
+                    "cells": [
+                      [
+                        {
+                          "type": "text",
+                          "text": {
+                            "content": "2024-11-12",
+                            "link": null
+                          },
+                          "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                          },
+                          "plain_text": "2024-11-12",
+                          "href": null
+                        }
+                      ],
+                      [
+                        {
+                          "type": "text",
+                          "text": {
+                            "content": "▶ 추가 정보 요청\n1. 쿼리에 대한 자세한 개요\n2. Horizon 버전\n3, 문제가 발생한 후 최근에 변경된 사항\n4. 오류 스크린샷",
+                            "link": null
+                          },
+                          "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                          },
+                          "plain_text": "▶ 추가 정보 요청\n1. 쿼리에 대한 자세한 개요\n2. Horizon 버전\n3, 문제가 발생한 후 최근에 변경된 사항\n4. 오류 스크린샷",
+                          "href": null
+                        }
+                      ],
+                      [
+                        {
+                          "type": "text",
+                          "text": {
+                            "content": "2024-11-13",
+                            "link": null
+                          },
+                          "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                          },
+                          "plain_text": "2024-11-13",
+                          "href": null
+                        }
+                      ],
+                      [
+                        {
+                          "type": "text",
+                          "text": {
+                            "content": "▶ 답변 회신\n1. Horizon 8.7을 새로 구성 후 관리 페이지에 접속 시 페이지가 열리지 않고 버퍼링만 발생\n2. 8.7-20649599\n3. 새로 구성된 Horizon 8.7\n4. 요청 자료 전달",
+                            "link": null
+                          },
+                          "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                          },
+                          "plain_text": "▶ 답변 회신\n1. Horizon 8.7을 새로 구성 후 관리 페이지에 접속 시 페이지가 열리지 않고 버퍼링만 발생\n2. 8.7-20649599\n3. 새로 구성된 Horizon 8.7\n4. 요청 자료 전달",
+                          "href": null
+                        }
+                      ]
+                    ]
+                  }
+                },
+                {
+                  "object": "block",
+                  "id": "1bbd9eed-7ec6-806e-a787-e1be9692d1a6",
+                  "parent": {
+                    "type": "block_id",
+                    "block_id": "1bbd9eed-7ec6-8009-b3af-e4e5274f317c"
+                  },
+                  "created_time": "2025-03-19T03:01:00.000Z",
+                  "last_edited_time": "2025-03-19T03:05:00.000Z",
+                  "created_by": {
+                    "object": "user",
+                    "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+                  },
+                  "last_edited_by": {
+                    "object": "user",
+                    "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+                  },
+                  "has_children": false,
+                  "archived": false,
+                  "in_trash": false,
+                  "type": "table_row",
+                  "table_row": {
+                    "cells": [
+                      [
+                        {
+                          "type": "text",
+                          "text": {
+                            "content": "2024-11-13",
+                            "link": null
+                          },
+                          "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                          },
+                          "plain_text": "2024-11-13",
+                          "href": null
+                        }
+                      ],
+                      [
+                        {
+                          "type": "text",
+                          "text": {
+                            "content": "▶ 추가 정보 요청\n1. 새로 구성된 연결 서버 수\n2. 이 서버에서 관리 콘솔에 액세스가 가능한건지 아니면 작동을 안 하는건지?\n3. 서버에 SSL 인증서를 추가했는지? 영향을 받는 MMC 콘솔 f:\\rom 서버의 스크린샷 요청.\n4. \"VMware Horizon 연결 서버\" 및 BLAST 서비스에 대한 서버 서비스 스크린샷 요청",
+                            "link": null
+                          },
+                          "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                          },
+                          "plain_text": "▶ 추가 정보 요청\n1. 새로 구성된 연결 서버 수\n2. 이 서버에서 관리 콘솔에 액세스가 가능한건지 아니면 작동을 안 하는건지?\n3. 서버에 SSL 인증서를 추가했는지? 영향을 받는 MMC 콘솔 f:\\rom 서버의 스크린샷 요청.\n4. \"VMware Horizon 연결 서버\" 및 BLAST 서비스에 대한 서버 서비스 스크린샷 요청",
+                          "href": null
+                        }
+                      ],
+                      [
+                        {
+                          "type": "text",
+                          "text": {
+                            "content": "2024-11-14",
+                            "link": null
+                          },
+                          "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                          },
+                          "plain_text": "2024-11-14",
+                          "href": null
+                        }
+                      ],
+                      [
+                        {
+                          "type": "text",
+                          "text": {
+                            "content": "▶ 답변 회신\n1. 2 VM (서로 중복 관계)\n2. vCenter 콘솔에서 Connection Server에 로그인 가능\n3. 요청 자료 전달\n4. 요청 자료 전달",
+                            "link": null
+                          },
+                          "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                          },
+                          "plain_text": "▶ 답변 회신\n1. 2 VM (서로 중복 관계)\n2. vCenter 콘솔에서 Connection Server에 로그인 가능\n3. 요청 자료 전달\n4. 요청 자료 전달",
+                          "href": null
+                        }
+                      ]
+                    ]
+                  }
+                },
+                {
+                  "object": "block",
+                  "id": "1bbd9eed-7ec6-80eb-9069-d4848053e8ab",
+                  "parent": {
+                    "type": "block_id",
+                    "block_id": "1bbd9eed-7ec6-8009-b3af-e4e5274f317c"
+                  },
+                  "created_time": "2025-03-19T03:01:00.000Z",
+                  "last_edited_time": "2025-03-19T03:06:00.000Z",
+                  "created_by": {
+                    "object": "user",
+                    "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+                  },
+                  "last_edited_by": {
+                    "object": "user",
+                    "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+                  },
+                  "has_children": false,
+                  "archived": false,
+                  "in_trash": false,
+                  "type": "table_row",
+                  "table_row": {
+                    "cells": [
+                      [
+                        {
+                          "type": "text",
+                          "text": {
+                            "content": "2024-11-15",
+                            "link": null
+                          },
+                          "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                          },
+                          "plain_text": "2024-11-15",
+                          "href": null
+                        }
+                      ],
+                      [
+                        {
+                          "type": "text",
+                          "text": {
+                            "content": "▶ 답변 회신\n1. 최근 연결 서버에 SSL 인증서를 추가했고 그 이후에만 문제가 시작된 경우 다른 인증서를 사용 시도 권유\n2. 인증서를 변경한 후에도 문제가 지속되면 연결 서버 재설치 시도 권유\n- 연결 서버, HTML 액세스만 제거, ADLDS는 제거하면 안됨",
+                            "link": null
+                          },
+                          "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                          },
+                          "plain_text": "▶ 답변 회신\n1. 최근 연결 서버에 SSL 인증서를 추가했고 그 이후에만 문제가 시작된 경우 다른 인증서를 사용 시도 권유\n2. 인증서를 변경한 후에도 문제가 지속되면 연결 서버 재설치 시도 권유\n- 연결 서버, HTML 액세스만 제거, ADLDS는 제거하면 안됨",
+                          "href": null
+                        }
+                      ],
+                      [],
+                      []
+                    ]
+                  }
+                },
+                {
+                  "object": "block",
+                  "id": "1bbd9eed-7ec6-803b-acf9-ef43c325c913",
+                  "parent": {
+                    "type": "block_id",
+                    "block_id": "1bbd9eed-7ec6-8009-b3af-e4e5274f317c"
+                  },
+                  "created_time": "2025-03-19T03:04:00.000Z",
+                  "last_edited_time": "2025-03-19T03:06:00.000Z",
+                  "created_by": {
+                    "object": "user",
+                    "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+                  },
+                  "last_edited_by": {
+                    "object": "user",
+                    "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+                  },
+                  "has_children": false,
+                  "archived": false,
+                  "in_trash": false,
+                  "type": "table_row",
+                  "table_row": {
+                    "cells": [
+                      [
+                        {
+                          "type": "text",
+                          "text": {
+                            "content": "2024-11-20",
+                            "link": null
+                          },
+                          "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                          },
+                          "plain_text": "2024-11-20",
+                          "href": null
+                        }
+                      ],
+                      [
+                        {
+                          "type": "text",
+                          "text": {
+                            "content": "▶ SR 종료\n1. 별도 회신 메일이 없음으로 케이스 보관 처리함",
+                            "link": null
+                          },
+                          "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                          },
+                          "plain_text": "▶ SR 종료\n1. 별도 회신 메일이 없음으로 케이스 보관 처리함",
+                          "href": null
+                        }
+                      ],
+                      [],
+                      []
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "object": "block",
+          "id": "1bbd9eed-7ec6-80c9-a951-dc29bc1f8d47",
+          "parent": {
+            "type": "block_id",
+            "block_id": "1bad9eed-7ec6-806b-be3a-e3430bc0e0fc"
+          },
+          "created_time": "2025-03-19T03:03:00.000Z",
+          "last_edited_time": "2025-03-19T03:12:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+          },
+          "has_children": true,
+          "archived": false,
+          "in_trash": false,
+          "type": "heading_3",
+          "heading_3": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "[Case 00885514_보안부, 종료] About vCenter Server Web Client Access Control",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "[Case 00885514_보안부, 종료] About vCenter Server Web Client Access Control",
+                "href": null
+              }
+            ],
+            "is_toggleable": true,
+            "color": "default"
+          },
+          "children": [
+            {
+              "object": "block",
+              "id": "1bbd9eed-7ec6-8064-9849-dc08a7476b17",
+              "parent": {
+                "type": "block_id",
+                "block_id": "1bbd9eed-7ec6-80c9-a951-dc29bc1f8d47"
+              },
+              "created_time": "2025-03-19T03:03:00.000Z",
+              "last_edited_time": "2025-03-19T03:03:00.000Z",
+              "created_by": {
+                "object": "user",
+                "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+              },
+              "last_edited_by": {
+                "object": "user",
+                "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+              },
+              "has_children": false,
+              "archived": false,
+              "in_trash": false,
+              "type": "divider",
+              "divider": {}
+            },
+            {
+              "object": "block",
+              "id": "1bbd9eed-7ec6-8038-84a4-d68c37606189",
+              "parent": {
+                "type": "block_id",
+                "block_id": "1bbd9eed-7ec6-80c9-a951-dc29bc1f8d47"
+              },
+              "created_time": "2025-03-19T03:03:00.000Z",
+              "last_edited_time": "2025-03-19T03:13:00.000Z",
+              "created_by": {
+                "object": "user",
+                "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+              },
+              "last_edited_by": {
+                "object": "user",
+                "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+              },
+              "has_children": true,
+              "archived": false,
+              "in_trash": false,
+              "type": "table",
+              "table": {
+                "table_width": 4,
+                "has_column_header": false,
+                "has_row_header": false
+              },
+              "children": [
+                {
+                  "object": "block",
+                  "id": "1bbd9eed-7ec6-804e-a2cd-f0e4beb43263",
+                  "parent": {
+                    "type": "block_id",
+                    "block_id": "1bbd9eed-7ec6-8038-84a4-d68c37606189"
+                  },
+                  "created_time": "2025-03-19T03:03:00.000Z",
+                  "last_edited_time": "2025-03-19T03:14:00.000Z",
+                  "created_by": {
+                    "object": "user",
+                    "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+                  },
+                  "last_edited_by": {
+                    "object": "user",
+                    "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+                  },
+                  "has_children": false,
+                  "archived": false,
+                  "in_trash": false,
+                  "type": "table_row",
+                  "table_row": {
+                    "cells": [
+                      [],
+                      [],
+                      [
+                        {
+                          "type": "text",
+                          "text": {
+                            "content": "2024-11-14",
+                            "link": null
+                          },
+                          "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                          },
+                          "plain_text": "2024-11-14",
+                          "href": null
+                        }
+                      ],
+                      [
+                        {
+                          "type": "text",
+                          "text": {
+                            "content": "▶ 문의 사항\n1. VDI 인프라 환경\n2.. admin을 제외한 사용자 vm에서 vCenter Server Web Client에 대한 액세스를 제한하는 방법에 대한 가이드 요청",
+                            "link": null
+                          },
+                          "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                          },
+                          "plain_text": "▶ 문의 사항\n1. VDI 인프라 환경\n2.. admin을 제외한 사용자 vm에서 vCenter Server Web Client에 대한 액세스를 제한하는 방법에 대한 가이드 요청",
+                          "href": null
+                        }
+                      ]
+                    ]
+                  }
+                },
+                {
+                  "object": "block",
+                  "id": "1bbd9eed-7ec6-8038-a70d-f22e2f18cc23",
+                  "parent": {
+                    "type": "block_id",
+                    "block_id": "1bbd9eed-7ec6-8038-84a4-d68c37606189"
+                  },
+                  "created_time": "2025-03-19T03:03:00.000Z",
+                  "last_edited_time": "2025-03-19T03:14:00.000Z",
+                  "created_by": {
+                    "object": "user",
+                    "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+                  },
+                  "last_edited_by": {
+                    "object": "user",
+                    "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+                  },
+                  "has_children": false,
+                  "archived": false,
+                  "in_trash": false,
+                  "type": "table_row",
+                  "table_row": {
+                    "cells": [
+                      [
+                        {
+                          "type": "text",
+                          "text": {
+                            "content": "2024-11-14",
+                            "link": null
+                          },
+                          "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                          },
+                          "plain_text": "2024-11-14",
+                          "href": null
+                        }
+                      ],
+                      [
+                        {
+                          "type": "text",
+                          "text": {
+                            "content": "▶ 답변 회신\n1. 관리자를 제외한 모든 사용자가 웹 클라이언트 페이지에 연결할 수 없도록 하고 싶은지 아니면\n2. 웹 페이지에 연결할 수 있어야 하지만 사용자가 로그인하지 못하게끔 하고 싶은지?",
+                            "link": null
+                          },
+                          "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                          },
+                          "plain_text": "▶ 답변 회신\n1. 관리자를 제외한 모든 사용자가 웹 클라이언트 페이지에 연결할 수 없도록 하고 싶은지 아니면\n2. 웹 페이지에 연결할 수 있어야 하지만 사용자가 로그인하지 못하게끔 하고 싶은지?",
+                          "href": null
+                        }
+                      ],
+                      [
+                        {
+                          "type": "text",
+                          "text": {
+                            "content": "2024-11-14",
+                            "link": null
+                          },
+                          "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                          },
+                          "plain_text": "2024-11-14",
+                          "href": null
+                        }
+                      ],
+                      [
+                        {
+                          "type": "text",
+                          "text": {
+                            "content": "▶ 답변 회신\n1. 관리자를 제외한 모든 사용자가 웹 클라이언트 페이지에 연결할 수 없도록 하기를 원함",
+                            "link": null
+                          },
+                          "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                          },
+                          "plain_text": "▶ 답변 회신\n1. 관리자를 제외한 모든 사용자가 웹 클라이언트 페이지에 연결할 수 없도록 하기를 원함",
+                          "href": null
+                        }
+                      ]
+                    ]
+                  }
+                },
+                {
+                  "object": "block",
+                  "id": "1bbd9eed-7ec6-80a7-9124-d8b4923d9552",
+                  "parent": {
+                    "type": "block_id",
+                    "block_id": "1bbd9eed-7ec6-8038-84a4-d68c37606189"
+                  },
+                  "created_time": "2025-03-19T03:03:00.000Z",
+                  "last_edited_time": "2025-03-19T03:14:00.000Z",
+                  "created_by": {
+                    "object": "user",
+                    "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+                  },
+                  "last_edited_by": {
+                    "object": "user",
+                    "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+                  },
+                  "has_children": false,
+                  "archived": false,
+                  "in_trash": false,
+                  "type": "table_row",
+                  "table_row": {
+                    "cells": [
+                      [
+                        {
+                          "type": "text",
+                          "text": {
+                            "content": "2024-11-14",
+                            "link": null
+                          },
+                          "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                          },
+                          "plain_text": "2024-11-14",
+                          "href": null
+                        }
+                      ],
+                      [
+                        {
+                          "type": "text",
+                          "text": {
+                            "content": "▶ 답변 회신\n1. vCenter Server 시스템을 특정 관리 네트워크에 배치하고 vSphere 관리 트래픽이 제한된 네트워크에 있는지 확인 가능함\n2. 네트워크 연결을 제한하면 특정 유형의 공격을 제한 가능\n▶ 권장 사항\n1) ",
+                            "link": null
+                          },
+                          "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                          },
+                          "plain_text": "▶ 답변 회신\n1. vCenter Server 시스템을 특정 관리 네트워크에 배치하고 vSphere 관리 트래픽이 제한된 네트워크에 있는지 확인 가능함\n2. 네트워크 연결을 제한하면 특정 유형의 공격을 제한 가능\n▶ 권장 사항\n1) ",
+                          "href": null
+                        },
+                        {
+                          "type": "text",
+                          "text": {
+                            "content": "https://docs.vmware.com/en/VMware-vSphere/8.0/vsphere-security/GUID-16227288-E2D1-4759-9EF1-321CE634F2AB.html",
+                            "link": {
+                              "url": "https://docs.vmware.com/en/VMware-vSphere/8.0/vsphere-security/GUID-16227288-E2D1-4759-9EF1-321CE634F2AB.html"
+                            }
+                          },
+                          "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                          },
+                          "plain_text": "https://docs.vmware.com/en/VMware-vSphere/8.0/vsphere-security/GUID-16227288-E2D1-4759-9EF1-321CE634F2AB.html",
+                          "href": "https://docs.vmware.com/en/VMware-vSphere/8.0/vsphere-security/GUID-16227288-E2D1-4759-9EF1-321CE634F2AB.html"
+                        },
+                        {
+                          "type": "text",
+                          "text": {
+                            "content": "\n2) ",
+                            "link": null
+                          },
+                          "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                          },
+                          "plain_text": "\n2) ",
+                          "href": null
+                        },
+                        {
+                          "type": "text",
+                          "text": {
+                            "content": "https://docs.vmware.com/en/VMware-vSphere/8.0/vsphere-security/GUID-6C181D08-6650-4AD1-92D1-AAFDA3A3E38C.html",
+                            "link": {
+                              "url": "https://docs.vmware.com/en/VMware-vSphere/8.0/vsphere-security/GUID-6C181D08-6650-4AD1-92D1-AAFDA3A3E38C.html"
+                            }
+                          },
+                          "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                          },
+                          "plain_text": "https://docs.vmware.com/en/VMware-vSphere/8.0/vsphere-security/GUID-6C181D08-6650-4AD1-92D1-AAFDA3A3E38C.html",
+                          "href": "https://docs.vmware.com/en/VMware-vSphere/8.0/vsphere-security/GUID-6C181D08-6650-4AD1-92D1-AAFDA3A3E38C.html"
+                        }
+                      ],
+                      [
+                        {
+                          "type": "text",
+                          "text": {
+                            "content": "2024-11-14",
+                            "link": null
+                          },
+                          "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                          },
+                          "plain_text": "2024-11-14",
+                          "href": null
+                        }
+                      ],
+                      [
+                        {
+                          "type": "text",
+                          "text": {
+                            "content": "▶ 답변 회신\n1. 질문 사항을 정정\n2. 사용자 vm에서 vCenter 서버 웹 클라이언트의 액세스를 차단하는 것을 원함\n3. 따라서 vcsa의 iptables에서 사용자의 IP에 대해 포트 443을 거부하기만 하면 됨\n4. 사용자가 여러 IP를 가지고 있기 때문에 효율적으로 차단하기 위해 0.0.0.0/0 조건을 넣는 것이 더 나을지?\n5. 관련 예를 요청",
+                            "link": null
+                          },
+                          "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                          },
+                          "plain_text": "▶ 답변 회신\n1. 질문 사항을 정정\n2. 사용자 vm에서 vCenter 서버 웹 클라이언트의 액세스를 차단하는 것을 원함\n3. 따라서 vcsa의 iptables에서 사용자의 IP에 대해 포트 443을 거부하기만 하면 됨\n4. 사용자가 여러 IP를 가지고 있기 때문에 효율적으로 차단하기 위해 0.0.0.0/0 조건을 넣는 것이 더 나을지?\n5. 관련 예를 요청",
+                          "href": null
+                        }
+                      ]
+                    ]
+                  }
+                },
+                {
+                  "object": "block",
+                  "id": "1bbd9eed-7ec6-8033-a6a3-f13c14462839",
+                  "parent": {
+                    "type": "block_id",
+                    "block_id": "1bbd9eed-7ec6-8038-84a4-d68c37606189"
+                  },
+                  "created_time": "2025-03-19T03:03:00.000Z",
+                  "last_edited_time": "2025-03-19T03:14:00.000Z",
+                  "created_by": {
+                    "object": "user",
+                    "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+                  },
+                  "last_edited_by": {
+                    "object": "user",
+                    "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+                  },
+                  "has_children": false,
+                  "archived": false,
+                  "in_trash": false,
+                  "type": "table_row",
+                  "table_row": {
+                    "cells": [
+                      [
+                        {
+                          "type": "text",
+                          "text": {
+                            "content": "2024-11-19",
+                            "link": null
+                          },
+                          "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                          },
+                          "plain_text": "2024-11-19",
+                          "href": null
+                        }
+                      ],
+                      [
+                        {
+                          "type": "text",
+                          "text": {
+                            "content": "▶ 답변 회신\n1. 예, 하지만 포트 443으로 IP 차단 및 iptables -A INPUT -s IP -p tcp -destination-port 25 -j DROP을 확인할 수 있는 네트워킹 쿼리에 가까움.\n2. IP와 포트 번호를 교체하고 작동 여부 확인 필요",
+                            "link": null
+                          },
+                          "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                          },
+                          "plain_text": "▶ 답변 회신\n1. 예, 하지만 포트 443으로 IP 차단 및 iptables -A INPUT -s IP -p tcp -destination-port 25 -j DROP을 확인할 수 있는 네트워킹 쿼리에 가까움.\n2. IP와 포트 번호를 교체하고 작동 여부 확인 필요",
+                          "href": null
+                        }
+                      ],
+                      [
+                        {
+                          "type": "text",
+                          "text": {
+                            "content": "2024-11-19",
+                            "link": null
+                          },
+                          "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                          },
+                          "plain_text": "2024-11-19",
+                          "href": null
+                        }
+                      ],
+                      [
+                        {
+                          "type": "text",
+                          "text": {
+                            "content": "▶ 답변 회신\n1. VCSA iptables에서 vCenter 웹 클라이언트 제어 정책을 다음과 같이 설정하는 게 맞는지?\n<조건>\n1) 사용자 VM과 vCenter, 관리 서버 대역폭은 동일\n2) 사용자 VM의 대역폭 10.250.26.0/24\n3) 관리 VM IP : CS - 10.250.26.10 / DB - 10.250.26.11 / Getway - 10.250.26.1\n<절차>\n1) 특정 IP에서의 443 포트 TCP 트래픽 허용\niptables -A INPUT -p tcp --dport 443 -s 10.250.26.10 -j ACCEPT\niptables -A INPUT -p tcp --dport 443 -s 10.250.26.11 -j ACCEPT\niptables -A INPUT -p tcp --dport 443 -s 10.250.26.1 -j ACCEPT\n2) 특정 서브넷에서 443 포트 TCP 트래픽 차단 - iptables -A INPUT -p tcp --dport 443 -s 10.250.26.0/24 -j DROP\n3) 설정 후 iptables 저장 - Save iptables after setting\n4) iptables 설정 저장 - /sbin/service iptables save\n5) iptables 서비스 재시작 - Restart iptables service after that\n6) iptables 서비스 재시작 - systemctl restart iptables",
+                            "link": null
+                          },
+                          "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                          },
+                          "plain_text": "▶ 답변 회신\n1. VCSA iptables에서 vCenter 웹 클라이언트 제어 정책을 다음과 같이 설정하는 게 맞는지?\n<조건>\n1) 사용자 VM과 vCenter, 관리 서버 대역폭은 동일\n2) 사용자 VM의 대역폭 10.250.26.0/24\n3) 관리 VM IP : CS - 10.250.26.10 / DB - 10.250.26.11 / Getway - 10.250.26.1\n<절차>\n1) 특정 IP에서의 443 포트 TCP 트래픽 허용\niptables -A INPUT -p tcp --dport 443 -s 10.250.26.10 -j ACCEPT\niptables -A INPUT -p tcp --dport 443 -s 10.250.26.11 -j ACCEPT\niptables -A INPUT -p tcp --dport 443 -s 10.250.26.1 -j ACCEPT\n2) 특정 서브넷에서 443 포트 TCP 트래픽 차단 - iptables -A INPUT -p tcp --dport 443 -s 10.250.26.0/24 -j DROP\n3) 설정 후 iptables 저장 - Save iptables after setting\n4) iptables 설정 저장 - /sbin/service iptables save\n5) iptables 서비스 재시작 - Restart iptables service after that\n6) iptables 서비스 재시작 - systemctl restart iptables",
+                          "href": null
+                        }
+                      ]
+                    ]
+                  }
+                },
+                {
+                  "object": "block",
+                  "id": "1bbd9eed-7ec6-800e-8d76-d3fe24d92006",
+                  "parent": {
+                    "type": "block_id",
+                    "block_id": "1bbd9eed-7ec6-8038-84a4-d68c37606189"
+                  },
+                  "created_time": "2025-03-19T03:12:00.000Z",
+                  "last_edited_time": "2025-03-19T03:14:00.000Z",
+                  "created_by": {
+                    "object": "user",
+                    "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+                  },
+                  "last_edited_by": {
+                    "object": "user",
+                    "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+                  },
+                  "has_children": false,
+                  "archived": false,
+                  "in_trash": false,
+                  "type": "table_row",
+                  "table_row": {
+                    "cells": [
+                      [
+                        {
+                          "type": "text",
+                          "text": {
+                            "content": "2024-11-19",
+                            "link": null
+                          },
+                          "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                          },
+                          "plain_text": "2024-11-19",
+                          "href": null
+                        }
+                      ],
+                      [
+                        {
+                          "type": "text",
+                          "text": {
+                            "content": "▶ 답변 회신\n1. 언급된 모든 IP가 동일 서브넷에 있어 기본적으로 허용됨으로 명시적으로 IP를 지정할 필요 없음\n2. 표에 아래 줄을 추가/저장 후 VM에서 vCenter에 연결할 수 없는지 테스트 필요\n- iptables -A INPUT -p tcp --dport 443 -s 10.250.26.0/24 -j DROP",
+                            "link": null
+                          },
+                          "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                          },
+                          "plain_text": "▶ 답변 회신\n1. 언급된 모든 IP가 동일 서브넷에 있어 기본적으로 허용됨으로 명시적으로 IP를 지정할 필요 없음\n2. 표에 아래 줄을 추가/저장 후 VM에서 vCenter에 연결할 수 없는지 테스트 필요\n- iptables -A INPUT -p tcp --dport 443 -s 10.250.26.0/24 -j DROP",
+                          "href": null
+                        }
+                      ],
+                      [
+                        {
+                          "type": "text",
+                          "text": {
+                            "content": "2024-11-19",
+                            "link": null
+                          },
+                          "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                          },
+                          "plain_text": "2024-11-19",
+                          "href": null
+                        }
+                      ],
+                      [
+                        {
+                          "type": "text",
+                          "text": {
+                            "content": "▶ 답변 회신\n1. 모두 같은 대역에 있음으로 10.250.26.0/24를 삭제하면 모든 VM이 웹 클라이언트에 접속할 수 없는지?",
+                            "link": null
+                          },
+                          "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                          },
+                          "plain_text": "▶ 답변 회신\n1. 모두 같은 대역에 있음으로 10.250.26.0/24를 삭제하면 모든 VM이 웹 클라이언트에 접속할 수 없는지?",
+                          "href": null
+                        }
+                      ]
+                    ]
+                  }
+                },
+                {
+                  "object": "block",
+                  "id": "1bbd9eed-7ec6-8092-94c2-d09f1210f082",
+                  "parent": {
+                    "type": "block_id",
+                    "block_id": "1bbd9eed-7ec6-8038-84a4-d68c37606189"
+                  },
+                  "created_time": "2025-03-19T03:12:00.000Z",
+                  "last_edited_time": "2025-03-19T03:14:00.000Z",
+                  "created_by": {
+                    "object": "user",
+                    "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+                  },
+                  "last_edited_by": {
+                    "object": "user",
+                    "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+                  },
+                  "has_children": false,
+                  "archived": false,
+                  "in_trash": false,
+                  "type": "table_row",
+                  "table_row": {
+                    "cells": [
+                      [
+                        {
+                          "type": "text",
+                          "text": {
+                            "content": "2024-11-19",
+                            "link": null
+                          },
+                          "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                          },
+                          "plain_text": "2024-11-19",
+                          "href": null
+                        }
+                      ],
+                      [
+                        {
+                          "type": "text",
+                          "text": {
+                            "content": "▶ 답변 회신\n1. 해당 VM에 10.250.26.0에서 다른 IP주소를 할당\n2. x.x.x.0은 사용하면 안 됨\n3. 그 후 해당 IP(예: 10.250.26.12/24)를 삭제하도록 지정 가능",
+                            "link": null
+                          },
+                          "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                          },
+                          "plain_text": "▶ 답변 회신\n1. 해당 VM에 10.250.26.0에서 다른 IP주소를 할당\n2. x.x.x.0은 사용하면 안 됨\n3. 그 후 해당 IP(예: 10.250.26.12/24)를 삭제하도록 지정 가능",
+                          "href": null
+                        }
+                      ],
+                      [
+                        {
+                          "type": "text",
+                          "text": {
+                            "content": "2024-11-19",
+                            "link": null
+                          },
+                          "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                          },
+                          "plain_text": "2024-11-19",
+                          "href": null
+                        }
+                      ],
+                      [
+                        {
+                          "type": "text",
+                          "text": {
+                            "content": "▶ 답변 회신\n1. 조금 더 상세한 답변 요청",
+                            "link": null
+                          },
+                          "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                          },
+                          "plain_text": "▶ 답변 회신\n1. 조금 더 상세한 답변 요청",
+                          "href": null
+                        }
+                      ]
+                    ]
+                  }
+                },
+                {
+                  "object": "block",
+                  "id": "1bbd9eed-7ec6-80cb-a050-f15eb9fda51f",
+                  "parent": {
+                    "type": "block_id",
+                    "block_id": "1bbd9eed-7ec6-8038-84a4-d68c37606189"
+                  },
+                  "created_time": "2025-03-19T03:13:00.000Z",
+                  "last_edited_time": "2025-03-19T03:14:00.000Z",
+                  "created_by": {
+                    "object": "user",
+                    "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+                  },
+                  "last_edited_by": {
+                    "object": "user",
+                    "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+                  },
+                  "has_children": false,
+                  "archived": false,
+                  "in_trash": false,
+                  "type": "table_row",
+                  "table_row": {
+                    "cells": [
+                      [
+                        {
+                          "type": "text",
+                          "text": {
+                            "content": "2024-11-19",
+                            "link": null
+                          },
+                          "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                          },
+                          "plain_text": "2024-11-19",
+                          "href": null
+                        }
+                      ],
+                      [
+                        {
+                          "type": "text",
+                          "text": {
+                            "content": "▶ 답변 회신\n1. ZOOM 회의 요청",
+                            "link": null
+                          },
+                          "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                          },
+                          "plain_text": "▶ 답변 회신\n1. ZOOM 회의 요청",
+                          "href": null
+                        }
+                      ],
+                      [
+                        {
+                          "type": "text",
+                          "text": {
+                            "content": "2024-11-20",
+                            "link": null
+                          },
+                          "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                          },
+                          "plain_text": "2024-11-20",
+                          "href": null
+                        }
+                      ],
+                      [
+                        {
+                          "type": "text",
+                          "text": {
+                            "content": "▶ 답변 회신\n1. ZOOM은 불가\n2. 추후 재시도해보고 안되면 케이즈 재오픈 예정, 지금은 케이스 종료 요청",
+                            "link": null
+                          },
+                          "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                          },
+                          "plain_text": "▶ 답변 회신\n1. ZOOM은 불가\n2. 추후 재시도해보고 안되면 케이즈 재오픈 예정, 지금은 케이스 종료 요청",
+                          "href": null
+                        }
+                      ]
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "object": "block",
+          "id": "1bbd9eed-7ec6-8036-a9be-f5946a4e60ee",
+          "parent": {
+            "type": "block_id",
+            "block_id": "1bad9eed-7ec6-806b-be3a-e3430bc0e0fc"
+          },
+          "created_time": "2025-03-19T03:15:00.000Z",
+          "last_edited_time": "2025-03-19T03:15:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+          },
+          "has_children": true,
+          "archived": false,
+          "in_trash": false,
+          "type": "heading_3",
+          "heading_3": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "[Case 00891465_보안부, 종료] USB Redirection Policy Application Issue in VMware Horizon VDI",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "[Case 00891465_보안부, 종료] USB Redirection Policy Application Issue in VMware Horizon VDI",
+                "href": null
+              }
+            ],
+            "is_toggleable": true,
+            "color": "default"
+          },
+          "children": [
+            {
+              "object": "block",
+              "id": "1bbd9eed-7ec6-80b2-9b11-e9c108e73286",
+              "parent": {
+                "type": "block_id",
+                "block_id": "1bbd9eed-7ec6-8036-a9be-f5946a4e60ee"
+              },
+              "created_time": "2025-03-19T03:15:00.000Z",
+              "last_edited_time": "2025-03-19T03:15:00.000Z",
+              "created_by": {
+                "object": "user",
+                "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+              },
+              "last_edited_by": {
+                "object": "user",
+                "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+              },
+              "has_children": false,
+              "archived": false,
+              "in_trash": false,
+              "type": "divider",
+              "divider": {}
+            },
+            {
+              "object": "block",
+              "id": "1bbd9eed-7ec6-805f-ae37-c8901b74abb0",
+              "parent": {
+                "type": "block_id",
+                "block_id": "1bbd9eed-7ec6-8036-a9be-f5946a4e60ee"
+              },
+              "created_time": "2025-03-19T03:15:00.000Z",
+              "last_edited_time": "2025-03-19T03:18:00.000Z",
+              "created_by": {
+                "object": "user",
+                "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+              },
+              "last_edited_by": {
+                "object": "user",
+                "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+              },
+              "has_children": true,
+              "archived": false,
+              "in_trash": false,
+              "type": "table",
+              "table": {
+                "table_width": 4,
+                "has_column_header": false,
+                "has_row_header": false
+              },
+              "children": [
+                {
+                  "object": "block",
+                  "id": "1bbd9eed-7ec6-8024-8312-fe5922a2f287",
+                  "parent": {
+                    "type": "block_id",
+                    "block_id": "1bbd9eed-7ec6-805f-ae37-c8901b74abb0"
+                  },
+                  "created_time": "2025-03-19T03:15:00.000Z",
+                  "last_edited_time": "2025-03-19T03:16:00.000Z",
+                  "created_by": {
+                    "object": "user",
+                    "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+                  },
+                  "last_edited_by": {
+                    "object": "user",
+                    "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+                  },
+                  "has_children": false,
+                  "archived": false,
+                  "in_trash": false,
+                  "type": "table_row",
+                  "table_row": {
+                    "cells": [
+                      [],
+                      [],
+                      [
+                        {
+                          "type": "text",
+                          "text": {
+                            "content": "2024-11-20",
+                            "link": null
+                          },
+                          "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                          },
+                          "plain_text": "2024-11-20",
+                          "href": null
+                        }
+                      ],
+                      []
+                    ]
+                  }
+                },
+                {
+                  "object": "block",
+                  "id": "1bbd9eed-7ec6-802c-906e-e406d3f3af5e",
+                  "parent": {
+                    "type": "block_id",
+                    "block_id": "1bbd9eed-7ec6-805f-ae37-c8901b74abb0"
+                  },
+                  "created_time": "2025-03-19T03:15:00.000Z",
+                  "last_edited_time": "2025-03-19T03:17:00.000Z",
+                  "created_by": {
+                    "object": "user",
+                    "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+                  },
+                  "last_edited_by": {
+                    "object": "user",
+                    "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+                  },
+                  "has_children": false,
+                  "archived": false,
+                  "in_trash": false,
+                  "type": "table_row",
+                  "table_row": {
+                    "cells": [
+                      [
+                        {
+                          "type": "text",
+                          "text": {
+                            "content": "2024-11-20",
+                            "link": null
+                          },
+                          "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                          },
+                          "plain_text": "2024-11-20",
+                          "href": null
+                        }
+                      ],
+                      [],
+                      [
+                        {
+                          "type": "text",
+                          "text": {
+                            "content": "2024-11-21",
+                            "link": null
+                          },
+                          "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                          },
+                          "plain_text": "2024-11-21",
+                          "href": null
+                        }
+                      ],
+                      []
+                    ]
+                  }
+                },
+                {
+                  "object": "block",
+                  "id": "1bbd9eed-7ec6-8096-b0f7-f31f5352e07f",
+                  "parent": {
+                    "type": "block_id",
+                    "block_id": "1bbd9eed-7ec6-805f-ae37-c8901b74abb0"
+                  },
+                  "created_time": "2025-03-19T03:15:00.000Z",
+                  "last_edited_time": "2025-03-19T03:17:00.000Z",
+                  "created_by": {
+                    "object": "user",
+                    "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+                  },
+                  "last_edited_by": {
+                    "object": "user",
+                    "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+                  },
+                  "has_children": false,
+                  "archived": false,
+                  "in_trash": false,
+                  "type": "table_row",
+                  "table_row": {
+                    "cells": [
+                      [
+                        {
+                          "type": "text",
+                          "text": {
+                            "content": "2024-11-21",
+                            "link": null
+                          },
+                          "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                          },
+                          "plain_text": "2024-11-21",
+                          "href": null
+                        }
+                      ],
+                      [],
+                      [
+                        {
+                          "type": "text",
+                          "text": {
+                            "content": "2024-11-21",
+                            "link": null
+                          },
+                          "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                          },
+                          "plain_text": "2024-11-21",
+                          "href": null
+                        }
+                      ],
+                      []
+                    ]
+                  }
+                },
+                {
+                  "object": "block",
+                  "id": "1bbd9eed-7ec6-80f8-a026-ee384f02924a",
+                  "parent": {
+                    "type": "block_id",
+                    "block_id": "1bbd9eed-7ec6-805f-ae37-c8901b74abb0"
+                  },
+                  "created_time": "2025-03-19T03:15:00.000Z",
+                  "last_edited_time": "2025-03-19T03:17:00.000Z",
+                  "created_by": {
+                    "object": "user",
+                    "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+                  },
+                  "last_edited_by": {
+                    "object": "user",
+                    "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+                  },
+                  "has_children": false,
+                  "archived": false,
+                  "in_trash": false,
+                  "type": "table_row",
+                  "table_row": {
+                    "cells": [
+                      [],
+                      [],
+                      [
+                        {
+                          "type": "text",
+                          "text": {
+                            "content": "2024-11-22",
+                            "link": null
+                          },
+                          "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                          },
+                          "plain_text": "2024-11-22",
+                          "href": null
+                        }
+                      ],
+                      []
+                    ]
+                  }
+                },
+                {
+                  "object": "block",
+                  "id": "1bbd9eed-7ec6-802f-934a-c18cdef850bd",
+                  "parent": {
+                    "type": "block_id",
+                    "block_id": "1bbd9eed-7ec6-805f-ae37-c8901b74abb0"
+                  },
+                  "created_time": "2025-03-19T03:15:00.000Z",
+                  "last_edited_time": "2025-03-19T03:17:00.000Z",
+                  "created_by": {
+                    "object": "user",
+                    "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+                  },
+                  "last_edited_by": {
+                    "object": "user",
+                    "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+                  },
+                  "has_children": false,
+                  "archived": false,
+                  "in_trash": false,
+                  "type": "table_row",
+                  "table_row": {
+                    "cells": [
+                      [
+                        {
+                          "type": "text",
+                          "text": {
+                            "content": "2024-11-25",
+                            "link": null
+                          },
+                          "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                          },
+                          "plain_text": "2024-11-25",
+                          "href": null
+                        }
+                      ],
+                      [],
+                      [
+                        {
+                          "type": "text",
+                          "text": {
+                            "content": "2024-11-28",
+                            "link": null
+                          },
+                          "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                          },
+                          "plain_text": "2024-11-28",
+                          "href": null
+                        }
+                      ],
+                      []
+                    ]
+                  }
+                },
+                {
+                  "object": "block",
+                  "id": "1bbd9eed-7ec6-80b1-aebf-d2eea52a2c0f",
+                  "parent": {
+                    "type": "block_id",
+                    "block_id": "1bbd9eed-7ec6-805f-ae37-c8901b74abb0"
+                  },
+                  "created_time": "2025-03-19T03:15:00.000Z",
+                  "last_edited_time": "2025-03-19T03:17:00.000Z",
+                  "created_by": {
+                    "object": "user",
+                    "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+                  },
+                  "last_edited_by": {
+                    "object": "user",
+                    "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+                  },
+                  "has_children": false,
+                  "archived": false,
+                  "in_trash": false,
+                  "type": "table_row",
+                  "table_row": {
+                    "cells": [
+                      [
+                        {
+                          "type": "text",
+                          "text": {
+                            "content": "2024-11-29",
+                            "link": null
+                          },
+                          "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                          },
+                          "plain_text": "2024-11-29",
+                          "href": null
+                        }
+                      ],
+                      [],
+                      [
+                        {
+                          "type": "text",
+                          "text": {
+                            "content": "2024-12-02",
+                            "link": null
+                          },
+                          "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                          },
+                          "plain_text": "2024-12-02",
+                          "href": null
+                        }
+                      ],
+                      []
+                    ]
+                  }
+                },
+                {
+                  "object": "block",
+                  "id": "1bbd9eed-7ec6-80c5-854d-dcde180db296",
+                  "parent": {
+                    "type": "block_id",
+                    "block_id": "1bbd9eed-7ec6-805f-ae37-c8901b74abb0"
+                  },
+                  "created_time": "2025-03-19T03:15:00.000Z",
+                  "last_edited_time": "2025-03-19T03:17:00.000Z",
+                  "created_by": {
+                    "object": "user",
+                    "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+                  },
+                  "last_edited_by": {
+                    "object": "user",
+                    "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+                  },
+                  "has_children": false,
+                  "archived": false,
+                  "in_trash": false,
+                  "type": "table_row",
+                  "table_row": {
+                    "cells": [
+                      [
+                        {
+                          "type": "text",
+                          "text": {
+                            "content": "2024-12-05",
+                            "link": null
+                          },
+                          "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                          },
+                          "plain_text": "2024-12-05",
+                          "href": null
+                        }
+                      ],
+                      [],
+                      [
+                        {
+                          "type": "text",
+                          "text": {
+                            "content": "2024-12-05",
+                            "link": null
+                          },
+                          "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                          },
+                          "plain_text": "2024-12-05",
+                          "href": null
+                        }
+                      ],
+                      []
+                    ]
+                  }
+                },
+                {
+                  "object": "block",
+                  "id": "1bbd9eed-7ec6-804f-95a0-e62cc5f7d30a",
+                  "parent": {
+                    "type": "block_id",
+                    "block_id": "1bbd9eed-7ec6-805f-ae37-c8901b74abb0"
+                  },
+                  "created_time": "2025-03-19T03:17:00.000Z",
+                  "last_edited_time": "2025-03-19T03:17:00.000Z",
+                  "created_by": {
+                    "object": "user",
+                    "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+                  },
+                  "last_edited_by": {
+                    "object": "user",
+                    "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+                  },
+                  "has_children": false,
+                  "archived": false,
+                  "in_trash": false,
+                  "type": "table_row",
+                  "table_row": {
+                    "cells": [
+                      [
+                        {
+                          "type": "text",
+                          "text": {
+                            "content": "2024-12-06",
+                            "link": null
+                          },
+                          "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                          },
+                          "plain_text": "2024-12-06",
+                          "href": null
+                        }
+                      ],
+                      [],
+                      [
+                        {
+                          "type": "text",
+                          "text": {
+                            "content": "2024-12-06",
+                            "link": null
+                          },
+                          "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                          },
+                          "plain_text": "2024-12-06",
+                          "href": null
+                        }
+                      ],
+                      []
+                    ]
+                  }
+                },
+                {
+                  "object": "block",
+                  "id": "1bbd9eed-7ec6-80bf-b587-d7f481530da1",
+                  "parent": {
+                    "type": "block_id",
+                    "block_id": "1bbd9eed-7ec6-805f-ae37-c8901b74abb0"
+                  },
+                  "created_time": "2025-03-19T03:17:00.000Z",
+                  "last_edited_time": "2025-03-19T03:17:00.000Z",
+                  "created_by": {
+                    "object": "user",
+                    "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+                  },
+                  "last_edited_by": {
+                    "object": "user",
+                    "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+                  },
+                  "has_children": false,
+                  "archived": false,
+                  "in_trash": false,
+                  "type": "table_row",
+                  "table_row": {
+                    "cells": [
+                      [
+                        {
+                          "type": "text",
+                          "text": {
+                            "content": "2024-12-06",
+                            "link": null
+                          },
+                          "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                          },
+                          "plain_text": "2024-12-06",
+                          "href": null
+                        }
+                      ],
+                      [],
+                      [
+                        {
+                          "type": "text",
+                          "text": {
+                            "content": "2024-12-09",
+                            "link": null
+                          },
+                          "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                          },
+                          "plain_text": "2024-12-09",
+                          "href": null
+                        }
+                      ],
+                      []
+                    ]
+                  }
+                },
+                {
+                  "object": "block",
+                  "id": "1bbd9eed-7ec6-8049-ac49-f484a7123bba",
+                  "parent": {
+                    "type": "block_id",
+                    "block_id": "1bbd9eed-7ec6-805f-ae37-c8901b74abb0"
+                  },
+                  "created_time": "2025-03-19T03:17:00.000Z",
+                  "last_edited_time": "2025-03-19T03:18:00.000Z",
+                  "created_by": {
+                    "object": "user",
+                    "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+                  },
+                  "last_edited_by": {
+                    "object": "user",
+                    "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+                  },
+                  "has_children": false,
+                  "archived": false,
+                  "in_trash": false,
+                  "type": "table_row",
+                  "table_row": {
+                    "cells": [
+                      [],
+                      [],
+                      [
+                        {
+                          "type": "text",
+                          "text": {
+                            "content": "024-12-09",
+                            "link": null
+                          },
+                          "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                          },
+                          "plain_text": "024-12-09",
+                          "href": null
+                        }
+                      ],
+                      []
+                    ]
+                  }
+                },
+                {
+                  "object": "block",
+                  "id": "1bbd9eed-7ec6-8077-907b-e47480e0e50a",
+                  "parent": {
+                    "type": "block_id",
+                    "block_id": "1bbd9eed-7ec6-805f-ae37-c8901b74abb0"
+                  },
+                  "created_time": "2025-03-19T03:18:00.000Z",
+                  "last_edited_time": "2025-03-19T03:19:00.000Z",
+                  "created_by": {
+                    "object": "user",
+                    "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+                  },
+                  "last_edited_by": {
+                    "object": "user",
+                    "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+                  },
+                  "has_children": false,
+                  "archived": false,
+                  "in_trash": false,
+                  "type": "table_row",
+                  "table_row": {
+                    "cells": [
+                      [
+                        {
+                          "type": "text",
+                          "text": {
+                            "content": "2024 -12-12",
+                            "link": null
+                          },
+                          "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                          },
+                          "plain_text": "2024 -12-12",
+                          "href": null
+                        }
+                      ],
+                      [],
+                      [
+                        {
+                          "type": "text",
+                          "text": {
+                            "content": "2024-12-12",
+                            "link": null
+                          },
+                          "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                          },
+                          "plain_text": "2024-12-12",
+                          "href": null
+                        }
+                      ],
+                      []
+                    ]
+                  }
+                },
+                {
+                  "object": "block",
+                  "id": "1bbd9eed-7ec6-8022-b5b0-ea2f6a055cd2",
+                  "parent": {
+                    "type": "block_id",
+                    "block_id": "1bbd9eed-7ec6-805f-ae37-c8901b74abb0"
+                  },
+                  "created_time": "2025-03-19T03:18:00.000Z",
+                  "last_edited_time": "2025-03-19T03:18:00.000Z",
+                  "created_by": {
+                    "object": "user",
+                    "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+                  },
+                  "last_edited_by": {
+                    "object": "user",
+                    "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+                  },
+                  "has_children": false,
+                  "archived": false,
+                  "in_trash": false,
+                  "type": "table_row",
+                  "table_row": {
+                    "cells": [
+                      [],
+                      [],
+                      [
+                        {
+                          "type": "text",
+                          "text": {
+                            "content": "2025-01-03",
+                            "link": null
+                          },
+                          "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                          },
+                          "plain_text": "2025-01-03",
+                          "href": null
+                        }
+                      ],
+                      []
+                    ]
+                  }
+                },
+                {
+                  "object": "block",
+                  "id": "1bbd9eed-7ec6-8001-8583-cf5644da3d31",
+                  "parent": {
+                    "type": "block_id",
+                    "block_id": "1bbd9eed-7ec6-805f-ae37-c8901b74abb0"
+                  },
+                  "created_time": "2025-03-19T03:18:00.000Z",
+                  "last_edited_time": "2025-03-19T03:18:00.000Z",
+                  "created_by": {
+                    "object": "user",
+                    "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+                  },
+                  "last_edited_by": {
+                    "object": "user",
+                    "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+                  },
+                  "has_children": false,
+                  "archived": false,
+                  "in_trash": false,
+                  "type": "table_row",
+                  "table_row": {
+                    "cells": [
+                      [],
+                      [],
+                      [
+                        {
+                          "type": "text",
+                          "text": {
+                            "content": "2025-02-10",
+                            "link": null
+                          },
+                          "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                          },
+                          "plain_text": "2025-02-10",
+                          "href": null
+                        }
+                      ],
+                      []
+                    ]
+                  }
+                },
+                {
+                  "object": "block",
+                  "id": "1bbd9eed-7ec6-80a3-8206-f882ab397de5",
+                  "parent": {
+                    "type": "block_id",
+                    "block_id": "1bbd9eed-7ec6-805f-ae37-c8901b74abb0"
+                  },
+                  "created_time": "2025-03-19T03:18:00.000Z",
+                  "last_edited_time": "2025-03-19T03:18:00.000Z",
+                  "created_by": {
+                    "object": "user",
+                    "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+                  },
+                  "last_edited_by": {
+                    "object": "user",
+                    "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+                  },
+                  "has_children": false,
+                  "archived": false,
+                  "in_trash": false,
+                  "type": "table_row",
+                  "table_row": {
+                    "cells": [
+                      [
+                        {
+                          "type": "text",
+                          "text": {
+                            "content": "2025-02-11",
+                            "link": null
+                          },
+                          "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                          },
+                          "plain_text": "2025-02-11",
+                          "href": null
+                        }
+                      ],
+                      [],
+                      [
+                        {
+                          "type": "text",
+                          "text": {
+                            "content": "2025-02-11",
+                            "link": null
+                          },
+                          "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                          },
+                          "plain_text": "2025-02-11",
+                          "href": null
+                        }
+                      ],
+                      []
+                    ]
+                  }
+                },
+                {
+                  "object": "block",
+                  "id": "1bbd9eed-7ec6-80d1-ad2c-eb97dea57e14",
+                  "parent": {
+                    "type": "block_id",
+                    "block_id": "1bbd9eed-7ec6-805f-ae37-c8901b74abb0"
+                  },
+                  "created_time": "2025-03-19T03:18:00.000Z",
+                  "last_edited_time": "2025-03-19T03:18:00.000Z",
+                  "created_by": {
+                    "object": "user",
+                    "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+                  },
+                  "last_edited_by": {
+                    "object": "user",
+                    "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+                  },
+                  "has_children": false,
+                  "archived": false,
+                  "in_trash": false,
+                  "type": "table_row",
+                  "table_row": {
+                    "cells": [
+                      [
+                        {
+                          "type": "text",
+                          "text": {
+                            "content": "2025-02-11",
+                            "link": null
+                          },
+                          "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                          },
+                          "plain_text": "2025-02-11",
+                          "href": null
+                        }
+                      ],
+                      [],
+                      [
+                        {
+                          "type": "text",
+                          "text": {
+                            "content": "2025-02-11",
+                            "link": null
+                          },
+                          "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                          },
+                          "plain_text": "2025-02-11",
+                          "href": null
+                        }
+                      ],
+                      []
+                    ]
+                  }
+                },
+                {
+                  "object": "block",
+                  "id": "1bbd9eed-7ec6-8003-bc31-cddf8257fe63",
+                  "parent": {
+                    "type": "block_id",
+                    "block_id": "1bbd9eed-7ec6-805f-ae37-c8901b74abb0"
+                  },
+                  "created_time": "2025-03-19T03:18:00.000Z",
+                  "last_edited_time": "2025-03-19T03:18:00.000Z",
+                  "created_by": {
+                    "object": "user",
+                    "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+                  },
+                  "last_edited_by": {
+                    "object": "user",
+                    "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+                  },
+                  "has_children": false,
+                  "archived": false,
+                  "in_trash": false,
+                  "type": "table_row",
+                  "table_row": {
+                    "cells": [
+                      [
+                        {
+                          "type": "text",
+                          "text": {
+                            "content": "2025-02-12",
+                            "link": null
+                          },
+                          "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                          },
+                          "plain_text": "2025-02-12",
+                          "href": null
+                        }
+                      ],
+                      [],
+                      [
+                        {
+                          "type": "text",
+                          "text": {
+                            "content": "2025-02-17",
+                            "link": null
+                          },
+                          "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                          },
+                          "plain_text": "2025-02-17",
+                          "href": null
+                        }
+                      ],
+                      []
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "object": "block",
+          "id": "1bbd9eed-7ec6-8001-a6ba-f881cc377725",
+          "parent": {
+            "type": "block_id",
+            "block_id": "1bad9eed-7ec6-806b-be3a-e3430bc0e0fc"
+          },
+          "created_time": "2025-03-19T03:14:00.000Z",
+          "last_edited_time": "2025-03-19T03:16:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+          },
+          "has_children": true,
+          "archived": false,
+          "in_trash": false,
+          "type": "heading_3",
+          "heading_3": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "[Case 01027677_스마트워크, 종료] Regarding Horizon protocol change",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "[Case 01027677_스마트워크, 종료] Regarding Horizon protocol change",
+                "href": null
+              }
+            ],
+            "is_toggleable": true,
+            "color": "default"
+          },
+          "children": [
+            {
+              "object": "block",
+              "id": "1bbd9eed-7ec6-80ad-8416-dfbd31843bcc",
+              "parent": {
+                "type": "block_id",
+                "block_id": "1bbd9eed-7ec6-8001-a6ba-f881cc377725"
+              },
+              "created_time": "2025-03-19T03:14:00.000Z",
+              "last_edited_time": "2025-03-19T03:14:00.000Z",
+              "created_by": {
+                "object": "user",
+                "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+              },
+              "last_edited_by": {
+                "object": "user",
+                "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+              },
+              "has_children": false,
+              "archived": false,
+              "in_trash": false,
+              "type": "divider",
+              "divider": {}
+            },
+            {
+              "object": "block",
+              "id": "1bbd9eed-7ec6-8069-92cc-e04a16f94aa9",
+              "parent": {
+                "type": "block_id",
+                "block_id": "1bbd9eed-7ec6-8001-a6ba-f881cc377725"
+              },
+              "created_time": "2025-03-19T03:14:00.000Z",
+              "last_edited_time": "2025-03-19T03:14:00.000Z",
+              "created_by": {
+                "object": "user",
+                "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+              },
+              "last_edited_by": {
+                "object": "user",
+                "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+              },
+              "has_children": true,
+              "archived": false,
+              "in_trash": false,
+              "type": "table",
+              "table": {
+                "table_width": 4,
+                "has_column_header": false,
+                "has_row_header": false
+              },
+              "children": [
+                {
+                  "object": "block",
+                  "id": "1bbd9eed-7ec6-807d-b94f-e110c865516d",
+                  "parent": {
+                    "type": "block_id",
+                    "block_id": "1bbd9eed-7ec6-8069-92cc-e04a16f94aa9"
+                  },
+                  "created_time": "2025-03-19T03:14:00.000Z",
+                  "last_edited_time": "2025-03-19T03:14:00.000Z",
+                  "created_by": {
+                    "object": "user",
+                    "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+                  },
+                  "last_edited_by": {
+                    "object": "user",
+                    "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+                  },
+                  "has_children": false,
+                  "archived": false,
+                  "in_trash": false,
+                  "type": "table_row",
+                  "table_row": {
+                    "cells": [
+                      [],
+                      [],
+                      [],
+                      []
+                    ]
+                  }
+                },
+                {
+                  "object": "block",
+                  "id": "1bbd9eed-7ec6-80cc-b937-dadbd8077fbb",
+                  "parent": {
+                    "type": "block_id",
+                    "block_id": "1bbd9eed-7ec6-8069-92cc-e04a16f94aa9"
+                  },
+                  "created_time": "2025-03-19T03:14:00.000Z",
+                  "last_edited_time": "2025-03-19T03:14:00.000Z",
+                  "created_by": {
+                    "object": "user",
+                    "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+                  },
+                  "last_edited_by": {
+                    "object": "user",
+                    "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+                  },
+                  "has_children": false,
+                  "archived": false,
+                  "in_trash": false,
+                  "type": "table_row",
+                  "table_row": {
+                    "cells": [
+                      [],
+                      [],
+                      [],
+                      []
+                    ]
+                  }
+                },
+                {
+                  "object": "block",
+                  "id": "1bbd9eed-7ec6-807f-8d4b-c8c60735c181",
+                  "parent": {
+                    "type": "block_id",
+                    "block_id": "1bbd9eed-7ec6-8069-92cc-e04a16f94aa9"
+                  },
+                  "created_time": "2025-03-19T03:14:00.000Z",
+                  "last_edited_time": "2025-03-19T03:14:00.000Z",
+                  "created_by": {
+                    "object": "user",
+                    "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+                  },
+                  "last_edited_by": {
+                    "object": "user",
+                    "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+                  },
+                  "has_children": false,
+                  "archived": false,
+                  "in_trash": false,
+                  "type": "table_row",
+                  "table_row": {
+                    "cells": [
+                      [],
+                      [],
+                      [],
+                      []
+                    ]
+                  }
+                },
+                {
+                  "object": "block",
+                  "id": "1bbd9eed-7ec6-805c-80dc-eacf65a3c120",
+                  "parent": {
+                    "type": "block_id",
+                    "block_id": "1bbd9eed-7ec6-8069-92cc-e04a16f94aa9"
+                  },
+                  "created_time": "2025-03-19T03:14:00.000Z",
+                  "last_edited_time": "2025-03-19T03:14:00.000Z",
+                  "created_by": {
+                    "object": "user",
+                    "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+                  },
+                  "last_edited_by": {
+                    "object": "user",
+                    "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+                  },
+                  "has_children": false,
+                  "archived": false,
+                  "in_trash": false,
+                  "type": "table_row",
+                  "table_row": {
+                    "cells": [
+                      [],
+                      [],
+                      [],
+                      []
+                    ]
+                  }
+                },
+                {
+                  "object": "block",
+                  "id": "1bbd9eed-7ec6-808a-8f37-c30702be8f85",
+                  "parent": {
+                    "type": "block_id",
+                    "block_id": "1bbd9eed-7ec6-8069-92cc-e04a16f94aa9"
+                  },
+                  "created_time": "2025-03-19T03:14:00.000Z",
+                  "last_edited_time": "2025-03-19T03:14:00.000Z",
+                  "created_by": {
+                    "object": "user",
+                    "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+                  },
+                  "last_edited_by": {
+                    "object": "user",
+                    "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+                  },
+                  "has_children": false,
+                  "archived": false,
+                  "in_trash": false,
+                  "type": "table_row",
+                  "table_row": {
+                    "cells": [
+                      [],
+                      [],
+                      [],
+                      []
+                    ]
+                  }
+                },
+                {
+                  "object": "block",
+                  "id": "1bbd9eed-7ec6-8061-9310-d3580a026a52",
+                  "parent": {
+                    "type": "block_id",
+                    "block_id": "1bbd9eed-7ec6-8069-92cc-e04a16f94aa9"
+                  },
+                  "created_time": "2025-03-19T03:14:00.000Z",
+                  "last_edited_time": "2025-03-19T03:14:00.000Z",
+                  "created_by": {
+                    "object": "user",
+                    "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+                  },
+                  "last_edited_by": {
+                    "object": "user",
+                    "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+                  },
+                  "has_children": false,
+                  "archived": false,
+                  "in_trash": false,
+                  "type": "table_row",
+                  "table_row": {
+                    "cells": [
+                      [],
+                      [],
+                      [],
+                      []
+                    ]
+                  }
+                },
+                {
+                  "object": "block",
+                  "id": "1bbd9eed-7ec6-807a-8e78-e658231decd8",
+                  "parent": {
+                    "type": "block_id",
+                    "block_id": "1bbd9eed-7ec6-8069-92cc-e04a16f94aa9"
+                  },
+                  "created_time": "2025-03-19T03:14:00.000Z",
+                  "last_edited_time": "2025-03-19T03:14:00.000Z",
+                  "created_by": {
+                    "object": "user",
+                    "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+                  },
+                  "last_edited_by": {
+                    "object": "user",
+                    "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+                  },
+                  "has_children": false,
+                  "archived": false,
+                  "in_trash": false,
+                  "type": "table_row",
+                  "table_row": {
+                    "cells": [
+                      [],
+                      [],
+                      [],
+                      []
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "object": "block",
+      "id": "1bad9eed-7ec6-80c7-999e-ecc33986c311",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1afd9eed-7ec6-8041-acc7-f395d78b3126"
+      },
+      "created_time": "2025-03-18T08:24:00.000Z",
+      "last_edited_time": "2025-03-18T08:24:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_2",
+      "heading_2": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "vSphere",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "vSphere",
+            "href": null
+          }
+        ],
+        "is_toggleable": true,
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "1bad9eed-7ec6-800d-a5c0-d6826acea2c8",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1afd9eed-7ec6-8041-acc7-f395d78b3126"
+      },
+      "created_time": "2025-03-18T08:24:00.000Z",
+      "last_edited_time": "2025-03-18T08:24:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_2",
+      "heading_2": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Workspace ONE",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Workspace ONE",
+            "href": null
+          }
+        ],
+        "is_toggleable": true,
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "1bad9eed-7ec6-801a-add7-f4caa46c1c21",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1afd9eed-7ec6-8041-acc7-f395d78b3126"
+      },
+      "created_time": "2025-03-18T08:24:00.000Z",
+      "last_edited_time": "2025-03-18T08:24:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      }
+    }
+  ]
+}

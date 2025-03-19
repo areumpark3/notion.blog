@@ -1,0 +1,575 @@
+{
+  "blocks": [
+    {
+      "object": "block",
+      "id": "1b2d9eed-7ec6-803c-b53a-ed5f16270b15",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1b1d9eed-7ec6-8074-b39c-f659f4a10e8e"
+      },
+      "created_time": "2025-03-10T05:59:00.000Z",
+      "last_edited_time": "2025-03-18T06:33:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "2025.03.10(월)",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "2025.03.10(월)",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "1b2d9eed-7ec6-80e2-8154-e6e03ed87a69",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1b1d9eed-7ec6-8074-b39c-f659f4a10e8e"
+      },
+      "created_time": "2025-03-10T06:00:00.000Z",
+      "last_edited_time": "2025-03-18T06:33:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+      },
+      "has_children": true,
+      "archived": false,
+      "in_trash": false,
+      "type": "callout",
+      "callout": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "문의자",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "문의자",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " : 보안부 김성준 계장 ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " : 보안부 김성준 계장 ",
+            "href": null
+          }
+        ],
+        "icon": {
+          "type": "emoji",
+          "emoji": "✅"
+        },
+        "color": "gray_background"
+      },
+      "children": [
+        {
+          "object": "block",
+          "id": "1b2d9eed-7ec6-80f9-b01d-e8d3bd7be5ec",
+          "parent": {
+            "type": "block_id",
+            "block_id": "1b2d9eed-7ec6-80e2-8154-e6e03ed87a69"
+          },
+          "created_time": "2025-03-10T06:01:00.000Z",
+          "last_edited_time": "2025-03-10T06:29:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "paragraph",
+          "paragraph": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "문의 내용",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": true,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "문의 내용",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": " : 중앙회 vCenter에서 \"하드웨어 개체 상태 오류\" 발생, 원인 파악 요청",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": " : 중앙회 vCenter에서 \"하드웨어 개체 상태 오류\" 발생, 원인 파악 요청",
+                "href": null
+              }
+            ],
+            "color": "default"
+          }
+        },
+        {
+          "object": "block",
+          "id": "1b2d9eed-7ec6-8099-b665-eeedb4e5303c",
+          "parent": {
+            "type": "block_id",
+            "block_id": "1b2d9eed-7ec6-80e2-8154-e6e03ed87a69"
+          },
+          "created_time": "2025-03-10T06:19:00.000Z",
+          "last_edited_time": "2025-03-10T06:47:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "paragraph",
+          "paragraph": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "문의 대상",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": true,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "문의 대상",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": " : 중앙회 운영접속 클러스트 내 호스트, 1대 ",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": " : 중앙회 운영접속 클러스트 내 호스트, 1대 ",
+                "href": null
+              }
+            ],
+            "color": "default"
+          }
+        },
+        {
+          "object": "block",
+          "id": "1b2d9eed-7ec6-8030-8e54-d6f1bef035cb",
+          "parent": {
+            "type": "block_id",
+            "block_id": "1b2d9eed-7ec6-80e2-8154-e6e03ed87a69"
+          },
+          "created_time": "2025-03-10T06:30:00.000Z",
+          "last_edited_time": "2025-03-10T06:36:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "paragraph",
+          "paragraph": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "확인 결과",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": true,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "확인 결과",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": " : iLO > 시스템 정보 확인 시 스토리지 저하 표시 존재, 서버쪽에 확인 요청 필요",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": " : iLO > 시스템 정보 확인 시 스토리지 저하 표시 존재, 서버쪽에 확인 요청 필요",
+                "href": null
+              }
+            ],
+            "color": "default"
+          }
+        }
+      ]
+    },
+    {
+      "object": "block",
+      "id": "1b2d9eed-7ec6-8051-8e29-f2612ab3b992",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1b1d9eed-7ec6-8074-b39c-f659f4a10e8e"
+      },
+      "created_time": "2025-03-10T06:30:00.000Z",
+      "last_edited_time": "2025-03-18T06:33:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+      },
+      "has_children": true,
+      "archived": false,
+      "in_trash": false,
+      "type": "callout",
+      "callout": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "문의자",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "문의자",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " : 보안부 김성준 계장 ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " : 보안부 김성준 계장 ",
+            "href": null
+          }
+        ],
+        "icon": {
+          "type": "emoji",
+          "emoji": "✅"
+        },
+        "color": "gray_background"
+      },
+      "children": [
+        {
+          "object": "block",
+          "id": "1b2d9eed-7ec6-801b-8d7e-f21454db6dd0",
+          "parent": {
+            "type": "block_id",
+            "block_id": "1b2d9eed-7ec6-8051-8e29-f2612ab3b992"
+          },
+          "created_time": "2025-03-10T06:40:00.000Z",
+          "last_edited_time": "2025-03-10T06:40:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "paragraph",
+          "paragraph": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "문의 내용",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": true,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "문의 내용",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": " : VM에 D:₩ 할당 시 Guest OS에서 확인 불가",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": " : VM에 D:₩ 할당 시 Guest OS에서 확인 불가",
+                "href": null
+              }
+            ],
+            "color": "default"
+          }
+        },
+        {
+          "object": "block",
+          "id": "1b2d9eed-7ec6-801d-bed7-c4e03806d997",
+          "parent": {
+            "type": "block_id",
+            "block_id": "1b2d9eed-7ec6-8051-8e29-f2612ab3b992"
+          },
+          "created_time": "2025-03-10T06:37:00.000Z",
+          "last_edited_time": "2025-03-10T06:47:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "paragraph",
+          "paragraph": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "문의 대상",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": true,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "문의 대상",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": " : 은행 vCenter VM, 1대  ",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": " : 은행 vCenter VM, 1대  ",
+                "href": null
+              }
+            ],
+            "color": "default"
+          }
+        },
+        {
+          "object": "block",
+          "id": "1b2d9eed-7ec6-80b6-8a27-d0ef11f3e1da",
+          "parent": {
+            "type": "block_id",
+            "block_id": "1b2d9eed-7ec6-8051-8e29-f2612ab3b992"
+          },
+          "created_time": "2025-03-10T06:30:00.000Z",
+          "last_edited_time": "2025-03-10T06:38:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "paragraph",
+          "paragraph": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "확인 결과",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": true,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "확인 결과",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": " : DA쪽과 연관있을 것으로 보여 DA담당자와 확인할 예정",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": " : DA쪽과 연관있을 것으로 보여 DA담당자와 확인할 예정",
+                "href": null
+              }
+            ],
+            "color": "default"
+          }
+        }
+      ]
+    },
+    {
+      "object": "block",
+      "id": "1bad9eed-7ec6-80c7-b560-f9a6e6bbed19",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1b1d9eed-7ec6-8074-b39c-f659f4a10e8e"
+      },
+      "created_time": "2025-03-18T06:34:00.000Z",
+      "last_edited_time": "2025-03-18T06:34:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      }
+    }
+  ]
+}

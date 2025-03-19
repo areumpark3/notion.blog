@@ -1,6 +1,5 @@
 import post_1b1d9eed7ec68074b39cf659f4a10e8e from '../notion-data/post_1b1d9eed7ec68074b39cf659f4a10e8e.json';
 import post_1b1d9eed7ec6808985d4e0257ea4c2ca from '../notion-data/post_1b1d9eed7ec6808985d4e0257ea4c2ca.json';
-import post_1b1d9eed7ec68039b927c2d14c957fc9 from '../notion-data/post_1b1d9eed7ec68039b927c2d14c957fc9.json';
 import post_1afd9eed7ec68041acc7f395d78b3126 from '../notion-data/post_1afd9eed7ec68041acc7f395d78b3126.json';
 
 const posts = [
@@ -11,24 +10,15 @@ const posts = [
     "date": "2025-03-09",
     "description": "",
     "notionPageId": "1b1d9eed7ec68074b39cf659f4a10e8e",
-    "has_children": true
+    "has_children": false
   },
   {
     "title": "고객사 정보",
     "slug": "post-1b1d9eed7ec6808985d4e0257ea4c2ca",
     "content": post_1b1d9eed7ec6808985d4e0257ea4c2ca,
-    "date": "2025-03-09",
+    "date": "2025-03-18",
     "description": "",
     "notionPageId": "1b1d9eed7ec6808985d4e0257ea4c2ca",
-    "has_children": true
-  },
-  {
-    "title": "최신 뉴스",
-    "slug": "post-1b1d9eed7ec68039b927c2d14c957fc9",
-    "content": post_1b1d9eed7ec68039b927c2d14c957fc9,
-    "date": "2025-03-09",
-    "description": "",
-    "notionPageId": "1b1d9eed7ec68039b927c2d14c957fc9",
     "has_children": false
   },
   {
