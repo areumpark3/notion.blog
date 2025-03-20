@@ -38,7 +38,7 @@
             "block_id": "1bbd9eed-7ec6-8075-b67f-e9327487b12f"
           },
           "created_time": "2025-03-18T08:23:00.000Z",
-          "last_edited_time": "2025-03-19T04:04:00.000Z",
+          "last_edited_time": "2025-03-20T06:25:00.000Z",
           "created_by": {
             "object": "user",
             "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
@@ -65,7 +65,7 @@
                   "strikethrough": false,
                   "underline": false,
                   "code": false,
-                  "color": "default"
+                  "color": "purple"
                 },
                 "plain_text": "Horizon",
                 "href": null
@@ -83,7 +83,7 @@
                 "block_id": "1bad9eed-7ec6-806b-be3a-e3430bc0e0fc"
               },
               "created_time": "2025-03-18T08:26:00.000Z",
-              "last_edited_time": "2025-03-19T03:09:00.000Z",
+              "last_edited_time": "2025-03-20T06:24:00.000Z",
               "created_by": {
                 "object": "user",
                 "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
@@ -101,7 +101,7 @@
                   {
                     "type": "text",
                     "text": {
-                      "content": "[SR 00702370_멤버스, 종료] About VM CBT config_",
+                      "content": "[SR 00702370_멤버스, 종료]\nAbout VM CBT config",
                       "link": null
                     },
                     "annotations": {
@@ -112,7 +112,7 @@
                       "code": false,
                       "color": "default"
                     },
-                    "plain_text": "[SR 00702370_멤버스, 종료] About VM CBT config_",
+                    "plain_text": "[SR 00702370_멤버스, 종료]\nAbout VM CBT config",
                     "href": null
                   }
                 ],
@@ -590,7 +590,7 @@
                 "block_id": "1bad9eed-7ec6-806b-be3a-e3430bc0e0fc"
               },
               "created_time": "2025-03-19T03:01:00.000Z",
-              "last_edited_time": "2025-03-19T03:09:00.000Z",
+              "last_edited_time": "2025-03-20T06:24:00.000Z",
               "created_by": {
                 "object": "user",
                 "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
@@ -608,7 +608,7 @@
                   {
                     "type": "text",
                     "text": {
-                      "content": "[Case 00879354_외주개발자, 종료] Horizon view admin web page is not working",
+                      "content": "[Case 00879354_외주개발자, 종료]\nHorizon view admin web page is not working",
                       "link": null
                     },
                     "annotations": {
@@ -619,7 +619,7 @@
                       "code": false,
                       "color": "default"
                     },
-                    "plain_text": "[Case 00879354_외주개발자, 종료] Horizon view admin web page is not working",
+                    "plain_text": "[Case 00879354_외주개발자, 종료]\nHorizon view admin web page is not working",
                     "href": null
                   }
                 ],
@@ -1091,7 +1091,7 @@
                 "block_id": "1bad9eed-7ec6-806b-be3a-e3430bc0e0fc"
               },
               "created_time": "2025-03-19T03:03:00.000Z",
-              "last_edited_time": "2025-03-19T03:12:00.000Z",
+              "last_edited_time": "2025-03-20T06:24:00.000Z",
               "created_by": {
                 "object": "user",
                 "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
@@ -1109,7 +1109,7 @@
                   {
                     "type": "text",
                     "text": {
-                      "content": "[Case 00885514_보안부, 종료] About vCenter Server Web Client Access Control",
+                      "content": "[Case 00885514_보안부, 종료]\nAbout vCenter Server Web Client Access Control",
                       "link": null
                     },
                     "annotations": {
@@ -1120,7 +1120,7 @@
                       "code": false,
                       "color": "default"
                     },
-                    "plain_text": "[Case 00885514_보안부, 종료] About vCenter Server Web Client Access Control",
+                    "plain_text": "[Case 00885514_보안부, 종료]\nAbout vCenter Server Web Client Access Control",
                     "href": null
                   }
                 ],
@@ -1923,7 +1923,7 @@
                 "block_id": "1bad9eed-7ec6-806b-be3a-e3430bc0e0fc"
               },
               "created_time": "2025-03-19T03:15:00.000Z",
-              "last_edited_time": "2025-03-19T03:15:00.000Z",
+              "last_edited_time": "2025-03-20T06:23:00.000Z",
               "created_by": {
                 "object": "user",
                 "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
@@ -1941,7 +1941,7 @@
                   {
                     "type": "text",
                     "text": {
-                      "content": "[Case 00891465_보안부, 종료] USB Redirection Policy Application Issue in VMware Horizon VDI",
+                      "content": "[Case 00891465_보안부, 종료]\nUSB Redirection Policy Application Issue in VMware Horizon VDI",
                       "link": null
                     },
                     "annotations": {
@@ -1952,7 +1952,7 @@
                       "code": false,
                       "color": "default"
                     },
-                    "plain_text": "[Case 00891465_보안부, 종료] USB Redirection Policy Application Issue in VMware Horizon VDI",
+                    "plain_text": "[Case 00891465_보안부, 종료]\nUSB Redirection Policy Application Issue in VMware Horizon VDI",
                     "href": null
                   }
                 ],
@@ -3210,7 +3210,7 @@
                 "block_id": "1bad9eed-7ec6-806b-be3a-e3430bc0e0fc"
               },
               "created_time": "2025-03-19T03:14:00.000Z",
-              "last_edited_time": "2025-03-19T03:16:00.000Z",
+              "last_edited_time": "2025-03-20T06:24:00.000Z",
               "created_by": {
                 "object": "user",
                 "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
@@ -3228,7 +3228,7 @@
                   {
                     "type": "text",
                     "text": {
-                      "content": "[Case 01027677_스마트워크, 종료] Regarding Horizon protocol change",
+                      "content": "[Case 01027677_스마트워크, 종료]\nRegarding Horizon protocol change",
                       "link": null
                     },
                     "annotations": {
@@ -3239,7 +3239,7 @@
                       "code": false,
                       "color": "default"
                     },
-                    "plain_text": "[Case 01027677_스마트워크, 종료] Regarding Horizon protocol change",
+                    "plain_text": "[Case 01027677_스마트워크, 종료]\nRegarding Horizon protocol change",
                     "href": null
                   }
                 ],
@@ -3770,7 +3770,7 @@
             "block_id": "1bbd9eed-7ec6-80f3-a418-d3b43f539571"
           },
           "created_time": "2025-03-18T08:24:00.000Z",
-          "last_edited_time": "2025-03-19T04:13:00.000Z",
+          "last_edited_time": "2025-03-20T06:27:00.000Z",
           "created_by": {
             "object": "user",
             "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
@@ -3779,7 +3779,7 @@
             "object": "user",
             "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
           },
-          "has_children": false,
+          "has_children": true,
           "archived": false,
           "in_trash": false,
           "type": "heading_2",
@@ -3797,7 +3797,7 @@
                   "strikethrough": false,
                   "underline": false,
                   "code": false,
-                  "color": "default"
+                  "color": "red"
                 },
                 "plain_text": "vSphere",
                 "href": null
@@ -3805,7 +3805,1592 @@
             ],
             "is_toggleable": true,
             "color": "default"
-          }
+          },
+          "children": [
+            {
+              "object": "block",
+              "id": "1bcd9eed-7ec6-8082-bebf-d9f519540ebc",
+              "parent": {
+                "type": "block_id",
+                "block_id": "1bad9eed-7ec6-80c7-999e-ecc33986c311"
+              },
+              "created_time": "2025-03-20T06:25:00.000Z",
+              "last_edited_time": "2025-03-20T06:36:00.000Z",
+              "created_by": {
+                "object": "user",
+                "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+              },
+              "last_edited_by": {
+                "object": "user",
+                "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+              },
+              "has_children": true,
+              "archived": false,
+              "in_trash": false,
+              "type": "heading_3",
+              "heading_3": {
+                "rich_text": [
+                  {
+                    "type": "text",
+                    "text": {
+                      "content": "[SR 24506156503_고객행복, 종료]\nVM 프리징 증상",
+                      "link": null
+                    },
+                    "annotations": {
+                      "bold": false,
+                      "italic": false,
+                      "strikethrough": false,
+                      "underline": false,
+                      "code": false,
+                      "color": "default"
+                    },
+                    "plain_text": "[SR 24506156503_고객행복, 종료]\nVM 프리징 증상",
+                    "href": null
+                  }
+                ],
+                "is_toggleable": true,
+                "color": "default"
+              },
+              "children": [
+                {
+                  "object": "block",
+                  "id": "1bcd9eed-7ec6-808d-bdd3-ec5d14a39954",
+                  "parent": {
+                    "type": "block_id",
+                    "block_id": "1bcd9eed-7ec6-8082-bebf-d9f519540ebc"
+                  },
+                  "created_time": "2025-03-20T06:26:00.000Z",
+                  "last_edited_time": "2025-03-20T06:43:00.000Z",
+                  "created_by": {
+                    "object": "user",
+                    "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+                  },
+                  "last_edited_by": {
+                    "object": "user",
+                    "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+                  },
+                  "has_children": true,
+                  "archived": false,
+                  "in_trash": false,
+                  "type": "table",
+                  "table": {
+                    "table_width": 4,
+                    "has_column_header": false,
+                    "has_row_header": false
+                  },
+                  "children": [
+                    {
+                      "object": "block",
+                      "id": "1bcd9eed-7ec6-808c-8896-ead41686ca5f",
+                      "parent": {
+                        "type": "block_id",
+                        "block_id": "1bcd9eed-7ec6-808d-bdd3-ec5d14a39954"
+                      },
+                      "created_time": "2025-03-20T06:26:00.000Z",
+                      "last_edited_time": "2025-03-20T06:43:00.000Z",
+                      "created_by": {
+                        "object": "user",
+                        "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+                      },
+                      "last_edited_by": {
+                        "object": "user",
+                        "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+                      },
+                      "has_children": false,
+                      "archived": false,
+                      "in_trash": false,
+                      "type": "table_row",
+                      "table_row": {
+                        "cells": [
+                          [
+                            {
+                              "type": "text",
+                              "text": {
+                                "content": "2024-03-15",
+                                "link": null
+                              },
+                              "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                              },
+                              "plain_text": "2024-03-15",
+                              "href": null
+                            }
+                          ],
+                          [
+                            {
+                              "type": "text",
+                              "text": {
+                                "content": "▶ 문제 증상 요청",
+                                "link": null
+                              },
+                              "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                              },
+                              "plain_text": "▶ 문제 증상 요청",
+                              "href": null
+                            }
+                          ],
+                          [
+                            {
+                              "type": "text",
+                              "text": {
+                                "content": "2024-03-15",
+                                "link": null
+                              },
+                              "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                              },
+                              "plain_text": "2024-03-15",
+                              "href": null
+                            }
+                          ],
+                          [
+                            {
+                              "type": "text",
+                              "text": {
+                                "content": "▶ 문제 증상 회신\n<발생 증상>\n1. VM 사용간 5~10초간 프리징 현상\n<버전 정보>\n1. Window OS  22H2 OS Build 19045 2364.\n2. Horizon Version  8.7.20649599\n3. Vcenter  7.0.3 22357613\n4. Esxi 7.0 U3 19193900\n5. Date Entered 3/15/2024\n6. Support Request ID 24506156503\n7. Preferred Contact Method Email",
+                                "link": null
+                              },
+                              "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                              },
+                              "plain_text": "▶ 문제 증상 회신\n<발생 증상>\n1. VM 사용간 5~10초간 프리징 현상\n<버전 정보>\n1. Window OS  22H2 OS Build 19045 2364.\n2. Horizon Version  8.7.20649599\n3. Vcenter  7.0.3 22357613\n4. Esxi 7.0 U3 19193900\n5. Date Entered 3/15/2024\n6. Support Request ID 24506156503\n7. Preferred Contact Method Email",
+                              "href": null
+                            }
+                          ]
+                        ]
+                      }
+                    },
+                    {
+                      "object": "block",
+                      "id": "1bcd9eed-7ec6-805b-a8dd-fd99ed9a7f89",
+                      "parent": {
+                        "type": "block_id",
+                        "block_id": "1bcd9eed-7ec6-808d-bdd3-ec5d14a39954"
+                      },
+                      "created_time": "2025-03-20T06:26:00.000Z",
+                      "last_edited_time": "2025-03-20T06:54:00.000Z",
+                      "created_by": {
+                        "object": "user",
+                        "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+                      },
+                      "last_edited_by": {
+                        "object": "user",
+                        "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+                      },
+                      "has_children": false,
+                      "archived": false,
+                      "in_trash": false,
+                      "type": "table_row",
+                      "table_row": {
+                        "cells": [
+                          [
+                            {
+                              "type": "text",
+                              "text": {
+                                "content": "2024-03-15",
+                                "link": null
+                              },
+                              "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                              },
+                              "plain_text": "2024-03-15",
+                              "href": null
+                            }
+                          ],
+                          [
+                            {
+                              "type": "text",
+                              "text": {
+                                "content": "▶ 정보 요청\n1. 장애 증상\n2. 장애발생 시각\n3. 반복/주기적인 장애발생 여부\n4. 장애발생 전/최근 수행작업\n5. 장애발생 후 정상회복까지의 조치작업\n6. 장애발생 HOST/가상머신 이름\n7. 분석에 도움이 될 만한 특이 사항이나 캡처화면\n▶ 참고 사항\n- vm-support 명령어를 이용한 esx/esxi 로그 수집 방법 : ",
+                                "link": null
+                              },
+                              "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                              },
+                              "plain_text": "▶ 정보 요청\n1. 장애 증상\n2. 장애발생 시각\n3. 반복/주기적인 장애발생 여부\n4. 장애발생 전/최근 수행작업\n5. 장애발생 후 정상회복까지의 조치작업\n6. 장애발생 HOST/가상머신 이름\n7. 분석에 도움이 될 만한 특이 사항이나 캡처화면\n▶ 참고 사항\n- vm-support 명령어를 이용한 esx/esxi 로그 수집 방법 : ",
+                              "href": null
+                            },
+                            {
+                              "type": "text",
+                              "text": {
+                                "content": "http://kb.vmware.com/kb/1010705",
+                                "link": {
+                                  "url": "http://kb.vmware.com/kb/1010705"
+                                }
+                              },
+                              "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                              },
+                              "plain_text": "http://kb.vmware.com/kb/1010705",
+                              "href": "http://kb.vmware.com/kb/1010705"
+                            },
+                            {
+                              "type": "text",
+                              "text": {
+                                "content": "\n- vCenter Server 로그 수집 방법 : ",
+                                "link": null
+                              },
+                              "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                              },
+                              "plain_text": "\n- vCenter Server 로그 수집 방법 : ",
+                              "href": null
+                            },
+                            {
+                              "type": "text",
+                              "text": {
+                                "content": "http://kb.vmware.com/kb/1011641",
+                                "link": {
+                                  "url": "http://kb.vmware.com/kb/1011641"
+                                }
+                              },
+                              "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                              },
+                              "plain_text": "http://kb.vmware.com/kb/1011641",
+                              "href": "http://kb.vmware.com/kb/1011641"
+                            },
+                            {
+                              "type": "text",
+                              "text": {
+                                "content": "\n- vm-support 명령어를 이용한 esx/esxi 성능 로그 수집 방법 : ",
+                                "link": null
+                              },
+                              "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                              },
+                              "plain_text": "\n- vm-support 명령어를 이용한 esx/esxi 성능 로그 수집 방법 : ",
+                              "href": null
+                            },
+                            {
+                              "type": "text",
+                              "text": {
+                                "content": "http://kb.vmware.com/kb/1967",
+                                "link": {
+                                  "url": "http://kb.vmware.com/kb/1967"
+                                }
+                              },
+                              "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                              },
+                              "plain_text": "http://kb.vmware.com/kb/1967",
+                              "href": "http://kb.vmware.com/kb/1967"
+                            },
+                            {
+                              "type": "text",
+                              "text": {
+                                "content": "\n예) vm-support -p -d 1800 -i 10 (성능 로그는 이슈가 발생하고 있는 동안 수집 필요)\n- VMware 전체 제품에 대한 로그 수집 방법 : ",
+                                "link": null
+                              },
+                              "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                              },
+                              "plain_text": "\n예) vm-support -p -d 1800 -i 10 (성능 로그는 이슈가 발생하고 있는 동안 수집 필요)\n- VMware 전체 제품에 대한 로그 수집 방법 : ",
+                              "href": null
+                            },
+                            {
+                              "type": "text",
+                              "text": {
+                                "content": "http://kb.vmware.com/kb/1008524",
+                                "link": {
+                                  "url": "http://kb.vmware.com/kb/1008524"
+                                }
+                              },
+                              "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                              },
+                              "plain_text": "http://kb.vmware.com/kb/1008524",
+                              "href": "http://kb.vmware.com/kb/1008524"
+                            }
+                          ],
+                          [
+                            {
+                              "type": "text",
+                              "text": {
+                                "content": "2024-03-25",
+                                "link": null
+                              },
+                              "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                              },
+                              "plain_text": "2024-03-25",
+                              "href": null
+                            }
+                          ],
+                          [
+                            {
+                              "type": "text",
+                              "text": {
+                                "content": "▶ SR 종료 요청\n로그 반출 지연으로 케이스 보관 처리 요청, 반출 시 재오픈 예정",
+                                "link": null
+                              },
+                              "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                              },
+                              "plain_text": "▶ SR 종료 요청\n로그 반출 지연으로 케이스 보관 처리 요청, 반출 시 재오픈 예정",
+                              "href": null
+                            }
+                          ]
+                        ]
+                      }
+                    },
+                    {
+                      "object": "block",
+                      "id": "1bcd9eed-7ec6-804b-b797-ce9f737ac3eb",
+                      "parent": {
+                        "type": "block_id",
+                        "block_id": "1bcd9eed-7ec6-808d-bdd3-ec5d14a39954"
+                      },
+                      "created_time": "2025-03-20T06:26:00.000Z",
+                      "last_edited_time": "2025-03-20T06:54:00.000Z",
+                      "created_by": {
+                        "object": "user",
+                        "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+                      },
+                      "last_edited_by": {
+                        "object": "user",
+                        "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+                      },
+                      "has_children": false,
+                      "archived": false,
+                      "in_trash": false,
+                      "type": "table_row",
+                      "table_row": {
+                        "cells": [
+                          [],
+                          [],
+                          [
+                            {
+                              "type": "text",
+                              "text": {
+                                "content": "2024-04-08",
+                                "link": null
+                              },
+                              "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                              },
+                              "plain_text": "2024-04-08",
+                              "href": null
+                            }
+                          ],
+                          [
+                            {
+                              "type": "text",
+                              "text": {
+                                "content": "▶ SR 재오픈\n<발생 증상>\n1. Guest OS 내에서 문서 작업 등 진행 시 약 10초 멈춤 현상 발생 (상시 발생)\n2. Vcenter Server Build - 7.0.3 22357613\n3. ESXi Host Build - 7.0 U3 19193900\n4. 2개로 구성된 vCenter(개발용도, 운영용도) 모두 동일 증상 발생 중\n▶ 관련 로그 전달\n1. 개발용도 vCenter와 ESXi Host Log File명\n- 문제 발생 VM : YS2-W10-010\n- esx-VCTBKDEV03-2024-03-18--01.23-3803821.tgz\n- vc-YS2-VC01.ys2.nonghyup.com-2024-03-18--10.19-52347.tgz\n2. 운영용도 vCenter와 ESXi Host Log File명\n- 문제 발생 VM : ACS-W10-005\n- esx-VCTBKOP02-2024-03-18--01.26-3766679.tgz\n- vc-ACS-VC01.acs.nonghyup.com-2024-03-18--10.20-57011.tgz",
+                                "link": null
+                              },
+                              "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                              },
+                              "plain_text": "▶ SR 재오픈\n<발생 증상>\n1. Guest OS 내에서 문서 작업 등 진행 시 약 10초 멈춤 현상 발생 (상시 발생)\n2. Vcenter Server Build - 7.0.3 22357613\n3. ESXi Host Build - 7.0 U3 19193900\n4. 2개로 구성된 vCenter(개발용도, 운영용도) 모두 동일 증상 발생 중\n▶ 관련 로그 전달\n1. 개발용도 vCenter와 ESXi Host Log File명\n- 문제 발생 VM : YS2-W10-010\n- esx-VCTBKDEV03-2024-03-18--01.23-3803821.tgz\n- vc-YS2-VC01.ys2.nonghyup.com-2024-03-18--10.19-52347.tgz\n2. 운영용도 vCenter와 ESXi Host Log File명\n- 문제 발생 VM : ACS-W10-005\n- esx-VCTBKOP02-2024-03-18--01.26-3766679.tgz\n- vc-ACS-VC01.acs.nonghyup.com-2024-03-18--10.20-57011.tgz",
+                              "href": null
+                            }
+                          ]
+                        ]
+                      }
+                    },
+                    {
+                      "object": "block",
+                      "id": "1bcd9eed-7ec6-80cf-84de-fb8cf7ab279b",
+                      "parent": {
+                        "type": "block_id",
+                        "block_id": "1bcd9eed-7ec6-808d-bdd3-ec5d14a39954"
+                      },
+                      "created_time": "2025-03-20T06:43:00.000Z",
+                      "last_edited_time": "2025-03-20T06:54:00.000Z",
+                      "created_by": {
+                        "object": "user",
+                        "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+                      },
+                      "last_edited_by": {
+                        "object": "user",
+                        "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+                      },
+                      "has_children": false,
+                      "archived": false,
+                      "in_trash": false,
+                      "type": "table_row",
+                      "table_row": {
+                        "cells": [
+                          [
+                            {
+                              "type": "text",
+                              "text": {
+                                "content": "2024-04-16",
+                                "link": null
+                              },
+                              "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                              },
+                              "plain_text": "2024-04-16",
+                              "href": null
+                            }
+                          ],
+                          [
+                            {
+                              "type": "text",
+                              "text": {
+                                "content": "▶ 추가 정보 요청\n1. 반출된 서포츠 번들 상으론 원인 분석 어려움\n2. 10초 지연 확인 테스트 진행 요청 (호스트, 테스트 일시 기재 필요)",
+                                "link": null
+                              },
+                              "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                              },
+                              "plain_text": "▶ 추가 정보 요청\n1. 반출된 서포츠 번들 상으론 원인 분석 어려움\n2. 10초 지연 확인 테스트 진행 요청 (호스트, 테스트 일시 기재 필요)",
+                              "href": null
+                            }
+                          ],
+                          [
+                            {
+                              "type": "text",
+                              "text": {
+                                "content": "2024-04-17",
+                                "link": null
+                              },
+                              "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                              },
+                              "plain_text": "2024-04-17",
+                              "href": null
+                            }
+                          ],
+                          [
+                            {
+                              "type": "text",
+                              "text": {
+                                "content": "▶ 내용 답변\n1. 테스트 진행되는 동안 반출된 로그의 AM 10~11:00 시간대 분석 요청",
+                                "link": null
+                              },
+                              "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                              },
+                              "plain_text": "▶ 내용 답변\n1. 테스트 진행되는 동안 반출된 로그의 AM 10~11:00 시간대 분석 요청",
+                              "href": null
+                            }
+                          ]
+                        ]
+                      }
+                    },
+                    {
+                      "object": "block",
+                      "id": "1bcd9eed-7ec6-8017-a761-ef1489acd38e",
+                      "parent": {
+                        "type": "block_id",
+                        "block_id": "1bcd9eed-7ec6-808d-bdd3-ec5d14a39954"
+                      },
+                      "created_time": "2025-03-20T06:43:00.000Z",
+                      "last_edited_time": "2025-03-20T06:55:00.000Z",
+                      "created_by": {
+                        "object": "user",
+                        "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+                      },
+                      "last_edited_by": {
+                        "object": "user",
+                        "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+                      },
+                      "has_children": false,
+                      "archived": false,
+                      "in_trash": false,
+                      "type": "table_row",
+                      "table_row": {
+                        "cells": [
+                          [
+                            {
+                              "type": "text",
+                              "text": {
+                                "content": "2024-04-18",
+                                "link": null
+                              },
+                              "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                              },
+                              "plain_text": "2024-04-18",
+                              "href": null
+                            }
+                          ],
+                          [
+                            {
+                              "type": "text",
+                              "text": {
+                                "content": "▶ 내용 답변\n1. 제시된 이슈시간의 범위(1시간)가 발생 양상(10초)과 차이가 있어 분석 어려움\n2. 로그에는 특정 VM의 지연과 특정할 만한 사항은 없음",
+                                "link": null
+                              },
+                              "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                              },
+                              "plain_text": "▶ 내용 답변\n1. 제시된 이슈시간의 범위(1시간)가 발생 양상(10초)과 차이가 있어 분석 어려움\n2. 로그에는 특정 VM의 지연과 특정할 만한 사항은 없음",
+                              "href": null
+                            }
+                          ],
+                          [
+                            {
+                              "type": "text",
+                              "text": {
+                                "content": "2024-04-22",
+                                "link": null
+                              },
+                              "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                              },
+                              "plain_text": "2024-04-22",
+                              "href": null
+                            }
+                          ],
+                          [
+                            {
+                              "type": "text",
+                              "text": {
+                                "content": "▶ 관련 로그 전달\n증상 발생 일시 : 2024.04.22 08:58:00 ~ 08:59:00 사이\nVM Name : YS2-W10-035\nESXi Host Name : VCTBKDEV04\n재부팅 시간 : 08:59:05",
+                                "link": null
+                              },
+                              "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                              },
+                              "plain_text": "▶ 관련 로그 전달\n증상 발생 일시 : 2024.04.22 08:58:00 ~ 08:59:00 사이\nVM Name : YS2-W10-035\nESXi Host Name : VCTBKDEV04\n재부팅 시간 : 08:59:05",
+                              "href": null
+                            }
+                          ]
+                        ]
+                      }
+                    },
+                    {
+                      "object": "block",
+                      "id": "1bcd9eed-7ec6-8083-b27f-c0c0b4df4173",
+                      "parent": {
+                        "type": "block_id",
+                        "block_id": "1bcd9eed-7ec6-808d-bdd3-ec5d14a39954"
+                      },
+                      "created_time": "2025-03-20T06:43:00.000Z",
+                      "last_edited_time": "2025-03-20T06:55:00.000Z",
+                      "created_by": {
+                        "object": "user",
+                        "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+                      },
+                      "last_edited_by": {
+                        "object": "user",
+                        "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+                      },
+                      "has_children": false,
+                      "archived": false,
+                      "in_trash": false,
+                      "type": "table_row",
+                      "table_row": {
+                        "cells": [
+                          [
+                            {
+                              "type": "text",
+                              "text": {
+                                "content": "2024-04-29",
+                                "link": null
+                              },
+                              "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                              },
+                              "plain_text": "2024-04-29",
+                              "href": null
+                            }
+                          ],
+                          [
+                            {
+                              "type": "text",
+                              "text": {
+                                "content": "▶ 추가 정보 요청\n1. vmx 로그 상 VM YS2-W10-035 의 강제 재부팅 (hard reset) 기록 확인됨\n2. 위 기록이 재부팅 발생 시간 (KST 2024-04-22T08:59:05)과 다름\n3. 추가 분석 및 이슈 범위 파악을 위한 추가 정보 요청\n1) 언급하신 일시 hang 이 발생 전 VM 재기동을 진행했는지?\n2) 해당 hang 증상이 발생하는 클라이언트 환경이 어딘지? (Horizon Client, RDP, vSphere webconsole)",
+                                "link": null
+                              },
+                              "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                              },
+                              "plain_text": "▶ 추가 정보 요청\n1. vmx 로그 상 VM YS2-W10-035 의 강제 재부팅 (hard reset) 기록 확인됨\n2. 위 기록이 재부팅 발생 시간 (KST 2024-04-22T08:59:05)과 다름\n3. 추가 분석 및 이슈 범위 파악을 위한 추가 정보 요청\n1) 언급하신 일시 hang 이 발생 전 VM 재기동을 진행했는지?\n2) 해당 hang 증상이 발생하는 클라이언트 환경이 어딘지? (Horizon Client, RDP, vSphere webconsole)",
+                              "href": null
+                            }
+                          ],
+                          [
+                            {
+                              "type": "text",
+                              "text": {
+                                "content": "2024-04-29",
+                                "link": null
+                              },
+                              "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                              },
+                              "plain_text": "2024-04-29",
+                              "href": null
+                            }
+                          ],
+                          [
+                            {
+                              "type": "text",
+                              "text": {
+                                "content": "▶ 내용 답변\n1) 문제 발생 당일 증상 발생 후 강제 재부팅 진행함\n2) 사용자는 zero client로 접속",
+                                "link": null
+                              },
+                              "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                              },
+                              "plain_text": "▶ 내용 답변\n1) 문제 발생 당일 증상 발생 후 강제 재부팅 진행함\n2) 사용자는 zero client로 접속",
+                              "href": null
+                            }
+                          ]
+                        ]
+                      }
+                    },
+                    {
+                      "object": "block",
+                      "id": "1bcd9eed-7ec6-804e-a2b6-fe877a77090b",
+                      "parent": {
+                        "type": "block_id",
+                        "block_id": "1bcd9eed-7ec6-808d-bdd3-ec5d14a39954"
+                      },
+                      "created_time": "2025-03-20T06:43:00.000Z",
+                      "last_edited_time": "2025-03-20T06:55:00.000Z",
+                      "created_by": {
+                        "object": "user",
+                        "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+                      },
+                      "last_edited_by": {
+                        "object": "user",
+                        "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+                      },
+                      "has_children": false,
+                      "archived": false,
+                      "in_trash": false,
+                      "type": "table_row",
+                      "table_row": {
+                        "cells": [
+                          [
+                            {
+                              "type": "text",
+                              "text": {
+                                "content": "2024-05-07",
+                                "link": null
+                              },
+                              "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                              },
+                              "plain_text": "2024-05-07",
+                              "href": null
+                            }
+                          ],
+                          [
+                            {
+                              "type": "text",
+                              "text": {
+                                "content": "▶ SR 종료\n1. 제공된 번들 상으론 증상 관련 특이사항이 확인되지 않음\n2. 추가 환경에서 테스트를 통한 스코핑 진행이 필요하다 판단되어 SR 종료",
+                                "link": null
+                              },
+                              "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                              },
+                              "plain_text": "▶ SR 종료\n1. 제공된 번들 상으론 증상 관련 특이사항이 확인되지 않음\n2. 추가 환경에서 테스트를 통한 스코핑 진행이 필요하다 판단되어 SR 종료",
+                              "href": null
+                            }
+                          ],
+                          [],
+                          []
+                        ]
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "object": "block",
+              "id": "1bcd9eed-7ec6-8007-ae9f-c2079d672fe6",
+              "parent": {
+                "type": "block_id",
+                "block_id": "1bad9eed-7ec6-80c7-999e-ecc33986c311"
+              },
+              "created_time": "2025-03-20T06:27:00.000Z",
+              "last_edited_time": "2025-03-20T06:36:00.000Z",
+              "created_by": {
+                "object": "user",
+                "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+              },
+              "last_edited_by": {
+                "object": "user",
+                "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+              },
+              "has_children": true,
+              "archived": false,
+              "in_trash": false,
+              "type": "heading_3",
+              "heading_3": {
+                "rich_text": [
+                  {
+                    "type": "text",
+                    "text": {
+                      "content": "[Case 00928444_멤버스, 종료]\nSolving the root account password reset problem",
+                      "link": null
+                    },
+                    "annotations": {
+                      "bold": false,
+                      "italic": false,
+                      "strikethrough": false,
+                      "underline": false,
+                      "code": false,
+                      "color": "default"
+                    },
+                    "plain_text": "[Case 00928444_멤버스, 종료]\nSolving the root account password reset problem",
+                    "href": null
+                  }
+                ],
+                "is_toggleable": true,
+                "color": "default"
+              },
+              "children": [
+                {
+                  "object": "block",
+                  "id": "1bcd9eed-7ec6-80ef-90ba-fa91c4db0cb9",
+                  "parent": {
+                    "type": "block_id",
+                    "block_id": "1bcd9eed-7ec6-8007-ae9f-c2079d672fe6"
+                  },
+                  "created_time": "2025-03-20T06:29:00.000Z",
+                  "last_edited_time": "2025-03-20T06:29:00.000Z",
+                  "created_by": {
+                    "object": "user",
+                    "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+                  },
+                  "last_edited_by": {
+                    "object": "user",
+                    "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+                  },
+                  "has_children": false,
+                  "archived": false,
+                  "in_trash": false,
+                  "type": "paragraph",
+                  "paragraph": {
+                    "rich_text": [
+                      {
+                        "type": "text",
+                        "text": {
+                          "content": "구분 : VCSA 7.0U3r",
+                          "link": null
+                        },
+                        "annotations": {
+                          "bold": false,
+                          "italic": false,
+                          "strikethrough": false,
+                          "underline": false,
+                          "code": false,
+                          "color": "default"
+                        },
+                        "plain_text": "구분 : VCSA 7.0U3r",
+                        "href": null
+                      }
+                    ],
+                    "color": "default"
+                  }
+                },
+                {
+                  "object": "block",
+                  "id": "1bcd9eed-7ec6-800d-a634-d26cdba5ce25",
+                  "parent": {
+                    "type": "block_id",
+                    "block_id": "1bcd9eed-7ec6-8007-ae9f-c2079d672fe6"
+                  },
+                  "created_time": "2025-03-20T06:27:00.000Z",
+                  "last_edited_time": "2025-03-20T06:27:00.000Z",
+                  "created_by": {
+                    "object": "user",
+                    "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+                  },
+                  "last_edited_by": {
+                    "object": "user",
+                    "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+                  },
+                  "has_children": true,
+                  "archived": false,
+                  "in_trash": false,
+                  "type": "table",
+                  "table": {
+                    "table_width": 4,
+                    "has_column_header": false,
+                    "has_row_header": false
+                  },
+                  "children": [
+                    {
+                      "object": "block",
+                      "id": "1bcd9eed-7ec6-80a9-90a3-c3290524cc32",
+                      "parent": {
+                        "type": "block_id",
+                        "block_id": "1bcd9eed-7ec6-800d-a634-d26cdba5ce25"
+                      },
+                      "created_time": "2025-03-20T06:27:00.000Z",
+                      "last_edited_time": "2025-03-20T06:27:00.000Z",
+                      "created_by": {
+                        "object": "user",
+                        "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+                      },
+                      "last_edited_by": {
+                        "object": "user",
+                        "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+                      },
+                      "has_children": false,
+                      "archived": false,
+                      "in_trash": false,
+                      "type": "table_row",
+                      "table_row": {
+                        "cells": [
+                          [
+                            {
+                              "type": "text",
+                              "text": {
+                                "content": "2024-03-15",
+                                "link": null
+                              },
+                              "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                              },
+                              "plain_text": "2024-03-15",
+                              "href": null
+                            }
+                          ],
+                          [],
+                          [
+                            {
+                              "type": "text",
+                              "text": {
+                                "content": "2024-03-15",
+                                "link": null
+                              },
+                              "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                              },
+                              "plain_text": "2024-03-15",
+                              "href": null
+                            }
+                          ],
+                          []
+                        ]
+                      }
+                    },
+                    {
+                      "object": "block",
+                      "id": "1bcd9eed-7ec6-80e0-aadc-f9eee6729ab8",
+                      "parent": {
+                        "type": "block_id",
+                        "block_id": "1bcd9eed-7ec6-800d-a634-d26cdba5ce25"
+                      },
+                      "created_time": "2025-03-20T06:27:00.000Z",
+                      "last_edited_time": "2025-03-20T06:27:00.000Z",
+                      "created_by": {
+                        "object": "user",
+                        "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+                      },
+                      "last_edited_by": {
+                        "object": "user",
+                        "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+                      },
+                      "has_children": false,
+                      "archived": false,
+                      "in_trash": false,
+                      "type": "table_row",
+                      "table_row": {
+                        "cells": [
+                          [],
+                          [],
+                          [],
+                          []
+                        ]
+                      }
+                    },
+                    {
+                      "object": "block",
+                      "id": "1bcd9eed-7ec6-802f-9b88-dd854fb1cb5f",
+                      "parent": {
+                        "type": "block_id",
+                        "block_id": "1bcd9eed-7ec6-800d-a634-d26cdba5ce25"
+                      },
+                      "created_time": "2025-03-20T06:27:00.000Z",
+                      "last_edited_time": "2025-03-20T06:27:00.000Z",
+                      "created_by": {
+                        "object": "user",
+                        "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+                      },
+                      "last_edited_by": {
+                        "object": "user",
+                        "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+                      },
+                      "has_children": false,
+                      "archived": false,
+                      "in_trash": false,
+                      "type": "table_row",
+                      "table_row": {
+                        "cells": [
+                          [],
+                          [],
+                          [],
+                          []
+                        ]
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "object": "block",
+              "id": "1bcd9eed-7ec6-8016-887b-cad783eaf52d",
+              "parent": {
+                "type": "block_id",
+                "block_id": "1bad9eed-7ec6-80c7-999e-ecc33986c311"
+              },
+              "created_time": "2025-03-20T06:27:00.000Z",
+              "last_edited_time": "2025-03-20T06:55:00.000Z",
+              "created_by": {
+                "object": "user",
+                "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+              },
+              "last_edited_by": {
+                "object": "user",
+                "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+              },
+              "has_children": true,
+              "archived": false,
+              "in_trash": false,
+              "type": "heading_3",
+              "heading_3": {
+                "rich_text": [
+                  {
+                    "type": "text",
+                    "text": {
+                      "content": "[Case 00938130_스마트워크, 보류]\nESXi Host PSOD Occurred",
+                      "link": null
+                    },
+                    "annotations": {
+                      "bold": false,
+                      "italic": false,
+                      "strikethrough": false,
+                      "underline": false,
+                      "code": false,
+                      "color": "default"
+                    },
+                    "plain_text": "[Case 00938130_스마트워크, 보류]\nESXi Host PSOD Occurred",
+                    "href": null
+                  }
+                ],
+                "is_toggleable": true,
+                "color": "default"
+              },
+              "children": [
+                {
+                  "object": "block",
+                  "id": "1bcd9eed-7ec6-80a0-b50f-ee891038ef80",
+                  "parent": {
+                    "type": "block_id",
+                    "block_id": "1bcd9eed-7ec6-8016-887b-cad783eaf52d"
+                  },
+                  "created_time": "2025-03-20T06:29:00.000Z",
+                  "last_edited_time": "2025-03-20T06:29:00.000Z",
+                  "created_by": {
+                    "object": "user",
+                    "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+                  },
+                  "last_edited_by": {
+                    "object": "user",
+                    "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+                  },
+                  "has_children": false,
+                  "archived": false,
+                  "in_trash": false,
+                  "type": "paragraph",
+                  "paragraph": {
+                    "rich_text": [
+                      {
+                        "type": "text",
+                        "text": {
+                          "content": "구분 : ESXi 7.0U3p",
+                          "link": null
+                        },
+                        "annotations": {
+                          "bold": false,
+                          "italic": false,
+                          "strikethrough": false,
+                          "underline": false,
+                          "code": false,
+                          "color": "default"
+                        },
+                        "plain_text": "구분 : ESXi 7.0U3p",
+                        "href": null
+                      }
+                    ],
+                    "color": "default"
+                  }
+                },
+                {
+                  "object": "block",
+                  "id": "1bcd9eed-7ec6-8018-8713-ce1692a19619",
+                  "parent": {
+                    "type": "block_id",
+                    "block_id": "1bcd9eed-7ec6-8016-887b-cad783eaf52d"
+                  },
+                  "created_time": "2025-03-20T06:27:00.000Z",
+                  "last_edited_time": "2025-03-20T06:27:00.000Z",
+                  "created_by": {
+                    "object": "user",
+                    "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+                  },
+                  "last_edited_by": {
+                    "object": "user",
+                    "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+                  },
+                  "has_children": true,
+                  "archived": false,
+                  "in_trash": false,
+                  "type": "table",
+                  "table": {
+                    "table_width": 4,
+                    "has_column_header": false,
+                    "has_row_header": false
+                  },
+                  "children": [
+                    {
+                      "object": "block",
+                      "id": "1bcd9eed-7ec6-8038-8abd-e2b9c0c48e55",
+                      "parent": {
+                        "type": "block_id",
+                        "block_id": "1bcd9eed-7ec6-8018-8713-ce1692a19619"
+                      },
+                      "created_time": "2025-03-20T06:27:00.000Z",
+                      "last_edited_time": "2025-03-20T06:27:00.000Z",
+                      "created_by": {
+                        "object": "user",
+                        "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+                      },
+                      "last_edited_by": {
+                        "object": "user",
+                        "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+                      },
+                      "has_children": false,
+                      "archived": false,
+                      "in_trash": false,
+                      "type": "table_row",
+                      "table_row": {
+                        "cells": [
+                          [
+                            {
+                              "type": "text",
+                              "text": {
+                                "content": "2024-03-15",
+                                "link": null
+                              },
+                              "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                              },
+                              "plain_text": "2024-03-15",
+                              "href": null
+                            }
+                          ],
+                          [],
+                          [
+                            {
+                              "type": "text",
+                              "text": {
+                                "content": "2024-03-15",
+                                "link": null
+                              },
+                              "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                              },
+                              "plain_text": "2024-03-15",
+                              "href": null
+                            }
+                          ],
+                          []
+                        ]
+                      }
+                    },
+                    {
+                      "object": "block",
+                      "id": "1bcd9eed-7ec6-80ee-b885-f194509b6c43",
+                      "parent": {
+                        "type": "block_id",
+                        "block_id": "1bcd9eed-7ec6-8018-8713-ce1692a19619"
+                      },
+                      "created_time": "2025-03-20T06:27:00.000Z",
+                      "last_edited_time": "2025-03-20T06:27:00.000Z",
+                      "created_by": {
+                        "object": "user",
+                        "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+                      },
+                      "last_edited_by": {
+                        "object": "user",
+                        "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+                      },
+                      "has_children": false,
+                      "archived": false,
+                      "in_trash": false,
+                      "type": "table_row",
+                      "table_row": {
+                        "cells": [
+                          [],
+                          [],
+                          [],
+                          []
+                        ]
+                      }
+                    },
+                    {
+                      "object": "block",
+                      "id": "1bcd9eed-7ec6-80cc-8db1-e5f24295b110",
+                      "parent": {
+                        "type": "block_id",
+                        "block_id": "1bcd9eed-7ec6-8018-8713-ce1692a19619"
+                      },
+                      "created_time": "2025-03-20T06:27:00.000Z",
+                      "last_edited_time": "2025-03-20T06:27:00.000Z",
+                      "created_by": {
+                        "object": "user",
+                        "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+                      },
+                      "last_edited_by": {
+                        "object": "user",
+                        "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+                      },
+                      "has_children": false,
+                      "archived": false,
+                      "in_trash": false,
+                      "type": "table_row",
+                      "table_row": {
+                        "cells": [
+                          [],
+                          [],
+                          [],
+                          []
+                        ]
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "object": "block",
+              "id": "1bcd9eed-7ec6-8079-a3e4-fdd9d9ce68c1",
+              "parent": {
+                "type": "block_id",
+                "block_id": "1bad9eed-7ec6-80c7-999e-ecc33986c311"
+              },
+              "created_time": "2025-03-20T06:27:00.000Z",
+              "last_edited_time": "2025-03-20T06:37:00.000Z",
+              "created_by": {
+                "object": "user",
+                "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+              },
+              "last_edited_by": {
+                "object": "user",
+                "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+              },
+              "has_children": true,
+              "archived": false,
+              "in_trash": false,
+              "type": "heading_3",
+              "heading_3": {
+                "rich_text": [
+                  {
+                    "type": "text",
+                    "text": {
+                      "content": "[Case 00940797_스마트워크, 종료]\nRegarding setting handshakeTimeoutMs",
+                      "link": null
+                    },
+                    "annotations": {
+                      "bold": false,
+                      "italic": false,
+                      "strikethrough": false,
+                      "underline": false,
+                      "code": false,
+                      "color": "default"
+                    },
+                    "plain_text": "[Case 00940797_스마트워크, 종료]\nRegarding setting handshakeTimeoutMs",
+                    "href": null
+                  }
+                ],
+                "is_toggleable": true,
+                "color": "default"
+              },
+              "children": [
+                {
+                  "object": "block",
+                  "id": "1bcd9eed-7ec6-8021-acea-d0c8a2554f72",
+                  "parent": {
+                    "type": "block_id",
+                    "block_id": "1bcd9eed-7ec6-8079-a3e4-fdd9d9ce68c1"
+                  },
+                  "created_time": "2025-03-20T06:29:00.000Z",
+                  "last_edited_time": "2025-03-20T06:29:00.000Z",
+                  "created_by": {
+                    "object": "user",
+                    "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+                  },
+                  "last_edited_by": {
+                    "object": "user",
+                    "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+                  },
+                  "has_children": false,
+                  "archived": false,
+                  "in_trash": false,
+                  "type": "paragraph",
+                  "paragraph": {
+                    "rich_text": [
+                      {
+                        "type": "text",
+                        "text": {
+                          "content": "구분 : ESXi 7.0U3p",
+                          "link": null
+                        },
+                        "annotations": {
+                          "bold": false,
+                          "italic": false,
+                          "strikethrough": false,
+                          "underline": false,
+                          "code": false,
+                          "color": "default"
+                        },
+                        "plain_text": "구분 : ESXi 7.0U3p",
+                        "href": null
+                      }
+                    ],
+                    "color": "default"
+                  }
+                },
+                {
+                  "object": "block",
+                  "id": "1bcd9eed-7ec6-804c-afdc-e0afb032ccd3",
+                  "parent": {
+                    "type": "block_id",
+                    "block_id": "1bcd9eed-7ec6-8079-a3e4-fdd9d9ce68c1"
+                  },
+                  "created_time": "2025-03-20T06:27:00.000Z",
+                  "last_edited_time": "2025-03-20T06:27:00.000Z",
+                  "created_by": {
+                    "object": "user",
+                    "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+                  },
+                  "last_edited_by": {
+                    "object": "user",
+                    "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+                  },
+                  "has_children": true,
+                  "archived": false,
+                  "in_trash": false,
+                  "type": "table",
+                  "table": {
+                    "table_width": 4,
+                    "has_column_header": false,
+                    "has_row_header": false
+                  },
+                  "children": [
+                    {
+                      "object": "block",
+                      "id": "1bcd9eed-7ec6-80cd-bf0e-ed5217dbbcd3",
+                      "parent": {
+                        "type": "block_id",
+                        "block_id": "1bcd9eed-7ec6-804c-afdc-e0afb032ccd3"
+                      },
+                      "created_time": "2025-03-20T06:27:00.000Z",
+                      "last_edited_time": "2025-03-20T06:27:00.000Z",
+                      "created_by": {
+                        "object": "user",
+                        "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+                      },
+                      "last_edited_by": {
+                        "object": "user",
+                        "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+                      },
+                      "has_children": false,
+                      "archived": false,
+                      "in_trash": false,
+                      "type": "table_row",
+                      "table_row": {
+                        "cells": [
+                          [
+                            {
+                              "type": "text",
+                              "text": {
+                                "content": "2024-03-15",
+                                "link": null
+                              },
+                              "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                              },
+                              "plain_text": "2024-03-15",
+                              "href": null
+                            }
+                          ],
+                          [],
+                          [
+                            {
+                              "type": "text",
+                              "text": {
+                                "content": "2024-03-15",
+                                "link": null
+                              },
+                              "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                              },
+                              "plain_text": "2024-03-15",
+                              "href": null
+                            }
+                          ],
+                          []
+                        ]
+                      }
+                    },
+                    {
+                      "object": "block",
+                      "id": "1bcd9eed-7ec6-809c-a9ad-e1dc849e7ffe",
+                      "parent": {
+                        "type": "block_id",
+                        "block_id": "1bcd9eed-7ec6-804c-afdc-e0afb032ccd3"
+                      },
+                      "created_time": "2025-03-20T06:27:00.000Z",
+                      "last_edited_time": "2025-03-20T06:27:00.000Z",
+                      "created_by": {
+                        "object": "user",
+                        "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+                      },
+                      "last_edited_by": {
+                        "object": "user",
+                        "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+                      },
+                      "has_children": false,
+                      "archived": false,
+                      "in_trash": false,
+                      "type": "table_row",
+                      "table_row": {
+                        "cells": [
+                          [],
+                          [],
+                          [],
+                          []
+                        ]
+                      }
+                    },
+                    {
+                      "object": "block",
+                      "id": "1bcd9eed-7ec6-80bd-947b-f5cc43bed6c5",
+                      "parent": {
+                        "type": "block_id",
+                        "block_id": "1bcd9eed-7ec6-804c-afdc-e0afb032ccd3"
+                      },
+                      "created_time": "2025-03-20T06:27:00.000Z",
+                      "last_edited_time": "2025-03-20T06:27:00.000Z",
+                      "created_by": {
+                        "object": "user",
+                        "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+                      },
+                      "last_edited_by": {
+                        "object": "user",
+                        "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
+                      },
+                      "has_children": false,
+                      "archived": false,
+                      "in_trash": false,
+                      "type": "table_row",
+                      "table_row": {
+                        "cells": [
+                          [],
+                          [],
+                          [],
+                          []
+                        ]
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "object": "block",
@@ -3873,7 +5458,7 @@
             "block_id": "1bbd9eed-7ec6-80f8-91db-da6b79cca9c3"
           },
           "created_time": "2025-03-18T08:24:00.000Z",
-          "last_edited_time": "2025-03-19T04:13:00.000Z",
+          "last_edited_time": "2025-03-20T06:26:00.000Z",
           "created_by": {
             "object": "user",
             "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
@@ -3900,7 +5485,7 @@
                   "strikethrough": false,
                   "underline": false,
                   "code": false,
-                  "color": "default"
+                  "color": "blue"
                 },
                 "plain_text": "Workspace ONE",
                 "href": null
