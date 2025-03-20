@@ -1,3 +1,5 @@
+//lib\notion-utils.ts
+
 import { Client } from '@notionhq/client';
 import type { 
   ListBlockChildrenResponse, 
@@ -93,6 +95,29 @@ function getDateFromProperty(property: any, defaultValue: string = new Date().to
   return defaultValue;
 }
 
+// 데이터베이스 속성 찾기 함수
+async function getDatabaseProperties() {
+  try {
+    const db = await notion.databases.retrieve({
+      database_id: NOTION_DATABASE_ID!
+    });
+    
+    // 상태 속성 찾기 (다양한 이름 시도)
+    const statusProp = Object.entries(db.properties).find(
+      ([key, prop]) => prop.type === 'select' && 
+      ['status', 'state', '상태'].includes(key.toLowerCase())
+    );
+    
+    return {
+      statusPropName: statusProp ? statusProp[0] : null,
+      properties: db.properties
+    };
+  } catch (error) {
+    console.error("데이터베이스 속성 가져오기 실패:", error);
+    return { statusPropName: null, properties: {} };
+  }
+}
+
 // 데이터베이스에서 게시물 가져오기 함수 (실제 구현)
 export async function getPosts(): Promise<Post[]> {
   try {
@@ -104,113 +129,140 @@ export async function getPosts(): Promise<Post[]> {
       throw new Error('필수 환경 변수가 설정되지 않았습니다.');
     }
 
-    // 실제 Notion 데이터베이스 쿼리 구현
-    const response = await notion.databases.query({
-      database_id: NOTION_DATABASE_ID,
-      // Published 속성 필터 제거
+    // 데이터베이스 속성 먼저 확인
+    const { statusPropName, properties } = await getDatabaseProperties();
+    
+    if (properties) {
+      console.log('데이터베이스 속성:', Object.keys(properties).join(', '));
       
-      // 정렬 시도 - 실패하면 아래 catch 블록에서 처리
-      sorts: [
-        {
-          property: 'Date',
-          direction: 'descending'
-        }
-      ]
-    }).catch(error => {
-      console.warn('정렬 옵션으로 쿼리 실패, 정렬 없이 재시도:', error.message);
-      // 정렬 옵션 없이 재시도
-      return notion.databases.query({
-        database_id: NOTION_DATABASE_ID
+      // 디버깅: 각 속성 타입 출력
+      Object.entries(properties).forEach(([key, value]) => {
+        console.log(`속성명: ${key}, 타입: ${value.type}`);
       });
-    });
-
-    // 데이터베이스 스키마 로깅 (디버깅용)
-    if (response.results.length > 0) {
-      const firstResult = response.results[0];
-      
-      if (isPageObject(firstResult)) {
-        console.log('데이터베이스 속성:', Object.keys(firstResult.properties).join(', '));
-        
-        // 디버깅: 각 속성 타입 출력
-        Object.entries(firstResult.properties).forEach(([key, value]) => {
-          console.log(`속성명: ${key}, 타입: ${value.type}`);
-        });
-      } else {
-        console.log('결과는 있지만 페이지 객체가 아닙니다:', typeof firstResult);
-      }
-    } else {
-      console.log('데이터베이스 결과가 비어 있습니다');
     }
 
-    // 응답 데이터를 Post 형식으로 변환 - 타입 가드 적용
-    const posts = response.results
-      .filter(obj => isPageObject(obj)) // 페이지 객체만 필터링
-      .map((page) => {
-        // any로 타입 단언 - 이미 위에서 필터링했으므로 안전함
-        const pageObj = page as PageObjectResponse;
-        
-        // 페이지 ID
-        const id = pageObj.id;
-        
-        // 유연한 속성 접근
-        const properties = pageObj.properties;
-        
-        // 제목 찾기 (Title, Name, 제목 등 여러 이름 시도)
-        const titleProperty = 
-          properties.Title || 
-          properties.Name || 
-          properties.제목 || 
-          properties.title || 
-          properties.name || 
-          null;
-        
-        const title = getTextFromProperty(titleProperty, '제목 없음');
-        
-        // 날짜 찾기 (Date, Created, 날짜 등 여러 이름 시도)
-        const dateProperty = 
-          properties.Date || 
-          properties.Created || 
-          properties.날짜 || 
-          properties.created || 
-          properties.date || 
-          null;
-        
-        const date = getDateFromProperty(dateProperty);
-        
-        // 설명 찾기 (Description, Summary, 설명 등 여러 이름 시도)
-        const descriptionProperty = 
-          properties.Description || 
-          properties.Summary || 
-          properties.설명 || 
-          properties.description || 
-          properties.summary || 
-          null;
-        
-        const description = getTextFromProperty(descriptionProperty, '');
-        
-        // 슬러그 찾기 (Slug, URL, 슬러그 등 여러 이름 시도)
-        const slugProperty = 
-          properties.Slug || 
-          properties.URL || 
-          properties.슬러그 || 
-          properties.slug || 
-          properties.url || 
-          null;
-        
-        const slug = getTextFromProperty(slugProperty, `post-${id.replace(/-/g, '')}`);
-        
-        return {
-          id,
-          slug,
-          title,
-          date,
-          description,
-          notionPageId: id
-        };
-      });
+    // 쿼리 옵션 설정
+    let queryOptions: any = {
+      database_id: NOTION_DATABASE_ID
+    };
     
-    console.log('노션 API 호출 성공, 결과:', posts.length);
-    return posts;
+    // 상태 속성이 있으면 필터 추가
+    if (statusPropName) {
+      console.log(`상태 속성 사용: ${statusPropName}`);
+      
+      // '발행됨' 또는 'Published' 상태만 필터링
+      queryOptions.filter = {
+        property: statusPropName,
+        select: {
+          equals: '발행됨'
+        }
+      };
+      
+      // 상태 속성 값이 영문일 수 있으므로 영문 상태값 시도
+      let response = await notion.databases.query(queryOptions);
+      
+      if (response.results.length === 0) {
+        console.log("'발행됨' 상태로 게시물을 찾지 못함, 'Published' 상태로 시도합니다.");
+        queryOptions.filter.select.equals = 'Published';
+        
+        response = await notion.databases.query(queryOptions);
+      }
+      
+      if (response.results.length === 0) {
+        console.log("상태 필터링으로 게시물을 찾지 못했습니다. 모든 게시물 반환 대신 빈 배열을 반환합니다.");
+        return [];
+      }
+      
+      // 정렬 시도
+      try {
+        queryOptions.sorts = [
+          {
+            property: 'Date',
+            direction: 'descending'
+          }
+        ];
+        
+        response = await notion.databases.query(queryOptions);
+      } catch (sortError) {
+        // unknown 타입에 대한 타입 단언 추가
+        console.warn('정렬 옵션 오류, 정렬 없이 계속:', 
+          sortError instanceof Error ? sortError.message : String(sortError));
+        // 정렬 실패 시 이미 가져온 결과 사용
+      }
+      
+      // 응답 데이터를 Post 형식으로 변환 - 타입 가드 적용
+      const posts = response.results
+        .filter(obj => isPageObject(obj)) // 페이지 객체만 필터링
+        .map((page) => {
+          // 페이지 객체로 타입 변환
+          const pageObj = page as PageObjectResponse;
+          
+          // 페이지 ID
+          const id = pageObj.id;
+          
+          // 유연한 속성 접근
+          const pageProperties = pageObj.properties;
+          
+          // 제목 찾기 (Title, Name, 제목 등 여러 이름 시도)
+          const titleProperty = 
+            pageProperties.Title || 
+            pageProperties.Name || 
+            pageProperties.제목 || 
+            pageProperties.title || 
+            pageProperties.name || 
+            null;
+          
+          const title = getTextFromProperty(titleProperty, '제목 없음');
+          
+          // 날짜 찾기 (Date, Created, 날짜 등 여러 이름 시도)
+          const dateProperty = 
+            pageProperties.Date || 
+            pageProperties.Created || 
+            pageProperties.날짜 || 
+            pageProperties.created || 
+            pageProperties.date || 
+            null;
+          
+          const date = getDateFromProperty(dateProperty);
+          
+          // 설명 찾기 (Description, Summary, 설명 등 여러 이름 시도)
+          const descriptionProperty = 
+            pageProperties.Description || 
+            pageProperties.Summary || 
+            pageProperties.설명 || 
+            pageProperties.description || 
+            pageProperties.summary || 
+            null;
+          
+          const description = getTextFromProperty(descriptionProperty, '');
+          
+          // 슬러그 찾기 (Slug, URL, 슬러그 등 여러 이름 시도)
+          const slugProperty = 
+            pageProperties.Slug || 
+            pageProperties.URL || 
+            pageProperties.슬러그 || 
+            pageProperties.slug || 
+            pageProperties.url || 
+            null;
+          
+          const slug = getTextFromProperty(slugProperty, `post-${id.replace(/-/g, '')}`);
+          
+          return {
+            id,
+            slug,
+            title,
+            date,
+            description,
+            notionPageId: id
+          };
+        });
+      
+      console.log('노션 API 호출 성공, 결과:', posts.length);
+      return posts;
+    } else {
+      console.log('상태 속성을 찾을 수 없습니다. 동기화된 로컬 데이터를 사용하세요.');
+      return [];
+    }
   } catch (error) {
     console.error('노션 API 호출 실패:', error);
     
