@@ -1,3 +1,5 @@
+//app\blog\[slug]\page.tsx
+
 import { notFound } from 'next/navigation';
 import { baseUrl } from 'app/sitemap';
 import posts from 'content/posts';
@@ -6,6 +8,8 @@ import Comment from '../../../components/comment';
 import { NotionAPI } from 'notion-client';
 import fs from 'fs';
 import path from 'path';
+
+export const runtime = 'edge';
 
 // NextJS 15.2.1에 맞게 Page 컴포넌트 정의
 export default async function Page(props: { params: Promise<{ slug: string }> }) {
