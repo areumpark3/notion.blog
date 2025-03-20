@@ -1,3 +1,4 @@
+//components/posts.tsx
 "use client";
 
 import { useState, useEffect } from 'react';
@@ -6,7 +7,7 @@ import postsData from '../content/posts';
 import { Post } from '@/lib/notion-utils';
 
 interface BlogPostsProps {
-  initialPosts?: Post[];
+  initialPosts?: Post[] | any[];
 }
 
 export function BlogPosts({ initialPosts = [] }: BlogPostsProps) {
@@ -23,6 +24,14 @@ export function BlogPosts({ initialPosts = [] }: BlogPostsProps) {
       console.log('[Client] 로컬 게시물 데이터 사용');
     }
   }, [initialPosts]);
+
+  // 게시물이 없는 경우 로컬 데이터 사용
+  useEffect(() => {
+    if (posts.length === 0 && postsData.length > 0) {
+      console.log('[Client] 서버 데이터가 없어 로컬 데이터로 대체');
+      setPosts(postsData);
+    }
+  }, [posts]);
 
   return (
     <div>
