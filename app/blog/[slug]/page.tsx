@@ -1,4 +1,4 @@
-// Edge 런타임 설정 활성화 (Cloudflare 배포에 필수)
+// Edge 런타임 설정 활성화 - Cloudflare 배포에 필수
 export const runtime = 'edge';
 
 import { notFound } from 'next/navigation';
@@ -43,9 +43,10 @@ async function fetchChildPageData(pageId: string) {
   }
 }
 
-// 컴포넌트 정의 - Next.js 최신 버전에 맞게 수정
-export default async function Page({ params }: { params: { slug: string } }) {
-  const { slug } = params;
+// 타입 정의 수정: 원래 형태로 돌아가기 (Promise<{ slug: string }>)
+export default async function Page(props: { params: Promise<{ slug: string }> }) {
+  const resolvedParams = await props.params;
+  const { slug } = resolvedParams;
   
   // 일반 게시물 찾기
   let post = posts.find((post) => post.slug === slug);
@@ -72,7 +73,8 @@ export default async function Page({ params }: { params: { slug: string } }) {
             description: '',
             notionPageId: pageId,
             has_children: true,
-            recordMap: childPageData.recordMap // 미리 가져온 recordMap 저장
+            recordMap: childPageData.recordMap, // 미리 가져온 recordMap 저장
+            content: { blocks: [] } // content 속성 추가
           };
         }
       } catch (error) {
