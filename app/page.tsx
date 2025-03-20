@@ -1,9 +1,12 @@
+//app\page.tsx
+
 import Image from 'next/image'
 import { BlogPosts } from 'components/posts'
 import { getPosts, Post } from '@/lib/notion-utils'
+import postsData from 'content/posts'; // 로컬 데이터 임포트
 
 // ISR 설정
-export const revalidate = 120;
+export const revalidate = 60; // 1분마다 재검증
 
 export default async function Page() {
   // 환경 변수 확인 로깅
@@ -15,14 +18,18 @@ export default async function Page() {
     day: 'numeric'
   });
 
-  // 명시적 타입 지정
-  let posts: Post[] = [];
+  // 서버에서 데이터 가져오기
+  let serverPosts: Post[] = [];
   try {
-    posts = await getPosts();
-    console.log(`[Server] 노션에서 ${posts.length}개의 게시물을 가져왔습니다`);
+    serverPosts = await getPosts();
+    console.log(`[Server] 노션에서 ${serverPosts.length}개의 게시물을 가져왔습니다`);
   } catch (error) {
     console.error('[Server] 노션 게시물 가져오기 실패:', error);
   }
+  
+  // 서버 데이터가 없으면 로컬 데이터 사용
+  // 데이터를 클라이언트로 전달
+  const posts = serverPosts.length > 0 ? serverPosts : postsData;
   
   return (
     <section>
