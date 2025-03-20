@@ -1,4 +1,3 @@
-// components/notion-renderer.tsx
 'use client';
 
 import React from 'react';
@@ -37,7 +36,7 @@ export default function NotionRenderer({ recordMap, content }: NotionRendererPro
               <p key={index} className="notion-paragraph">
                 {(block.paragraph?.rich_text || []).map((text: any, i: React.Key) => (
                   <span key={i} className={text.annotations?.bold ? 'notion-bold' : ''}>
-                    {text.plain_text}
+                    {text.plain_text as string}
                   </span>
                 ))}
               </p>
@@ -48,8 +47,8 @@ export default function NotionRenderer({ recordMap, content }: NotionRendererPro
           if (block.type === 'heading_1') {
             return (
               <h1 key={index} className="notion-h1">
-                {block.heading_1?.rich_text?.map((text: { plain_text: string | number | bigint | boolean | React.ReactElement<unknown, string | React.JSXElementConstructor<any>> | Iterable<React.ReactNode> | React.ReactPortal | Promise<string | number | bigint | boolean | React.ReactPortal | React.ReactElement<unknown, string | React.JSXElementConstructor<any>> | Iterable<React.ReactNode> | null | undefined> | null | undefined; }, i: React.Key | null | undefined) => (
-                  <span key={i}>{text.plain_text}</span>
+                {block.heading_1?.rich_text?.map((text: any, i: React.Key | null | undefined) => (
+                  <span key={i}>{text.plain_text as string}</span>
                 ))}
               </h1>
             );
