@@ -8,8 +8,8 @@ import fs from 'fs';
 import path from 'path';
 
 // NextJS 15.2.1에 맞게 Page 컴포넌트 정의
-export default async function Page({ params }: { params: { slug: string } }) {
-  const resolvedParams = params instanceof Promise ? await params : params;
+export default async function Page(props: { params: Promise<{ slug: string }> }) {
+  const resolvedParams = await props.params;
   const { slug } = resolvedParams;
   
   // 일반 게시물 찾기
