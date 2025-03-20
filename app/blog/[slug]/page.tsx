@@ -1,6 +1,5 @@
-//app\blog\[slug]\page.tsx
-// Edge 런타임 설정 제거 (필요한 경우 이 줄을 삭제하거나 주석 처리)
-// export const runtime = 'edge';
+// Edge 런타임 설정 활성화 (Cloudflare 배포에 필수)
+export const runtime = 'edge';
 
 import { notFound } from 'next/navigation';
 import { baseUrl } from 'app/sitemap';
@@ -8,7 +7,6 @@ import posts from 'content/posts';
 import NotionClientRenderer from '../../../components/NotionBlogRenderer';
 import Comment from '../../../components/comment';
 import { NotionAPI } from 'notion-client';
-// fs와 path 임포트 제거
 
 // 하위 페이지 데이터를 가져오는 함수
 async function fetchChildPageData(pageId: string) {
@@ -45,10 +43,9 @@ async function fetchChildPageData(pageId: string) {
   }
 }
 
-// NextJS 15.2.1에 맞게 Page 컴포넌트 정의
-export default async function Page(props: { params: Promise<{ slug: string }> }) {
-  const resolvedParams = await props.params;
-  const { slug } = resolvedParams;
+// 컴포넌트 정의 - Next.js 최신 버전에 맞게 수정
+export default async function Page({ params }: { params: { slug: string } }) {
+  const { slug } = params;
   
   // 일반 게시물 찾기
   let post = posts.find((post) => post.slug === slug);
