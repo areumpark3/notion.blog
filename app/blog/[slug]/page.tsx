@@ -1,4 +1,6 @@
 //app\blog\[slug]\page.tsx
+// Edge 런타임 설정 제거 (필요한 경우 이 줄을 삭제하거나 주석 처리)
+// export const runtime = 'edge';
 
 import { notFound } from 'next/navigation';
 import { baseUrl } from 'app/sitemap';
@@ -6,10 +8,42 @@ import posts from 'content/posts';
 import NotionClientRenderer from '../../../components/NotionBlogRenderer';
 import Comment from '../../../components/comment';
 import { NotionAPI } from 'notion-client';
-import fs from 'fs';
-import path from 'path';
+// fs와 path 임포트 제거
 
-export const runtime = 'edge';
+// 하위 페이지 데이터를 가져오는 함수
+async function fetchChildPageData(pageId: string) {
+  const notionToken = process.env.NOTION_TOKEN_V2;
+  if (!notionToken) {
+    throw new Error('NOTION_TOKEN_V2 환경 변수가 설정되지 않았습니다');
+  }
+
+  const notion = new NotionAPI({
+    authToken: notionToken
+  });
+  
+  try {
+    // 노션 API를 통해 페이지 데이터 직접 가져오기
+    const recordMap = await notion.getPage(pageId);
+    const block = recordMap.block[pageId]?.value;
+    
+    if (!block) return null;
+    
+    // 페이지 제목 추출
+    let pageTitle = '하위 페이지';
+    if (block.properties?.title) {
+      const titleText = block.properties.title[0][0];
+      if (titleText) pageTitle = titleText;
+    }
+    
+    return {
+      pageTitle,
+      recordMap
+    };
+  } catch (error) {
+    console.error('하위 페이지 데이터 가져오기 실패:', error);
+    return null;
+  }
+}
 
 // NextJS 15.2.1에 맞게 Page 컴포넌트 정의
 export default async function Page(props: { params: Promise<{ slug: string }> }) {
@@ -28,55 +62,24 @@ export default async function Page(props: { params: Promise<{ slug: string }> })
       const pageId = pageIdMatch[1];
       console.log(`하위 페이지 ID 감지: ${pageId}, 슬러그: ${slug}`);
       
-      // 하위 페이지 JSON 파일 확인
-      const childPagePath = path.join(process.cwd(), 'notion-data', `child_page_${pageId}.json`);
-      const postPagePath = path.join(process.cwd(), 'notion-data', `post_${pageId}.json`);
-      
-      let pageData = null;
-      
-      if (fs.existsSync(childPagePath)) {
-        console.log(`하위 페이지 파일 발견: ${childPagePath}`);
-        pageData = JSON.parse(fs.readFileSync(childPagePath, 'utf8'));
-      } else if (fs.existsSync(postPagePath)) {
-        console.log(`게시물 파일 발견: ${postPagePath}`);
-        pageData = JSON.parse(fs.readFileSync(postPagePath, 'utf8'));
-      }
-      
-      if (pageData) {
-        // 페이지 타이틀과 블록 데이터 추출
-        let pageTitle = '하위 페이지';
-        let pageBlocks = [];
+      // 파일 시스템 대신 노션 API를 통해 데이터 가져오기
+      try {
+        const childPageData = await fetchChildPageData(pageId);
         
-        if (pageData.pageInfo) {
-          // 페이지 정보가 있는 경우
-          pageTitle = pageData.pageInfo.properties?.title?.title?.[0]?.plain_text || '하위 페이지';
-          pageBlocks = pageData.blocks || [];
-        } else if (pageData.blocks) {
-          // 블록만 있는 경우
-          const titleBlock = pageData.blocks.find(
-            (block: any) => block.type === 'heading_1' || block.type === 'title'
-          );
-          
-          if (titleBlock) {
-            pageTitle = 
-              titleBlock.heading_1?.rich_text?.[0]?.plain_text || 
-              titleBlock.title?.rich_text?.[0]?.plain_text || 
-              '하위 페이지';
-          }
-          
-          pageBlocks = pageData.blocks;
+        if (childPageData) {
+          // 하위 페이지용 임시 포스트 객체 생성
+          post = {
+            title: childPageData.pageTitle,
+            slug,
+            date: new Date().toISOString().split('T')[0],
+            description: '',
+            notionPageId: pageId,
+            has_children: true,
+            recordMap: childPageData.recordMap // 미리 가져온 recordMap 저장
+          };
         }
-        
-        // 하위 페이지용 임시 포스트 객체 생성
-        post = {
-          title: pageTitle,
-          slug,
-          content: { blocks: pageBlocks },
-          date: new Date().toISOString().split('T')[0],
-          description: '',
-          notionPageId: pageId,
-          has_children: true
-        };
+      } catch (error) {
+        console.error('하위 페이지 데이터 가져오기 실패:', error);
       }
     }
     
@@ -87,18 +90,24 @@ export default async function Page(props: { params: Promise<{ slug: string }> })
   }
 
   try {
-    // 노션 API 토큰 확인
-    const notionToken = process.env.NOTION_TOKEN_V2;
-    if (!notionToken) {
-      throw new Error('NOTION_TOKEN_V2 환경 변수가 설정되지 않았습니다');
-    }
-
-    const notion = new NotionAPI({
-      authToken: notionToken
-    });
+    // post에 이미 recordMap이 있는지 확인
+    let recordMap = post.recordMap;
     
-    // 노션 페이지 가져오기
-    const recordMap = await notion.getPage(post.notionPageId);
+    // recordMap이 없으면 노션 API로 가져오기
+    if (!recordMap) {
+      // 노션 API 토큰 확인
+      const notionToken = process.env.NOTION_TOKEN_V2;
+      if (!notionToken) {
+        throw new Error('NOTION_TOKEN_V2 환경 변수가 설정되지 않았습니다');
+      }
+
+      const notion = new NotionAPI({
+        authToken: notionToken
+      });
+      
+      // 노션 페이지 가져오기
+      recordMap = await notion.getPage(post.notionPageId);
+    }
     
     return (
       <section>
@@ -124,15 +133,14 @@ export default async function Page(props: { params: Promise<{ slug: string }> })
             }),
           }}
         />
-        {/* 여기를 수정: pageId prop 추가 */}
         <NotionClientRenderer recordMap={recordMap} pageId={post.notionPageId} />
         <Comment />
       </section>
     );
   } catch (error) {
-    console.log('노션 API 호출 실패, 로컬 데이터 사용:', error instanceof Error ? error.message : String(error));
+    console.log('노션 API 호출 실패:', error instanceof Error ? error.message : String(error));
     
-    // 로컬 데이터로 대체 렌더링
+    // 기존 로컬 데이터 렌더링 부분은 유지 (필요시 Cloudflare KV로 대체 가능)
     if (post.content && post.content.blocks) {
       return (
         <section>
@@ -164,7 +172,7 @@ export default async function Page(props: { params: Promise<{ slug: string }> })
                 );
               }
               
-              // 파일 블록 - 요구사항에 맞게 첨부파일 다운로드 UI 표시
+              // 파일 블록
               if (block.type === 'file' || block.is_file_attachment) {
                 const fileUrl = block.file?.external?.url || block.file?.url;
                 const fileName = block.file_name || block.file?.name || '첨부파일';
