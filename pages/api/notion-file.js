@@ -2,6 +2,8 @@
 import { NotionAPI } from 'notion-client';
 import fetch from 'node-fetch';
 
+export const runtime = 'edge';
+
 // 노션 API 클라이언트 초기화
 const notion = new NotionAPI({
   authToken: process.env.NOTION_TOKEN_V2
