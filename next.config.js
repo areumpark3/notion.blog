@@ -1,21 +1,27 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
-  reactStrictMode: true,
-  swcMinify: true,
-  output: 'export',
+module.exports = {
+  // output: 'export', // 개발 중에는 주석 처리
+  trailingSlash: true,
   images: {
     unoptimized: true,
-    domains: ['www.notion.so'],
+    domains: [
+      'www.notion.so',
+      's3.us-west-2.amazonaws.com',
+      'prod-files-secure.s3.us-west-2.amazonaws.com'
+    ]
+  },
+  experimental: {
+    serverComponentsExternalPackages: [
+      '@notionhq/client',
+      'react-notion-x',
+      'notion-client'
+    ]
   },
   webpack: (config) => {
     config.resolve.fallback = { 
-      ...config.resolve.fallback,
       fs: false,
       net: false,
-      tls: false,
+      tls: false
     }
     return config
-  },
+  }
 }
-
-module.exports = nextConfig
