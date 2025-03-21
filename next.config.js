@@ -1,9 +1,12 @@
+// next.config.js
 module.exports = {
   webpack: (config, { isServer }) => {
     if (!isServer) {
       config.resolve.fallback = {
         ...config.resolve.fallback,
         fs: false,
+        net: false,
+        tls: false,
       };
     }
     return config;
@@ -11,4 +14,13 @@ module.exports = {
   env: {
     NOTION_TOKEN_V2: process.env.NOTION_TOKEN_V2,
   },
+  // Cloudflare 최적화
+  experimental: {
+    optimizeCss: true,
+    strictPostcssConfiguration: true,
+  },
+  // 이미지 최적화 비활성화 (Cloudflare에서 문제 발생 가능)
+  images: {
+    unoptimized: true,
+  }
 };
