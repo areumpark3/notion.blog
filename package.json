@@ -27,17 +27,11 @@
     "katex": "^0.16.21",
     "next": "^14.1.4",
     "next-themes": "^0.4.6",
-    "notion-client": "^6.17.0",
-    "notion-types": "^6.17.0",
+    "notion-client": "^7.3.0",
+    "notion-types": "^7.3.0",
+    "prismjs": "^1.29.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "react-notion-x": "^6.17.0",
-    "prismjs": "^1.29.0"
-  },
-  "overrides": {
-    "react-notion-x": {
-      "notion-client": "6.17.0",
-      "notion-types": "6.17.0"
-    }
+    "react-notion-x": "^7.3.0"
   }
 }
