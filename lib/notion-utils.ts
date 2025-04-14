@@ -2,8 +2,17 @@
 import { Client } from '@notionhq/client'
 import type { 
   QueryDatabaseResponse,
-  PageObjectResponse
+  PageObjectResponse,
+  DatePropertyItemObjectResponse
 } from '@notionhq/client/build/src/api-endpoints'
+
+export interface Post {
+  id: string
+  slug: string
+  title: string
+  date: string
+  notionPageId: string
+}
 
 const NOTION_API_KEY = process.env.NOTION_API_KEY!
 const NOTION_DATABASE_ID = process.env.NOTION_DATABASE_ID!
@@ -18,20 +27,24 @@ function isPageObject(obj: any): obj is PageObjectResponse {
   return obj && 'properties' in obj && 'parent' in obj
 }
 
-// 타입 안전한 속성 접근 함수
-const getRichText = (property: any): string => {
-  return property?.type === 'rich_text' 
-    ? property.rich_text[0]?.plain_text || ''
-    : ''
+// 텍스트 속성 추출 함수
+const getTextFromProperty = (property: any): string => {
+  if (!property) return ''
+  if (property.type === 'title') return property.title[0]?.plain_text || ''
+  if (property.type === 'rich_text') return property.rich_text[0]?.plain_text || ''
+  return ''
 }
 
-const getTitle = (property: any): string => {
-  return property?.type === 'title' 
-    ? property.title[0]?.plain_text || ''
-    : getRichText(property) // rich_text 대체 처리
+// 날짜 속성 추출 함수
+const getDateFromProperty = (property: any): string => {
+  if (property?.type === 'date') {
+    const dateProp = property as DatePropertyItemObjectResponse
+    return dateProp.date?.start || new Date().toISOString()
+  }
+  return new Date().toISOString()
 }
 
-export async function getPosts() {
+export async function getPosts(): Promise<Post[]> {
   try {
     const response = await notion.databases.query({
       database_id: NOTION_DATABASE_ID,
@@ -44,22 +57,13 @@ export async function getPosts() {
 
     return response.results
       .filter(isPageObject)
-      .map(page => {
-        // 안전한 속성 접근
-        const titleProperty = page.properties.Title || page.properties.title
-        const slugProperty = page.properties.Slug || page.properties.slug
-        const dateProperty = page.properties.Date || page.properties.date
-
-        return {
-          id: page.id,
-          slug: slugProperty ? getRichText(slugProperty) : page.id,
-          title: getTitle(titleProperty) || '제목 없음',
-          date: dateProperty?.type === 'date' 
-            ? dateProperty.date?.start 
-            : new Date().toISOString(),
-          notionPageId: page.id
-        }
-      })
+      .map(page => ({
+        id: page.id,
+        slug: getTextFromProperty(page.properties.Slug) || page.id,
+        title: getTextFromProperty(page.properties.Title) || '제목 없음',
+        date: getDateFromProperty(page.properties.Date),
+        notionPageId: page.id
+      }))
   } catch (error) {
     console.error('노션 API 호출 실패:', error)
     return []
