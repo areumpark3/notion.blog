@@ -1,14 +1,7 @@
 /// <reference types="next" />
 /// <reference types="next/image-types/global" />
-
-declare module 'react-notion-x' {
-    export const NotionRenderer: React.ComponentType<{
-      recordMap: import('notion-types').ExtendedRecordMap
-      components?: Partial<import('react-notion-x').NotionComponents>
-      fullPage?: boolean
-      darkMode?: boolean
-    }>
-  }
+/// <reference types="next/navigation-types/compat/navigation" />
 
 // NOTE: This file should not be edited
-// see https://nextjs.org/docs/app/api-reference/config/typescript for more information.
+// see https://nextjs.org/docs/app/building-your-application/configuring/typescript for more information.
+
