@@ -1,14 +1,14 @@
 // next.config.js
 module.exports = {
+  output: 'export',
   trailingSlash: true,
-  transpilePackages: ['react-notion-x', 'notion-client', 'notion-types'],
+  transpilePackages: ['react-notion-x'],
   images: {
     unoptimized: true,
-    domains: ['www.notion.so', 's3.us-west-2.amazonaws.com']
+    domains: ['www.notion.so']
   },
   env: {
     NOTION_API_KEY: process.env.NOTION_API_KEY,
-    NOTION_DATABASE_ID: process.env.NOTION_DATABASE_ID,
-    NOTION_TOKEN_V2: process.env.NOTION_TOKEN_V2
+    NOTION_DATABASE_ID: process.env.NOTION_DATABASE_ID
   }
 }
