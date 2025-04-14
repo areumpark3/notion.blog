@@ -7,8 +7,15 @@ module.exports = {
     unoptimized: true,
     domains: ['www.notion.so']
   },
-  env: {
-    NOTION_API_KEY: process.env.NOTION_API_KEY,
-    NOTION_DATABASE_ID: process.env.NOTION_DATABASE_ID
+  experimental: {
+    serverComponentsExternalPackages: ['@notionhq/client']
+  },
+  webpack: (config) => {
+    config.resolve.fallback = { 
+      fs: false,
+      net: false,
+      tls: false
+    }
+    return config
   }
 }
