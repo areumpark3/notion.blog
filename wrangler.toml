@@ -1,0 +1,9 @@
+[build]
+command = "npm run build && npm run export"
+upload_dir = "out"
+
+[env]
+NODE_VERSION = "16"
+
+[site]
+bucket = "./out"
