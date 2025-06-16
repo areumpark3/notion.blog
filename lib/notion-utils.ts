@@ -1,71 +1,220 @@
 // lib/notion-utils.ts
-import { Client } from '@notionhq/client'
-import type { 
-  QueryDatabaseResponse,
-  PageObjectResponse,
-  DatePropertyItemObjectResponse
-} from '@notionhq/client/build/src/api-endpoints'
+import { Client } from '@notionhq/client';
+
+const notion = new Client({
+  auth: process.env.NOTION_API_KEY,
+});
 
 export interface Post {
-  id: string
-  slug: string
-  title: string
-  date: string
-  notionPageId: string
+  id: string;
+  title: string;
+  slug: string;
+  date: string;
+  content?: string;
+  status?: string;
 }
 
-const NOTION_API_KEY = process.env.NOTION_API_KEY!
-const NOTION_DATABASE_ID = process.env.NOTION_DATABASE_ID!
-
-if (!NOTION_API_KEY || !NOTION_DATABASE_ID) {
-  throw new Error('필수 환경 변수가 설정되지 않았습니다.')
-}
-
-const notion = new Client({ auth: NOTION_API_KEY })
-
-function isPageObject(obj: any): obj is PageObjectResponse {
-  return obj && 'properties' in obj && 'parent' in obj
-}
-
-// 텍스트 속성 추출 함수
-const getTextFromProperty = (property: any): string => {
-  if (!property) return ''
-  if (property.type === 'title') return property.title[0]?.plain_text || ''
-  if (property.type === 'rich_text') return property.rich_text[0]?.plain_text || ''
-  return ''
-}
-
-// 날짜 속성 추출 함수
-const getDateFromProperty = (property: any): string => {
-  if (property?.type === 'date') {
-    const dateProp = property as DatePropertyItemObjectResponse
-    return dateProp.date?.start || new Date().toISOString()
-  }
-  return new Date().toISOString()
-}
-
-export async function getPosts(): Promise<Post[]> {
+// 제목 추출 함수
+export function extractTitle(properties: any): string {
   try {
-    const response = await notion.databases.query({
-      database_id: NOTION_DATABASE_ID,
-      filter: {
-        property: 'Status',
-        select: { equals: '발행됨' }
-      },
-      sorts: [{ property: 'Date', direction: 'descending' }]
-    })
-
-    return response.results
-      .filter(isPageObject)
-      .map(page => ({
-        id: page.id,
-        slug: getTextFromProperty(page.properties.Slug) || page.id,
-        title: getTextFromProperty(page.properties.Title) || '제목 없음',
-        date: getDateFromProperty(page.properties.Date),
-        notionPageId: page.id
-      }))
+    // 직접적인 Title 속성 확인
+    if (properties.Title?.title?.[0]?.plain_text) {
+      return properties.Title.title[0].plain_text;
+    }
+    
+    // type이 'title'인 속성 찾기
+    for (const [key, prop] of Object.entries(properties)) {
+      const property = prop as any;
+      if (property.type === 'title' && property.title?.[0]?.plain_text) {
+        return property.title[0].plain_text;
+      }
+    }
+    
+    // Name 속성 확인 (대안)
+    if (properties.Name?.title?.[0]?.plain_text) {
+      return properties.Name.title[0].plain_text;
+    }
+    
+    console.warn('제목을 찾을 수 없습니다:', Object.keys(properties));
+    return '제목 없음';
   } catch (error) {
-    console.error('노션 API 호출 실패:', error)
-    return []
+    console.error('제목 추출 중 오류:', error);
+    return '제목 없음';
   }
+}
+
+// 슬러그 추출 함수
+export function extractSlug(properties: any): string {
+  try {
+    if (properties.Slug?.rich_text?.[0]?.plain_text) {
+      return properties.Slug.rich_text[0].plain_text;
+    }
+    
+    // 제목에서 슬러그 생성
+    const title = extractTitle(properties);
+    if (title === '제목 없음') {
+      return `post-${Date.now()}`;
+    }
+    
+    return title
+      .toLowerCase()
+      .replace(/[^a-z0-9가-힣\s]/g, '')
+      .replace(/\s+/g, '-')
+      .trim();
+  } catch (error) {
+    console.error('슬러그 추출 중 오류:', error);
+    return `post-${Date.now()}`;
+  }
+}
+
+// 슬러그 생성 함수 (generateSlug 별칭)
+export function generateSlug(properties: any): string {
+  return extractSlug(properties);
+}
+
+// 상태 추출 함수
+export function extractStatus(properties: any): string {
+  try {
+    if (properties.Status?.select?.name) {
+      return properties.Status.select.name;
+    }
+    return 'Draft';
+  } catch (error) {
+    console.error('상태 추출 중 오류:', error);
+    return 'Draft';
+  }
+}
+
+// 날짜 추출 함수
+export function extractDate(properties: any): string {
+  try {
+    if (properties.Date?.date?.start) {
+      return properties.Date.date.start;
+    }
+    
+    return new Date().toISOString().split('T')[0];
+  } catch (error) {
+    console.error('날짜 추출 중 오류:', error);
+    return new Date().toISOString().split('T')[0];
+  }
+}
+
+// 페이지 내용 가져오기 함수
+export async function getPageContent(pageId: string): Promise<string> {
+  try {
+    const response = await notion.blocks.children.list({
+      block_id: pageId,
+    });
+    
+    let content = '';
+    
+    for (const block of response.results) {
+      content += await parseBlock(block as any);
+    }
+    
+    return content;
+  } catch (error) {
+    console.error('페이지 내용 가져오기 실패:', error);
+    return '';
+  }
+}
+
+// 블록 파싱 함수
+async function parseBlock(block: any): Promise<string> {
+  let content = '';
+  
+  switch (block.type) {
+    case 'paragraph':
+      if (block.paragraph.rich_text.length > 0) {
+        content = block.paragraph.rich_text
+          .map((text: any) => text.plain_text)
+          .join('') + '\n\n';
+      }
+      break;
+      
+    case 'heading_1':
+      if (block.heading_1.rich_text.length > 0) {
+        content = '# ' + block.heading_1.rich_text
+          .map((text: any) => text.plain_text)
+          .join('') + '\n\n';
+      }
+      break;
+      
+    case 'heading_2':
+      if (block.heading_2.rich_text.length > 0) {
+        content = '## ' + block.heading_2.rich_text
+          .map((text: any) => text.plain_text)
+          .join('') + '\n\n';
+      }
+      break;
+      
+    case 'heading_3':
+      if (block.heading_3.rich_text.length > 0) {
+        content = '### ' + block.heading_3.rich_text
+          .map((text: any) => text.plain_text)
+          .join('') + '\n\n';
+      }
+      break;
+      
+    case 'bulleted_list_item':
+      if (block.bulleted_list_item.rich_text.length > 0) {
+        content = '- ' + block.bulleted_list_item.rich_text
+          .map((text: any) => text.plain_text)
+          .join('') + '\n';
+      }
+      break;
+      
+    case 'numbered_list_item':
+      if (block.numbered_list_item.rich_text.length > 0) {
+        content = '1. ' + block.numbered_list_item.rich_text
+          .map((text: any) => text.plain_text)
+          .join('') + '\n';
+      }
+      break;
+      
+    case 'code':
+      if (block.code.rich_text.length > 0) {
+        const code = block.code.rich_text
+          .map((text: any) => text.plain_text)
+          .join('');
+        content = '``````\n\n';
+      }
+      break;
+      
+    case 'quote':
+      if (block.quote.rich_text.length > 0) {
+        content = '> ' + block.quote.rich_text
+          .map((text: any) => text.plain_text)
+          .join('') + '\n\n';
+      }
+      break;
+  }
+  
+  // 자식 블록이 있는 경우 재귀적으로 처리
+  if (block.has_children) {
+    try {
+      const childResponse = await notion.blocks.children.list({
+        block_id: block.id,
+      });
+      
+      for (const childBlock of childResponse.results) {
+        content += await parseBlock(childBlock as any);
+      }
+    } catch (error) {
+      console.error('자식 블록 처리 중 오류:', error);
+    }
+  }
+  
+  return content;
+}
+
+// 게시물 변환 함수
+export function transformNotionPageToPost(page: any): Post {
+  return {
+    id: page.id,
+    title: extractTitle(page.properties),
+    slug: extractSlug(page.properties),
+    date: extractDate(page.properties),
+    status: extractStatus(page.properties),
+  };
 }
