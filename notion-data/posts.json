@@ -1,550 +1,66 @@
 [
   {
-    "object": "page",
+    "id": "1e4d9eed-7ec6-80eb-93bf-fb6add76731e",
+    "title": "뉴스레터",
+    "slug": "뉴스레터",
+    "date": "2025-04-29",
+    "status": "발행됨",
+    "lastSynced": "2025-06-17T00:51:23.747Z"
+  },
+  {
+    "id": "1e4d9eed-7ec6-80d9-910f-d6231ac96b68",
+    "title": "제목 없음",
+    "slug": "제목-없음",
+    "date": "2025-04-29",
+    "status": "Draft",
+    "lastSynced": "2025-06-17T00:51:23.747Z"
+  },
+  {
+    "id": "1c3d9eed-7ec6-80d5-97d9-c374200440fd",
+    "title": "발표 대본 ",
+    "slug": "발표-대본-",
+    "date": "2025-03-27",
+    "status": "미발행",
+    "lastSynced": "2025-06-17T00:51:23.747Z"
+  },
+  {
     "id": "1b1d9eed-7ec6-8074-b39c-f659f4a10e8e",
-    "created_time": "2025-03-09T09:28:00.000Z",
-    "last_edited_time": "2025-04-09T02:31:00.000Z",
-    "created_by": {
-      "object": "user",
-      "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
-    },
-    "last_edited_by": {
-      "object": "user",
-      "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
-    },
-    "cover": null,
-    "icon": null,
-    "parent": {
-      "type": "database_id",
-      "database_id": "1aed9eed-7ec6-80e9-9f52-c388fbe9f859"
-    },
-    "archived": false,
-    "in_trash": false,
-    "properties": {
-      "Status": {
-        "id": "%3Ajv%3C",
-        "type": "select",
-        "select": {
-          "id": "cePI",
-          "name": "발행됨",
-          "color": "green"
-        }
-      },
-      "Title": {
-        "id": "Jr%3BI",
-        "type": "rich_text",
-        "rich_text": [
-          {
-            "type": "text",
-            "text": {
-              "content": "작업 기록",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "작업 기록",
-            "href": null
-          }
-        ]
-      },
-      "Slug": {
-        "id": "PRhR",
-        "type": "rich_text",
-        "rich_text": [
-          {
-            "type": "text",
-            "text": {
-              "content": "post1",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "post1",
-            "href": null
-          }
-        ]
-      },
-      "Date": {
-        "id": "rGt%3B",
-        "type": "date",
-        "date": {
-          "start": "2025-03-09",
-          "end": null,
-          "time_zone": null
-        }
-      },
-      "Content": {
-        "id": "rvxE",
-        "type": "rich_text",
-        "rich_text": [
-          {
-            "type": "text",
-            "text": {
-              "content": "작업 내용 기록",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "작업 내용 기록",
-            "href": null
-          }
-        ]
-      },
-      "": {
-        "id": "title",
-        "type": "title",
-        "title": [
-          {
-            "type": "text",
-            "text": {
-              "content": "작업 기록",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "작업 기록",
-            "href": null
-          }
-        ]
-      }
-    },
-    "url": "https://www.notion.so/1b1d9eed7ec68074b39cf659f4a10e8e",
-    "public_url": null,
-    "lastSynced": "2025-04-14T07:11:26.801Z"
+    "title": "작업 기록",
+    "slug": "작업-기록",
+    "date": "2025-03-09",
+    "status": "발행됨",
+    "lastSynced": "2025-06-17T00:51:23.747Z"
   },
   {
-    "object": "page",
     "id": "1b1d9eed-7ec6-8089-85d4-e0257ea4c2ca",
-    "created_time": "2025-03-09T09:27:00.000Z",
-    "last_edited_time": "2025-04-07T07:56:00.000Z",
-    "created_by": {
-      "object": "user",
-      "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
-    },
-    "last_edited_by": {
-      "object": "user",
-      "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
-    },
-    "cover": null,
-    "icon": null,
-    "parent": {
-      "type": "database_id",
-      "database_id": "1aed9eed-7ec6-80e9-9f52-c388fbe9f859"
-    },
-    "archived": false,
-    "in_trash": false,
-    "properties": {
-      "Status": {
-        "id": "%3Ajv%3C",
-        "type": "select",
-        "select": {
-          "id": "cePI",
-          "name": "발행됨",
-          "color": "green"
-        }
-      },
-      "Title": {
-        "id": "Jr%3BI",
-        "type": "rich_text",
-        "rich_text": [
-          {
-            "type": "text",
-            "text": {
-              "content": "고객사 정보",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "고객사 정보",
-            "href": null
-          }
-        ]
-      },
-      "Slug": {
-        "id": "PRhR",
-        "type": "rich_text",
-        "rich_text": [
-          {
-            "type": "text",
-            "text": {
-              "content": "post2",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "post2",
-            "href": null
-          }
-        ]
-      },
-      "Date": {
-        "id": "rGt%3B",
-        "type": "date",
-        "date": {
-          "start": "2025-03-18",
-          "end": null,
-          "time_zone": null
-        }
-      },
-      "Content": {
-        "id": "rvxE",
-        "type": "rich_text",
-        "rich_text": [
-          {
-            "type": "text",
-            "text": {
-              "content": "고객사 정보",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "고객사 정보",
-            "href": null
-          }
-        ]
-      },
-      "": {
-        "id": "title",
-        "type": "title",
-        "title": [
-          {
-            "type": "text",
-            "text": {
-              "content": "고객사 정보",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "고객사 정보",
-            "href": null
-          }
-        ]
-      }
-    },
-    "url": "https://www.notion.so/1b1d9eed7ec6808985d4e0257ea4c2ca",
-    "public_url": null,
-    "lastSynced": "2025-04-14T07:11:26.801Z"
+    "title": "고객사 정보",
+    "slug": "고객사-정보",
+    "date": "2025-03-09",
+    "status": "발행됨",
+    "lastSynced": "2025-06-17T00:51:23.748Z"
   },
   {
-    "object": "page",
     "id": "1b1d9eed-7ec6-8039-b927-c2d14c957fc9",
-    "created_time": "2025-03-09T09:26:00.000Z",
-    "last_edited_time": "2025-04-07T07:56:00.000Z",
-    "created_by": {
-      "object": "user",
-      "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
-    },
-    "last_edited_by": {
-      "object": "user",
-      "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
-    },
-    "cover": null,
-    "icon": null,
-    "parent": {
-      "type": "database_id",
-      "database_id": "1aed9eed-7ec6-80e9-9f52-c388fbe9f859"
-    },
-    "archived": false,
-    "in_trash": false,
-    "properties": {
-      "Status": {
-        "id": "%3Ajv%3C",
-        "type": "select",
-        "select": {
-          "id": "cePI",
-          "name": "발행됨",
-          "color": "green"
-        }
-      },
-      "Title": {
-        "id": "Jr%3BI",
-        "type": "rich_text",
-        "rich_text": [
-          {
-            "type": "text",
-            "text": {
-              "content": "최신 뉴스",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "최신 뉴스",
-            "href": null
-          }
-        ]
-      },
-      "Slug": {
-        "id": "PRhR",
-        "type": "rich_text",
-        "rich_text": [
-          {
-            "type": "text",
-            "text": {
-              "content": "post3",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "post3",
-            "href": null
-          }
-        ]
-      },
-      "Date": {
-        "id": "rGt%3B",
-        "type": "date",
-        "date": {
-          "start": "2025-03-09",
-          "end": null,
-          "time_zone": null
-        }
-      },
-      "Content": {
-        "id": "rvxE",
-        "type": "rich_text",
-        "rich_text": [
-          {
-            "type": "text",
-            "text": {
-              "content": "최신 뉴스",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "최신 뉴스",
-            "href": null
-          }
-        ]
-      },
-      "": {
-        "id": "title",
-        "type": "title",
-        "title": [
-          {
-            "type": "text",
-            "text": {
-              "content": " 최신 뉴스",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": " 최신 뉴스",
-            "href": null
-          }
-        ]
-      }
-    },
-    "url": "https://www.notion.so/1b1d9eed7ec68039b927c2d14c957fc9",
-    "public_url": null,
-    "lastSynced": "2025-04-14T07:11:26.801Z"
+    "title": "세미나/미팅 내용 요약",
+    "slug": "세미나미팅-내용-요약",
+    "date": "2025-03-09",
+    "status": "발행됨",
+    "lastSynced": "2025-06-17T00:51:23.748Z"
   },
   {
-    "object": "page",
     "id": "1afd9eed-7ec6-8041-acc7-f395d78b3126",
-    "created_time": "2025-03-07T03:02:00.000Z",
-    "last_edited_time": "2025-04-07T07:56:00.000Z",
-    "created_by": {
-      "object": "user",
-      "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
-    },
-    "last_edited_by": {
-      "object": "user",
-      "id": "d2938c50-7209-48c0-b952-320a2c8e1dda"
-    },
-    "cover": null,
-    "icon": null,
-    "parent": {
-      "type": "database_id",
-      "database_id": "1aed9eed-7ec6-80e9-9f52-c388fbe9f859"
-    },
-    "archived": false,
-    "in_trash": false,
-    "properties": {
-      "Status": {
-        "id": "%3Ajv%3C",
-        "type": "select",
-        "select": {
-          "id": "cePI",
-          "name": "발행됨",
-          "color": "green"
-        }
-      },
-      "Title": {
-        "id": "Jr%3BI",
-        "type": "rich_text",
-        "rich_text": [
-          {
-            "type": "text",
-            "text": {
-              "content": "SR 내용 정리",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "SR 내용 정리",
-            "href": null
-          }
-        ]
-      },
-      "Slug": {
-        "id": "PRhR",
-        "type": "rich_text",
-        "rich_text": [
-          {
-            "type": "text",
-            "text": {
-              "content": "post4",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "post4",
-            "href": null
-          }
-        ]
-      },
-      "Date": {
-        "id": "rGt%3B",
-        "type": "date",
-        "date": {
-          "start": "2025-03-09",
-          "end": null,
-          "time_zone": null
-        }
-      },
-      "Content": {
-        "id": "rvxE",
-        "type": "rich_text",
-        "rich_text": [
-          {
-            "type": "text",
-            "text": {
-              "content": "SR 내용 정리",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "SR 내용 정리",
-            "href": null
-          }
-        ]
-      },
-      "": {
-        "id": "title",
-        "type": "title",
-        "title": [
-          {
-            "type": "text",
-            "text": {
-              "content": "SR 내용 정리",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "SR 내용 정리",
-            "href": null
-          }
-        ]
-      }
-    },
-    "url": "https://www.notion.so/SR-1afd9eed7ec68041acc7f395d78b3126",
-    "public_url": null,
-    "lastSynced": "2025-04-14T07:11:26.801Z"
+    "title": "SR 내용 정리",
+    "slug": "sr-내용-정리",
+    "date": "2025-03-07",
+    "status": "발행됨",
+    "lastSynced": "2025-06-17T00:51:23.748Z"
+  },
+  {
+    "id": "1a1d9eed-7ec6-8022-8a3e-c54b7bd4db1a",
+    "title": "윈도우",
+    "slug": "윈도우",
+    "date": "2025-02-21",
+    "status": "미발행",
+    "lastSynced": "2025-06-17T00:51:23.748Z"
   }
 ]
