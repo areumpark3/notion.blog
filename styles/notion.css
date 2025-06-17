@@ -1,0 +1,42 @@
+/* styles/notion.css */
+.notion-content {
+  line-height: 1.6;
+}
+
+.notion-content blockquote {
+  border-left: 4px solid #e5e7eb;
+  padding-left: 1rem;
+  margin: 1rem 0;
+  font-style: italic;
+  background-color: #f9fafb;
+}
+
+.notion-content details {
+  margin: 1rem 0;
+  border: 1px solid #e5e7eb;
+  border-radius: 0.375rem;
+  padding: 0.5rem;
+}
+
+.notion-content summary {
+  cursor: pointer;
+  font-weight: 600;
+  padding: 0.5rem;
+  background-color: #f3f4f6;
+  border-radius: 0.25rem;
+}
+
+.notion-content code {
+  background-color: #f1f5f9;
+  padding: 0.125rem 0.25rem;
+  border-radius: 0.25rem;
+  font-family: 'Fira Code', monospace;
+}
+
+.notion-content pre {
+  background-color: #1e293b;
+  color: #e2e8f0;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  overflow-x: auto;
+}
