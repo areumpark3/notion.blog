@@ -1,57 +1,55 @@
-//app\blog\[slug]\metadata.tsx
-import { notFound } from 'next/navigation'
-import { NotionAPI } from 'notion-client'
-import dynamic from 'next/dynamic'
-import { getPosts } from '@/lib/notion-utils'
-import { cache } from 'react'
+// app/blog/[slug]/page.tsx
+import { notFound } from 'next/navigation';
+import { getPostBySlug, getAllPosts, Post } from '@/lib/notion';
 
-const NotionBlogRenderer = dynamic(
-  () => import('@/components/NotionBlogRenderer'),
-  { 
-    ssr: false,
-    loading: () => <div>Loading...</div>
-  }
-)
-
-const getNotionClient = cache(() => {
-  const authToken = process.env.NOTION_TOKEN_V2
-  if (!authToken) throw new Error('NOTION_TOKEN_V2 환경 변수 누락')
-  return new NotionAPI({ authToken, userTimeZone: 'Asia/Seoul' })
-})
-
-export async function generateStaticParams() {
-  const posts = await getPosts()
-  return posts.map(post => ({ slug: post.slug }))
+interface Props {
+  params: {
+    slug: string;
+  };
 }
 
-async function getPostData(slug: string) {
-  try {
-    const posts = await getPosts()
-    const post = posts.find(p => p.slug === slug)
-    
-    if (!post) throw new Error('Post not found')
-    
-    const notion = getNotionClient()
-    const recordMap = await notion.getPage(post.notionPageId)
-    
-    if (!recordMap?.block?.[post.notionPageId]?.value) {
-      throw new Error('Invalid page data')
-    }
-    
-    return { recordMap }
-  } catch (error) {
-    console.error(`Failed to fetch post: ${slug}`, error)
-    return null
-  }
-}
+export default async function PostPage({ params }: Props) {
+  const post: Post | null = await getPostBySlug(params.slug);
 
-export default async function BlogPage({ params }: { params: { slug: string } }) {
-  const post = await getPostData(params.slug)
-  if (!post) return notFound()
+  if (!post) {
+    notFound();
+  }
 
   return (
-    <div className="max-w-4xl mx-auto px-4 py-8">
-      <NotionBlogRenderer recordMap={post.recordMap} />
-    </div>
-  )
+    <article className="max-w-4xl mx-auto px-4 py-8">
+      <header className="mb-8">
+        <h1 className="text-4xl font-bold mb-4">{post.title}</h1>
+        <time className="text-gray-600" dateTime={post.date}>
+          {new Date(post.date).toLocaleDateString('ko-KR')}
+        </time>
+      </header>
+      
+      <div className="prose prose-lg max-w-none">
+        {/* 마크다운을 HTML로 변환하여 표시 */}
+        <div 
+          className="notion-content"
+          dangerouslySetInnerHTML={{ 
+            __html: convertMarkdownToHTML(post.content || '') 
+          }} 
+        />
+      </div>
+    </article>
+  );
+}
+
+// 마크다운을 HTML로 변환하는 함수
+function convertMarkdownToHTML(markdown: string): string {
+  // 기본 마크다운 변환
+  return markdown
+    .replace(/^### (.*$)/gim, '<h3>$1</h3>')
+    .replace(/^## (.*$)/gim, '<h2>$1</h2>')
+    .replace(/^# (.*$)/gim, '<h1>$1</h1>')
+    .replace(/\*\*(.*)\*\*/gim, '<strong>$1</strong>')
+    .replace(/\*(.*)\*/gim, '<em>$1</em>')
+    .replace(/~~(.*)~~/gim, '<del>$1</del>')
+    .replace(/`(.*)`/gim, '<code>$1</code>')
+    .replace(/^> (.*$)/gim, '<blockquote>$1</blockquote>')
+    .replace(/^- (.*$)/gim, '<li>$1</li>')
+    .replace(/---/gim, '<hr>')
+    .replace(/\n\n/gim, '<br><br>');
 }
